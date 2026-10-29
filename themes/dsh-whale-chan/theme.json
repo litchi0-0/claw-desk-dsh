@@ -4,7 +4,7 @@
     "en": "DSH Whale-chan",
     "zh": "DSH 鲸鱼娘"
   },
-  "version": "1.4.0",
+  "version": "1.4.1",
   "idleTrigger": "work",
   "author": "PC2005-cloud/dsh-pet; local Clawd adaptation",
   "roamFlipAssets": true,
@@ -1659,5 +1659,37 @@
     "吃喝美食": 20,
     "节日庆祝": 10
   },
-  "infoBubbles": true
+  "infoBubbles": true,
+  "roamMotion": {
+    "file": "walk.webp",
+    "durationMs": 10042,
+    "referenceHeight": 270,
+    "cruisePxPerSecond": 80,
+    "keys": [
+      [
+        0,
+        0
+      ],
+      [
+        625,
+        0
+      ],
+      [
+        1250,
+        1
+      ],
+      [
+        7417,
+        1
+      ],
+      [
+        8000,
+        0
+      ],
+      [
+        10042,
+        0
+      ]
+    ]
+  }
 }

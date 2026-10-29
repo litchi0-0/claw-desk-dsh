@@ -7,7 +7,7 @@
 感谢 [rullerzhou-afk/clawd-on-desk](https://github.com/rullerzhou-afk/clawd-on-desk) 及其维护者、贡献者，提供桌面透明窗口、AI 会话状态、额度采集、拖拽、漫游、菜单、主题与通知等基础能力。
 
 - 当前补丁适配原版 **1.4.0**，安装时校验版本与 ASAR 完整性。
-- 测试中的 `clawd-tick-1.4.0.js`、`clawd-click-1.4.0.js` 来源于该版本代码；本项目的修改日期和目的由 Git 提交与功能文档记录。
+- 测试中的 `clawd-tick-1.4.0.js`、`clawd-click-1.4.0.js`、`clawd-roam-1.4.0.js` 来源于该版本代码；本项目的修改日期和目的由 Git 提交与功能文档记录。
 - 原项目代码及派生适配遵守 **GNU AGPL v3**；完整条款见 [licenses/AGPL-3.0.txt](licenses/AGPL-3.0.txt)。
 - 本仓库提供补丁、适配源码与测试，不包含原版 `.app`、Electron 二进制或个人应用数据。原版请从上游官方渠道获取。
 

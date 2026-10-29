@@ -173,6 +173,16 @@ function requestDisplayedVisual(displayState, file, options = {}) {
     main = replace_once(main,
         '  getSleepTimeoutMs: () => getActiveTheme().timings.mouseSleepTimeout,',
         '  getSleepTimeoutMs: () => getActiveTheme().idleTrigger === "work" ? Infinity : getActiveTheme().timings.mouseSleepTimeout,')
+    main = replace_once(main, 'const _roamCtx = {', '''const _roamCtx = {
+  getMotionProfile: () => require("./clawd-roam-motion").getProfile(getActiveTheme()),
+  isMovementPaused: () => manualAnimationPlayer.isActive() || menuOpen || !!(_tick && _tick.idleAnimationActive),''')
+    roam = read_file(raw, header, start, 'src/roam.js').decode()
+    patch_roam = runpy.run_path(str(ROOT / 'scripts/patch-clawd-roam.py'))['patch_roam']
+    roam = patch_roam(roam)
+    state = read_file(raw, header, start, 'src/state.js').decode()
+    state = replace_once(state,
+        'ctx.sendToRenderer("state-change", state, svg, { restartAnimation: true });',
+        'ctx.sendToRenderer("state-change", state, svg, { restartAnimation: true, onLogicalSettlement: applyOptions.onLogicalSettlement });')
     menu = read_file(raw, header, start, 'src/menu.js').decode()
     marker = '  function buildContextMenu() {'
     if menu.count(marker) != 1:
@@ -188,6 +198,8 @@ function requestDisplayedVisual(displayState, file, options = {}) {
     replacements = {
         'src/main.js': main.encode(), 'src/menu.js': menu.encode(), 'src/tick.js': tick.encode(),
         'src/hit-renderer.js': hit.encode(),
+        'src/roam.js': roam.encode(), 'src/state.js': state.encode(),
+        'src/clawd-roam-motion.js': (ROOT / 'integrations/clawd-roam-motion.js').read_bytes(),
         'src/clawd-idle-picker.js': (ROOT / 'integrations/clawd-idle-picker.js').read_bytes(),
         'src/clawd-info-content.js': (ROOT / 'integrations/clawd-info-content.js').read_bytes(),
         'src/clawd-info-bubble.js': (ROOT / 'integrations/clawd-info-bubble.js').read_bytes(),

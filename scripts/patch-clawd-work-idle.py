@@ -57,6 +57,8 @@ let idleWasActive = false;''')
     change('function cleanup() {', '''function cleanup() {
   workIdleSince = null;
   nextWorkIdleAnimationAt = null;''')
+    change('return { startMainTick, resetIdleTimer, cleanup, refreshTheme, scheduleSoon, get _mouseStillSince() { return mouseStillSince; } };',
+           'return { startMainTick, resetIdleTimer, cleanup, refreshTheme, scheduleSoon, get idleAnimationActive() { return isMouseIdle; }, get _mouseStillSince() { return mouseStillSince; } };')
     return source
 
 

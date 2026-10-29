@@ -51,13 +51,13 @@ function fixture(workMode=true,moving=true){
     }
     time=end;
   }
-  return {ctx,clips,states,visuals,advance};
+  return {ctx,clips,states,visuals,advance,runtime};
 }
 
 test('no-work clock triggers and repeats despite continuous mouse movement',()=>{
-  const f=fixture();f.advance(20500);assert.equal(f.clips.length,1);
+  const f=fixture();f.advance(20500);assert.equal(f.clips.length,1);assert.equal(f.runtime.idleAnimationActive,true);
   f.advance(500);assert.equal(f.visuals.at(-1).file,'cat.webp');
-  f.advance(500);assert.equal(f.clips.length,1);assert.equal(f.visuals.at(-1).file,'base.webp');
+  f.advance(500);assert.equal(f.clips.length,1);assert.equal(f.visuals.at(-1).file,'base.webp');assert.equal(f.runtime.idleAnimationActive,false);
   f.advance(20500);assert.equal(f.clips.length,2);
   f.advance(30000);assert.equal(f.states.includes('sleeping'),false);
 });

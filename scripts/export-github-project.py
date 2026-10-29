@@ -19,7 +19,7 @@ def export(target):
             continue
         allowed = (name in {'.gitignore', 'README.md', 'LICENSE', 'ACKNOWLEDGEMENTS.md'}
             or name.startswith(('integrations/', 'scripts/', 'tests/', 'themes/dsh-whale-chan/', 'licenses/', '.github/workflows/'))
-            or name.startswith(('docs/clawd-', 'docs/dsh-'))
+            or name.startswith(('docs/clawd-', 'docs/dsh-', 'docs/images/motion-'))
             or name == 'docs/plans/dsh-full-animation-menu.md')
         if name == 'docs/github-README.md':
             destination = target / 'README.md'
