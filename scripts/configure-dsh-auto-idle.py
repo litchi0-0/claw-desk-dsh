@@ -8,7 +8,8 @@ def configure_theme(theme):
         if a.get('category', [None])[0] in WEIGHTS and a['file'] not in excluded]
     theme['autoIdleCategoryWeights'] = WEIGHTS.copy()
     theme['infoBubbles'] = True
-    theme['version'] = '1.4.1'
+    theme['version'] = '1.5.0'
+    theme['petInteractions'] = {'enabled': True, 'clickSound': True}
     theme['roamMotion'] = {
         'file': 'walk.webp', 'durationMs': 10042,
         'referenceHeight': 270, 'cruisePxPerSecond': 80,

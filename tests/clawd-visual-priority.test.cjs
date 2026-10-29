@@ -24,3 +24,9 @@ test('ordinary live events still preserve complete manual playback',()=>{
   assert.deepEqual(resolve({options:{},manualPlayer}),{request});
   assert.equal(resolve({options:{manualPlayback:true},manualPlayer}),null);
 });
+test('airborne visual is held against ordinary restores but explicit physics and drag requests can replace it',()=>{
+ const visual={source:'reaction',file:'drag.webp'},manualPlayer={isActive:()=>false,stop(){}};
+ assert.deepEqual(resolve({options:{},physicsActive:true,visual,manualPlayer}),{request:visual});
+ assert.equal(resolve({options:{physicsPlayback:true},physicsActive:true,visual,manualPlayer}),null);
+ assert.equal(resolve({options:{dragReaction:true},physicsActive:true,visual,manualPlayer}),null);
+});

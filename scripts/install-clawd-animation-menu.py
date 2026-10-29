@@ -210,6 +210,8 @@ function requestDisplayedVisual(displayState, file, options = {}) {
         'src/clawd-manual-playback.js': (ROOT / 'integrations/clawd-manual-playback.js').read_bytes(),
         'src/clawd-visual-priority.js': (ROOT / 'integrations/clawd-visual-priority.js').read_bytes(),
     }
+    patch_interactions = runpy.run_path(str(ROOT / 'scripts/patch-clawd-interactions.py'))['patch_interactions']
+    replacements.update(patch_interactions(main, hit, lambda name: read_file(raw, header, start, name)))
     archive, new_hash = repack(raw, header, start, replacements)
     with tempfile.TemporaryDirectory(prefix='clawd-animation-menu-') as tmp:
         stage = Path(tmp) / target.name
