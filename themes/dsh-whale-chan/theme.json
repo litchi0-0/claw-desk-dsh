@@ -4,7 +4,7 @@
     "en": "DSH Whale-chan",
     "zh": "DSH 鲸鱼娘"
   },
-  "version": "1.5.1",
+  "version": "1.5.2",
   "idleTrigger": "work",
   "author": "PC2005-cloud/dsh-pet; local Clawd adaptation",
   "roamFlipAssets": true,

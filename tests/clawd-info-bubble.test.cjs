@@ -6,9 +6,11 @@ test('balance bubble identifies service, remaining, freshness and reset time wit
  assert.match(info.body,/25%/);assert.match(info.body,/10 分钟/);assert.match(info.body,/2 分钟前/);
  assert.match(quotaInfo({label:'Codex',remaining:5},now).body,/恢复时间未知/);
 });
-test('work bubble uses real active session and tool name; ignores headless and recovered sessions',()=>{
+test('routine work stays silent even when tool details are available',()=>{
  const s={id:'x',state:'working',displayTitle:'测试项目',agentName:'Codex',updatedAt:now};
- assert.match(workInfo({sessions:[s]},{x:{lastToolName:'read_file'}},now).body,/读取文件/);
+ for(const state of ['thinking','working','juggling','sweeping','carrying']) {
+  assert.equal(workInfo({sessions:[{...s,state}]},{x:{lastToolName:'read_file'}},now),null);
+ }
  assert.equal(workInfo({sessions:[{...s,headless:true}]},{},now),null);
  assert.equal(workInfo({sessions:[{...s,startupRecovered:true}]},{},now),null);
  assert.equal(workInfo({sessions:[{...s,state:'idle'}]},{},now),null);
@@ -32,8 +34,9 @@ test('floating bubble stays noninteractive, follows the pet and hides for blocke
   setBounds(b){bounds.push(b)}setIgnoreMouseEvents(v){assert.equal(v,true)}setAlwaysOnTop(){}setVisibleOnAllWorkspaces(){}once(){}
   loadFile(){return Promise.resolve()}destroy(){destroyed=true}
  }
- const controls={BrowserWindow:Window,now:()=>clock,canShow:()=>allowed,snapshot:()=>({sessions:[]}),sessions:()=>({}),anchor:()=>({left:100,top:200,right:200,bottom:350}),workArea:()=>({x:0,y:0,width:1000,height:800})};
+ const controls={BrowserWindow:Window,now:()=>clock,canShow:()=>allowed,snapshot:()=>({sessions:[{id:'busy',state:'working',agentName:'Codex',updatedAt:clock}]}),sessions:()=>({}),anchor:()=>({left:100,top:200,right:200,bottom:350}),workArea:()=>({x:0,y:0,width:1000,height:800})};
  const bubble=createBubble(controls);
+ bubble.poll();assert.equal(options.length,0);
  bubble.showQuota({label:'Codex',remaining:25,resetAt:now+600000},1000);await Promise.resolve();
  assert(visible);assert.equal(options[0].focusable,false);assert.equal(options[0].webPreferences.nodeIntegration,false);
  assert.match(sent[0][1].body,/25%/);assert(bounds[0].y<200);
@@ -41,4 +44,13 @@ test('floating bubble stays noninteractive, follows the pet and hides for blocke
  allowed=true;clock+=250;bubble.poll();assert(visible);
  clock+=1000;bubble.poll();assert.equal(visible,false);
  bubble.dispose();assert(destroyed);
+});
+
+test('special task notices remain visible while concurrent routine work is silent',()=>{
+ for(const [state,label] of [['notification','确认'],['attention','完成'],['error','错误']]){
+  const info=workInfo({sessions:[{id:'busy',state:'working',updatedAt:now+1},{id:'special',state,agentName:'Codex',updatedAt:now}]},{},now);
+  assert(info);assert.match(info.body,new RegExp(label));
+ }
+ assert.equal(workInfo({sessions:[{id:'hidden',state:'error',headless:true}]},{},now),null);
+ assert.equal(workInfo({sessions:[{id:'recovered',state:'notification',startupRecovered:true}]},{},now),null);
 });
