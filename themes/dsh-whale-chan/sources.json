@@ -1,0 +1,2126 @@
+{
+  "repository": "https://github.com/PC2005-cloud/dsh-pet",
+  "revision": "71ed01b2010f1a55a4442763d70bcb79d5fadd68",
+  "assets": {
+    "idle": {
+      "source": "待机呼吸休闲.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%BE%85%E6%9C%BA%E5%91%BC%E5%90%B8%E4%BC%91%E9%97%B2.webm",
+      "sourceSha256": "deb965d05a85dacf5ff4a20faa757846f0d11679598c3ec578a5571487660395",
+      "sourceGitBlobSha": "fd64a428a2be1d3b4ff6cd7f9867dfe978ba0bbb",
+      "outputSha256": "79b740428570fac37b997fc8f5d30a941043aab07c5f0887a3af4331b272c7b5",
+      "frames": 228,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "thinking": {
+      "source": "工作状态-思考冒泡.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%B7%A5%E4%BD%9C%E7%8A%B6%E6%80%81-%E6%80%9D%E8%80%83%E5%86%92%E6%B3%A1.webm",
+      "sourceSha256": "b4a36cfa28ea5d7089e362a01972c6e880297c6dcd0d39f1994efd889a3c1be5",
+      "sourceGitBlobSha": "51bc3bb2fb894e6f1499974d62a3d93592f91859",
+      "outputSha256": "2f667aaa79f0b01e55082f08fc845fd110c098d0d7ad1742e4f3c46a9b5065a0",
+      "frames": 228,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "working": {
+      "source": "写代码.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%86%99%E4%BB%A3%E7%A0%81.webm",
+      "sourceSha256": "0441287737cdbb993ce90dfa74c67ea4ea3549d8c8ea98946604668464589ed7",
+      "sourceGitBlobSha": "47902f235c11fadd22134dd71d2fbcc3a36a13fc",
+      "outputSha256": "fd9047bc3e1b26fddfaf608ae12bf6a58363690b1166a55e1451e84f961a1d19",
+      "frames": 220,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "busy": {
+      "source": "工作状态-忙碌点按.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%B7%A5%E4%BD%9C%E7%8A%B6%E6%80%81-%E5%BF%99%E7%A2%8C%E7%82%B9%E6%8C%89.webm",
+      "sourceSha256": "b5d702e0c04adb7b255ac702001c24da36c8bf95efc891f693f4976986ab2435",
+      "sourceGitBlobSha": "32bc6dbf65a7f1afa403520c3dd37980ca353e5f",
+      "outputSha256": "913bcfc870b765373c331a91468108680829a39e4e0e13bbfe22d3e92baeca38",
+      "frames": 227,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "waiting": {
+      "source": "工作状态-原地踱步张望.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%B7%A5%E4%BD%9C%E7%8A%B6%E6%80%81-%E5%8E%9F%E5%9C%B0%E8%B8%B1%E6%AD%A5%E5%BC%A0%E6%9C%9B.webm",
+      "sourceSha256": "a56c17ef901fa531324a46a04def2381f65922d319ec83dadde34d2a4669e411",
+      "sourceGitBlobSha": "7b9459a1efdf4155f5ddd3beb07936fcc5c8a7ed",
+      "outputSha256": "1d474aa07aaf053dcb2459ac53cead58abdef3e57f14e13fade276e1b7793503",
+      "frames": 228,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "done": {
+      "source": "工作状态-雀跃庆祝.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%B7%A5%E4%BD%9C%E7%8A%B6%E6%80%81-%E9%9B%80%E8%B7%83%E5%BA%86%E7%A5%9D.webm",
+      "sourceSha256": "3ff681051a0bb4f152d7535d64b7f3194c30298bf56d41e521216a278f135d3e",
+      "sourceGitBlobSha": "edd6645a8ee9b222c720fb20cfff3b715e92db9b",
+      "outputSha256": "f0e87816a29ba73a3eb091f975a52ca18428995d77e55731c882b88c3c62fc8f",
+      "frames": 227,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "error": {
+      "source": "工作状态-垂头叹气冒汗.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%B7%A5%E4%BD%9C%E7%8A%B6%E6%80%81-%E5%9E%82%E5%A4%B4%E5%8F%B9%E6%B0%94%E5%86%92%E6%B1%97.webm",
+      "sourceSha256": "ab00c844e62221905574b4c070e0d7b6fa14fb2afa1064c27a160f10e25f7196",
+      "sourceGitBlobSha": "653ef82b71d52faa1d26a014afb7764f778926f7",
+      "outputSha256": "3fa81f4852d1be00e8903debe7bb677b4b5544639ddf38dedc3648c9a3f53bdd",
+      "frames": 112,
+      "sourceFrames": 118,
+      "durationMs": 4917,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "organizing": {
+      "source": "工作状态-清点归档.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%B7%A5%E4%BD%9C%E7%8A%B6%E6%80%81-%E6%B8%85%E7%82%B9%E5%BD%92%E6%A1%A3.webm",
+      "sourceSha256": "8c84f58f3a9e7b912e1cbfd89f77eb3652053fc9b2844295c8440cb636305d3b",
+      "sourceGitBlobSha": "af694fb0013cbc0aa5313ab0221f417b4efdb14a",
+      "outputSha256": "b0d003106e9fa9828a9e5ef36a0d12d46bf3b297508b14cbd8d406e786422c4f",
+      "frames": 223,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "sleeping": {
+      "source": "原地小憩沉眠.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%8E%9F%E5%9C%B0%E5%B0%8F%E6%86%A9%E6%B2%89%E7%9C%A0.webm",
+      "sourceSha256": "31d4a6b36a29b2a4fe097384173d3bbeb3fa2f40f526b13191791456bf7507a1",
+      "sourceGitBlobSha": "9b258545a841647a11ffdc5882ad8b2bb808a343",
+      "outputSha256": "29cb6ef3f9ace51cc5b54e99401997c116fee4541650a535ded99186b27e7bba",
+      "frames": 236,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "yawning": {
+      "source": "哈欠连天.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%93%88%E6%AC%A0%E8%BF%9E%E5%A4%A9.webm",
+      "sourceSha256": "2b23372e1ff2bc2f9078c09740708c960d4ea021f9fc3cca294d9df11e393ec8",
+      "sourceGitBlobSha": "63da356fa373ecf6256bc8f4deb9709577e2f18e",
+      "outputSha256": "70d360ce23c9f7747df643ffada0de5a4351f0b9c5a1cda46ca917b836c8a54d",
+      "frames": 227,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "drag": {
+      "source": "被鼠标拖拽悬空反馈.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E8%A2%AB%E9%BC%A0%E6%A0%87%E6%8B%96%E6%8B%BD%E6%82%AC%E7%A9%BA%E5%8F%8D%E9%A6%88.webm",
+      "sourceSha256": "31373a86026636eecc890db763760309360310eb095cf5575b13c9ca2a6cc80e",
+      "sourceGitBlobSha": "728f04b2997aa9ec4bdb87d1b9b14d7910bc7fd6",
+      "outputSha256": "5e88393e144f21af9ad8c7d521999ee03ac51de2183dea747c2b2507b104894c",
+      "frames": 226,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "wave": {
+      "source": "点击回应-元气挥手.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E7%82%B9%E5%87%BB%E5%9B%9E%E5%BA%94-%E5%85%83%E6%B0%94%E6%8C%A5%E6%89%8B.webm",
+      "sourceSha256": "48cd729ccdcf746369942ea954d242e9afdd5643e1dac3827fa5e67450eb8776",
+      "sourceGitBlobSha": "f60556f06c386cfb569f76b0cfa2e34e34fdc362",
+      "outputSha256": "77a27abdb1c2546e7617039f91e3276215dba626b64f7d25c3d83b27a72c640e",
+      "frames": 232,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "happy": {
+      "source": "点击回应-开心跃动.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E7%82%B9%E5%87%BB%E5%9B%9E%E5%BA%94-%E5%BC%80%E5%BF%83%E8%B7%83%E5%8A%A8.webm",
+      "sourceSha256": "86dcb0c3dd7b651de9c107e927d57a5c4224599101706dbdcc782fa48bcd0ad7",
+      "sourceGitBlobSha": "fb614abf8d19c650fb5bd4727b2585282733a996",
+      "outputSha256": "cb4e34da6febbfca4fd5768875dc707e001476ea5f3e2ff3c443d57e77d82cdb",
+      "frames": 228,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "shy": {
+      "source": "点击回应-害羞惊讶.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E7%82%B9%E5%87%BB%E5%9B%9E%E5%BA%94-%E5%AE%B3%E7%BE%9E%E6%83%8A%E8%AE%B6.webm",
+      "sourceSha256": "a04968bbc46d1ebea07f81e5dabd93b0b67a9d07f1371e9887b33075134ad00d",
+      "sourceGitBlobSha": "499b73c42844bd0268bff9044e0523fcae1c1b27",
+      "outputSha256": "adbdb8ed1bcad85008d82907000b53620d37f1eb96c50e9aa7b935563a4bd381",
+      "frames": 231,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "annoyed": {
+      "source": "点击回应-傲娇生气.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E7%82%B9%E5%87%BB%E5%9B%9E%E5%BA%94-%E5%82%B2%E5%A8%87%E7%94%9F%E6%B0%94.webm",
+      "sourceSha256": "6b7176b98408cb649d1d37b6a6222a21aa6b128187e3e0b2d18550d35ab81064",
+      "sourceGitBlobSha": "77c6461a1f8ced2dc7272f44192f37dd682becf8",
+      "outputSha256": "e69028db429102adc71f130cf991ff747080f65a27d6181e17061932df2bae2b",
+      "frames": 235,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "walk": {
+      "source": "螃蟹走路.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E8%9E%83%E8%9F%B9%E8%B5%B0%E8%B7%AF.webm",
+      "sourceSha256": "5696b0878be38cc450d6eaace837aef1c1b5834f1382bc6c11c2de582f284673",
+      "sourceGitBlobSha": "6ff80136295718a2e866e70d90fa8a0bada333dd",
+      "outputSha256": "b12d1d498a83a46caa952ee890ac2afdd872dabee33b0e0c471fe650f11e6a13",
+      "frames": 228,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "cube": {
+      "source": "原地专心玩魔方.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%8E%9F%E5%9C%B0%E4%B8%93%E5%BF%83%E7%8E%A9%E9%AD%94%E6%96%B9.webm",
+      "sourceSha256": "ad54da175ba86b19a84b73b3169fb418b2df016560bb274283f200aca351e712",
+      "sourceGitBlobSha": "d2730f4c17e8ccb793973929c237b4fb32d8e3fc",
+      "outputSha256": "4bc5ea64bee8d1e2fde6460de352432e30fae569b8ec61c9f5dc2dc5c9fa270b",
+      "frames": 226,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "hotpot": {
+      "source": "涮火锅.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E6%B6%AE%E7%81%AB%E9%94%85.webm",
+      "sourceSha256": "f0b345c22cf2841137d215a7b9d50252b8be0ede64887e91fdc9bd09843e3c8f",
+      "sourceGitBlobSha": "d3e99cf6d8694b5e83a3957793f8fc7a0fc2cc2a",
+      "outputSha256": "23e50776b61881309a703ca932b6a989a8842b68002e977e2b444d0b7f88a5d8",
+      "frames": 232,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "cat": {
+      "source": "撸猫.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E6%92%B8%E7%8C%AB.webm",
+      "sourceSha256": "068d84e944dfce17de1c5a2ee2a4bc391e2848dad88a7df4877ebf23cf38bcec",
+      "sourceGitBlobSha": "466044675ea20b863db850373aab8a6c2b7c11a8",
+      "outputSha256": "be694a65fd2e4eedf169c39c5d4455bfd425929f1dcb9d2708f5262a448b2ad2",
+      "frames": 217,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "juggling": {
+      "source": "三球抛接.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E4%B8%89%E7%90%83%E6%8A%9B%E6%8E%A5.webm",
+      "sourceSha256": "a64c08a4b7e5c3549616faf9dcd418e17f156b4b72d906646e4d57067df70d23",
+      "sourceGitBlobSha": "a76228cb5f42fa159e3ec565b8ef969a7d289dca",
+      "outputSha256": "cca9e274f5bc389aa52f717ddb9df8c637be324d0281ec478876bee983825f80",
+      "frames": 236,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "look-around": {
+      "source": "东张西望.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E4%B8%9C%E5%BC%A0%E8%A5%BF%E6%9C%9B.webm",
+      "sourceSha256": "a20ed02ccc5e72075a3ca83fabb57d9aac5ded699f52d00ec6de72069799fcd5",
+      "sourceGitBlobSha": "3ba4edb2cc647c51edd41b5a6c71eeee8c418ed0",
+      "outputSha256": "bfe8a7cb91f8f310edb41b6fd0dd6b97f484fd016ca5b36d1fa6d222ec87a783",
+      "frames": 232,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "snack": {
+      "source": "大口吃零食.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%A4%A7%E5%8F%A3%E5%90%83%E9%9B%B6%E9%A3%9F.webm",
+      "sourceSha256": "fdacb534a828b0c669f22a54e8da9bb9b5d731e0132dd5ea946f7badc9229a39",
+      "sourceGitBlobSha": "ab57e48e28d0e0fb832549e1b546bed28f2eb3df",
+      "outputSha256": "1a9972f162b2795b054844a329ec0f536da2f89f5c5bb15c17cd7ba7e4e1a86c",
+      "frames": 239,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "ice-cream": {
+      "source": "吃冰淇淋融化.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%90%83%E5%86%B0%E6%B7%87%E6%B7%8B%E8%9E%8D%E5%8C%96.webm",
+      "sourceSha256": "17d73682926d6ce4203ad12d9049527e604d448bcc5c82ac5b12950b4ceb0447",
+      "sourceGitBlobSha": "c696cf2f61366cd9ba973aae1526dbf920c3d85d",
+      "outputSha256": "5c03cb7bad66a073faf39a4bffc8e97c8bc41e43f358de09f28e0fce6fa4427a",
+      "frames": 234,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "watermelon": {
+      "source": "吃西瓜.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%90%83%E8%A5%BF%E7%93%9C.webm",
+      "sourceSha256": "0dd992fb7fb51d707d6589cb813a450437a2bd54046709f424a73353e2d7f78d",
+      "sourceGitBlobSha": "ffa2c36e86e9056a7e965c73364a50c1fd8bb192",
+      "outputSha256": "86b19a7d0c4acd619edeac8d55284ee80e30b5d1b3aacb003ea09911822beb45",
+      "frames": 227,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "violin": {
+      "source": "小提琴演奏.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%B0%8F%E6%8F%90%E7%90%B4%E6%BC%94%E5%A5%8F.webm",
+      "sourceSha256": "03816be0fcd499b63ed667e8b87c234094e64c59f1cd222455cf6a27ac832d1c",
+      "sourceGitBlobSha": "2de1533cd0f2d7a72e0099f9ac6f816353f3912f",
+      "outputSha256": "2d9f61d3f16f2e549eabe685e2ef28ca879ce851019c3d443d57f19f1556858a",
+      "frames": 235,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "flute": {
+      "source": "吹笛子.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%90%B9%E7%AC%9B%E5%AD%90.webm",
+      "sourceSha256": "9c8b754a3256778cddd88fbb073b649d5b1d2e5f96e70231bc2c3bee06fa7c78",
+      "sourceGitBlobSha": "fd57f820116b72c35e7b50ee3cdb5c20e775062b",
+      "outputSha256": "daa3d2a42077dc934a569ce770fbc60c91cd177aeeaf3a2a997e03cf00af6038",
+      "frames": 234,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "card-magic": {
+      "source": "扑克魔术.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E6%89%91%E5%85%8B%E9%AD%94%E6%9C%AF.webm",
+      "sourceSha256": "1d44a7624fb027e5f615c747014ab040ddc497f6bdbcb67194a23a53a5dba78c",
+      "sourceGitBlobSha": "2e33efead726dff587fa0ca46adef5ecb5d0b7c9",
+      "outputSha256": "9e4c0de360e2055e6c534ed0030b95bb931f4d03e970382778a55313e1aa6995",
+      "frames": 228,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "dance": {
+      "source": "可爱宅舞.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%8F%AF%E7%88%B1%E5%AE%85%E8%88%9E.webm",
+      "sourceSha256": "4f737e44ea67c20368bdce474b951902c87c37991fb0750da8ed7794df6ec55c",
+      "sourceGitBlobSha": "0b96ac0de6fa7afe72f256148dd719698769043c",
+      "outputSha256": "082b2fa30b757220eb10c70f23a22523caf23f93b33fd40edb400f475cedd51e",
+      "frames": 226,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "balloon": {
+      "source": "吹气球.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%90%B9%E6%B0%94%E7%90%83.webm",
+      "sourceSha256": "3258f91b2000d949ba38f34c1f161b0d5fa148ecffb5a95eb8a3e10b5df7fc87",
+      "sourceGitBlobSha": "3a632cd91c409ed1b889f0313ae1394113c0d7c0",
+      "outputSha256": "4bf4ee9bd8d5872d05e14d1f0d7ff8b6eeae1bc2353f97e145076fca23e6d0b2",
+      "frames": 233,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "mirror": {
+      "source": "照镜子.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E7%85%A7%E9%95%9C%E5%AD%90.webm",
+      "sourceSha256": "13dc61c003e500d906b6526765072b7a78c0709491a397d4e70a88ec7ea63310",
+      "sourceGitBlobSha": "f9ead4a5e1ab6cb702bd349794264f398f470867",
+      "outputSha256": "5d60e2a1aee500f3cfd1ce1c9520c12edda2f2bd1da8141a6c7125f519d6764e",
+      "frames": 231,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "stretch": {
+      "source": "超大伸懒腰.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E8%B6%85%E5%A4%A7%E4%BC%B8%E6%87%92%E8%85%B0.webm",
+      "sourceSha256": "0ac66d918cc5efd49be1273c3830de73eae5f9bdcd5fcb968d1b2f9b487705ad",
+      "sourceGitBlobSha": "689e04f120f9f678a9424dac6cadf4b6a0bd6e6b",
+      "outputSha256": "1158892e113dce63879c876ded1d89f648933a8ca9869cbc6e4952bab3cf7971",
+      "frames": 228,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "game": {
+      "source": "玩游戏气急败坏.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E7%8E%A9%E6%B8%B8%E6%88%8F%E6%B0%94%E6%80%A5%E8%B4%A5%E5%9D%8F.webm",
+      "sourceSha256": "8e406bc52cf2a20c9d288867367c4df7c45a5dc78443bc5c2fdc83835ac0b4c3",
+      "sourceGitBlobSha": "a3375c2980634529e84ba2ee61a57776ea8205e9",
+      "outputSha256": "0252941ee580a224f688b2c2c170eb394d631658319f505b9db1ae862d562b29",
+      "frames": 231,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "toy-car": {
+      "source": "原地蹲下玩玩具汽车.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%8E%9F%E5%9C%B0%E8%B9%B2%E4%B8%8B%E7%8E%A9%E7%8E%A9%E5%85%B7%E6%B1%BD%E8%BD%A6.webm",
+      "sourceSha256": "3ec9978ce3663d9bc4bfe5f5223f0a4e3d9ea6fcd0a6acdbaa802e0cfba36bf2",
+      "sourceGitBlobSha": "9a4ba01b33e6fba841a99ebf55631433651cdcd3",
+      "outputSha256": "500f4206477964195db4f22150e1cf04c6815c5241e23fb247aae9133a1a6ba3",
+      "frames": 235,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "fan": {
+      "source": "摇扇纳凉.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E6%91%87%E6%89%87%E7%BA%B3%E5%87%89.webm",
+      "sourceSha256": "87d4b9454692484e4809b45071751b2144fc82fd8696fafabb32e19af98350f2",
+      "sourceGitBlobSha": "bbb9b8344e6c30579c967a27831ad85f19db1002",
+      "outputSha256": "bd11bfef522d071b10bd2a9f24bac1f06b9ac10cb28e023a405df3842f25b936",
+      "frames": 232,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "humming": {
+      "source": "悠闲哼歌.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E6%82%A0%E9%97%B2%E5%93%BC%E6%AD%8C.webm",
+      "sourceSha256": "358905afc2c81a9ed478bcf121a8f2f19276766b1d382d0067456bd57d1d7dbb",
+      "sourceGitBlobSha": "01bd5c202583ef634de424904e76f2906f7289d3",
+      "outputSha256": "1c725930b0e7d2577513b2251c9c35a64dcb003e62a5ba6e714e1eeedb1fbddf",
+      "frames": 230,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "gift": {
+      "source": "拆礼物.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E6%8B%86%E7%A4%BC%E7%89%A9.webm",
+      "sourceSha256": "6f781e7eac2b295417c80ff9468902280fdcf3ae5921d59977daa8dab537940c",
+      "sourceGitBlobSha": "01445f708db3e19b707e6d1609902dd4da9c0ade",
+      "outputSha256": "f1db00c41b55b9957249b6f502cfe63fecb44b861f4b3d194a84c8a69bafcb5e",
+      "frames": 230,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "nvpu-quxi-liyi": {
+      "source": "女仆屈膝礼仪.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%A5%B3%E4%BB%86%E5%B1%88%E8%86%9D%E7%A4%BC%E4%BB%AA.webm",
+      "sourceSha256": "6536fb519ba73bbc338d30cf7286b14ffde1278b6d469c64573536dc0f896918",
+      "sourceGitBlobSha": "0bcac6ada85e78527fcce020db73bf0b6eff41d3",
+      "outputSha256": "32706c882d97a5344aa31eaee62f6fa6aac9e1ca9936df6bcd81cc1a89dfc726",
+      "frames": 232,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "da-keshui-bei-jingxing": {
+      "source": "打瞌睡被惊醒.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E6%89%93%E7%9E%8C%E7%9D%A1%E8%A2%AB%E6%83%8A%E9%86%92.webm",
+      "sourceSha256": "7e10c87cfcbd63b20b5a3787be71b0500381d54ea04a5ac0e9d99f59ed49a6d7",
+      "sourceGitBlobSha": "e5c5759895274e1f7c4017dce9c9c51beec44e51",
+      "outputSha256": "c48433d4255cc725581877c4a6d455885f8435455efd54fe0a449154451048cd",
+      "frames": 228,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "zhengti-huanzhuang-shise": {
+      "source": "整体换装试色.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E6%95%B4%E4%BD%93%E6%8D%A2%E8%A3%85%E8%AF%95%E8%89%B2.webm",
+      "sourceSha256": "e8e599b12da7f3437c98425f6b192dd0c81a6b63bbba5e7927f53c22f757b094",
+      "sourceGitBlobSha": "abd198a8d1e4e67f09d86e4a5bdc99859e61098e",
+      "outputSha256": "b4081c2189ade7a49ad507ac81fdd2f96dfcd9bd828c47317dbc77fb09e4fc57",
+      "frames": 234,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "chenjian-shuaya": {
+      "source": "晨间刷牙.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E6%99%A8%E9%97%B4%E5%88%B7%E7%89%99.webm",
+      "sourceSha256": "017e384e7e13732fb12428d024ef686e79df5b79bfab0d83faa7fa50653d1bc4",
+      "sourceGitBlobSha": "66581dbd88c72bcba960d551b9cdcb0239da7d2f",
+      "outputSha256": "9af1fad50847aac50afb5cd1c910445c28b11027872af65d1d19b467816d966a",
+      "frames": 226,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "chou-tuoluo": {
+      "source": "抽陀螺.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E6%8A%BD%E9%99%80%E8%9E%BA.webm",
+      "sourceSha256": "693689d7b4d02ae8cda53f8d580de5087287fc339360dd20909342f566e969ba",
+      "sourceGitBlobSha": "1a0cd6a9447c3a36b068fb9db46fd56447520a73",
+      "outputSha256": "ef9c9f1ef27b85019b5d4545b98d3c251755e3c7975b0754ccbbcefeca38454f",
+      "frames": 231,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "xiawuziqi": {
+      "source": "下五子棋.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E4%B8%8B%E4%BA%94%E5%AD%90%E6%A3%8B.webm",
+      "sourceSha256": "0802b6b808f44846b3d194a857fb0ffd38bdea2d7cdb91c9e5e6f311e44f1953",
+      "sourceGitBlobSha": "63295b32e6a0522dac3840abb74a5af7b1431a08",
+      "outputSha256": "b4a2f6b49cba2f8d6b69d79e8a6351c9307be039303b7757edfbcee9ed563288",
+      "frames": 225,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "qi-muma": {
+      "source": "骑木马.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E9%AA%91%E6%9C%A8%E9%A9%AC.webm",
+      "sourceSha256": "5f54a98ccac97eac000d799043411f4fc0732096dc51a2ad766552737578f313",
+      "sourceGitBlobSha": "b578f4c951a11c3fe97bdbd609315d3e72fe6827",
+      "outputSha256": "8953d5da602242317763a403b872234683b8a2d42684552e5b697bb6d4d643e9",
+      "frames": 235,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "ti-jianzi": {
+      "source": "踢毽子.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E8%B8%A2%E6%AF%BD%E5%AD%90.webm",
+      "sourceSha256": "68937b619a44e9ca7ccdfe77e5657f7a9bfa238beb33768378b6f254a16f3dbd",
+      "sourceGitBlobSha": "1a0586564e58e6a60e4f151d2bf161e975673e30",
+      "outputSha256": "68ec6006588fcb4c99281a983cf74cd922bab040d91751d3273428bd952b06fd",
+      "frames": 227,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "dongwu-huanrao": {
+      "source": "动物环绕.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%8A%A8%E7%89%A9%E7%8E%AF%E7%BB%95.webm",
+      "sourceSha256": "814d41e7d619f9a61f38e5494a0cfd703f8bcfd829a14fa921e1c59acf3ce872",
+      "sourceGitBlobSha": "44722e0afb7ef4c1cd85c5c98eadd9b4ade2fea9",
+      "outputSha256": "16d5efce19f819c54581a23dee64abd32fe0e22cc5c6fbd45d1f210be649d47c",
+      "frames": 234,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "wan-shuiqiang": {
+      "source": "玩水枪.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E7%8E%A9%E6%B0%B4%E6%9E%AA.webm",
+      "sourceSha256": "448f732417ac4dcb6ca140cd3d73896aaea7f5dac2876a9a0f7c0776478d7128",
+      "sourceGitBlobSha": "70cabac39a03ab1738540fdb9a9581ae523de463",
+      "outputSha256": "cdcdee23433c870a2fae0f6c33d65a71b1dd6eea9c00abe23b833f0d08dd5829",
+      "frames": 227,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "fang-fengzheng": {
+      "source": "放风筝.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E6%94%BE%E9%A3%8E%E7%AD%9D.webm",
+      "sourceSha256": "9d9ac75871b1c70a77fc4aaa63dd24778d79cbf492c2c5df42167199c7dd2132",
+      "sourceGitBlobSha": "000eba2f49a11beb21aa63ddc64c4d1522afa27e",
+      "outputSha256": "98a4dbdc151af121c03bb594f56bffdde07eb71b73e946f66f3c81ebf905aad3",
+      "frames": 229,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "dangqiuqian": {
+      "source": "荡秋千.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E8%8D%A1%E7%A7%8B%E5%8D%83.webm",
+      "sourceSha256": "f32ea98e9c04553ae39939cd76c469192ebc19d98b90ebf93ec4b88bf95b25c9",
+      "sourceGitBlobSha": "41c61429405139344b13875135468edb25b6f28e",
+      "outputSha256": "bfd8b01aa3b8c2df810cfd0b62101f631f287128b24635a5ba74a4db94317d47",
+      "frames": 237,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "bian-gezi": {
+      "source": "变鸽子.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%8F%98%E9%B8%BD%E5%AD%90.webm",
+      "sourceSha256": "796eba8ebe705e9339035e533e4f913fb8b9810432dcd6e7ae4fc1602e9ce3cf",
+      "sourceGitBlobSha": "150abd9011b3c9fec7229fa2b30418958040a7ad",
+      "outputSha256": "b73d77775219f4d7f5078aff32e27d2669238aba8cd864e96caa3d895f071754",
+      "frames": 232,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "pingkong-shenghua": {
+      "source": "凭空生花.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%87%AD%E7%A9%BA%E7%94%9F%E8%8A%B1.webm",
+      "sourceSha256": "d1c336bc54c57a282bec180859c7b7b58912b70b5bca7b2f49495cd30cc7d5d6",
+      "sourceGitBlobSha": "085fe6d74ddfc268670be32b7c3f78c6806b68f1",
+      "outputSha256": "3fdd0f0a745a1bbef239ce3fb5562608b72ac336da5cc6045f626b939129beed",
+      "frames": 235,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "lanjing-xianshi": {
+      "source": "蓝鲸现世.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E8%93%9D%E9%B2%B8%E7%8E%B0%E4%B8%96.webm",
+      "sourceSha256": "ed72f0ede7c6cd9482d44aa31002214d461b833c456f3ea40a52c3a0ddc20230",
+      "sourceGitBlobSha": "eb62a155d056d35a16b1d4e961d5ff10c109f684",
+      "outputSha256": "6e89dc69076cedd535d78fa7474f8a4a7292c70ca32dcf8f630bc4de0684f6fc",
+      "frames": 229,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "jingyu-tu-paopao-texiao": {
+      "source": "鲸鱼吐泡泡特效.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E9%B2%B8%E9%B1%BC%E5%90%90%E6%B3%A1%E6%B3%A1%E7%89%B9%E6%95%88.webm",
+      "sourceSha256": "d64d02059dc1602f7de5aa3135d381351363f021b2bceed47655db322cc71db3",
+      "sourceGitBlobSha": "4848e28f2c4fde323025a03a7980b75f1c56f98e",
+      "outputSha256": "b1e25077f00fc176637ac287222bb641a1e6623b4099f8478178712d76ff2d16",
+      "frames": 225,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "hudie-mifeng-huanrao-touding-kaihua": {
+      "source": "蝴蝶蜜蜂环绕头顶开花.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E8%9D%B4%E8%9D%B6%E8%9C%9C%E8%9C%82%E7%8E%AF%E7%BB%95%E5%A4%B4%E9%A1%B6%E5%BC%80%E8%8A%B1.webm",
+      "sourceSha256": "fd286c78001fe57fc093c06a4b79ef077ade2dacd2a77e011d3f393f587707ec",
+      "sourceGitBlobSha": "6f39bb90fd8349d5f23d0912a4bc01c2c06470f2",
+      "outputSha256": "b6fad1ae4d104793ec62bfe599b4610dd3874a0047b69cd4494f916f14b27e1e",
+      "frames": 236,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "yuandi-tiaoyue-zhuasui-touding-wupin": {
+      "source": "原地跳跃抓碎头顶物品.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%8E%9F%E5%9C%B0%E8%B7%B3%E8%B7%83%E6%8A%93%E7%A2%8E%E5%A4%B4%E9%A1%B6%E7%89%A9%E5%93%81.webm",
+      "sourceSha256": "ccb906c677c7b739eb0dbf5307160e66583562c2a6caec72a9d3d14a202fcccd",
+      "sourceGitBlobSha": "b45cdcb57340f12fff1b40ea9391bdd1d3c2845a",
+      "outputSha256": "159627ce9ef717f12bc95bd79fda1ff042a1a1f8b2ac05c1c0be82b41de325af",
+      "frames": 236,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "youya-nvpuwu": {
+      "source": "优雅女仆舞.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E4%BC%98%E9%9B%85%E5%A5%B3%E4%BB%86%E8%88%9E.webm",
+      "sourceSha256": "74209c4c668545ab1e2366e0d1c0709b7bea0312eeba7e89b553d5b977bfe649",
+      "sourceGitBlobSha": "390c504dfb0b56bb647f0253782a91ee705f8933",
+      "outputSha256": "6ed35f4faa03a32faaf7c6a1263e7c580a0986da3c92f7b017415be29e70ad32",
+      "frames": 229,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "qingkuai-yaobaiwu": {
+      "source": "轻快摇摆舞.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E8%BD%BB%E5%BF%AB%E6%91%87%E6%91%86%E8%88%9E.webm",
+      "sourceSha256": "c621d00e1b959b991df8fc420e409b569e768fad7f75d1fb489375d101fee630",
+      "sourceGitBlobSha": "596558b14cacee0d96f5e9d3942fd5731be49718",
+      "outputSha256": "2d0de78ea554544787e7ff357257d31f3a380dbad2f5fd5fc7d35cbd6d2faa57",
+      "frames": 231,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "chi-baifan": {
+      "source": "吃白饭.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%90%83%E7%99%BD%E9%A5%AD.webm",
+      "sourceSha256": "b620413d6fa303a0ed9168dc71453c3bddc10141a0b7edeff87dc2e6e054d502",
+      "sourceGitBlobSha": "0f400023c2f036e6edc28033083d49f68686d347",
+      "outputSha256": "c4d2077196116921849b502d2f6de1c1ee51739dd123d92bf0d48e0ac76c1e2c",
+      "frames": 231,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "chi-zaocan": {
+      "source": "吃早餐.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%90%83%E6%97%A9%E9%A4%90.webm",
+      "sourceSha256": "893b61587aeda8ca146e32b596b00903461aab04684a146d84b31965968d60e4",
+      "sourceGitBlobSha": "6691dc43900e3f906b6576cc6eb7e0f23b0e2702",
+      "outputSha256": "0847a6585101fe585ccb4566fa3fda56a464676464d6c91dff367bd28ddf52dc",
+      "frames": 229,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "chi-wucan": {
+      "source": "吃午餐.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%90%83%E5%8D%88%E9%A4%90.webm",
+      "sourceSha256": "e48a70e61d93195c611c2d4041be32a26a114f78c835ff6b2345459ae39a90ce",
+      "sourceGitBlobSha": "83618038d3d4fe98b9f42d0fd7ae1b7a24f686b3",
+      "outputSha256": "cdf2cc11d5d8862fa6d1d87884a18beccced984875ed6c0508c358f9fe37393e",
+      "frames": 230,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "chi-wancan": {
+      "source": "吃晚餐.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%90%83%E6%99%9A%E9%A4%90.webm",
+      "sourceSha256": "8902602fb012c29d33392822ab534ed119a136610f6bc2e8c0c51d60afec673a",
+      "sourceGitBlobSha": "14f9eee2a361a592fd55c95979f5810b7b8dcd03",
+      "outputSha256": "2d49cbc8ec3e0c944dfd940096cb848c9130faa10b6e470b630619997cd65ea5",
+      "frames": 240,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "chi-changshoumian": {
+      "source": "吃长寿面.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%90%83%E9%95%BF%E5%AF%BF%E9%9D%A2.webm",
+      "sourceSha256": "2881e1cd4ca31fd56ca578ce2ee73d21222f0006f237c865d9b2dc1ebc436edd",
+      "sourceGitBlobSha": "ac71008a07686f858627e7f7f69e77448941bb97",
+      "outputSha256": "7d809161060e6974b238ab2eb432f3eb59ef9dc87a64fe43252ae60a3028bcaa",
+      "frames": 227,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "touchi-lingshi-bei-zhuazhu": {
+      "source": "偷吃零食被抓住.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%81%B7%E5%90%83%E9%9B%B6%E9%A3%9F%E8%A2%AB%E6%8A%93%E4%BD%8F.webm",
+      "sourceSha256": "c3b783351ad38fdd931e80b188ecb12d273f21e4794aed2c41f267bdb75ff897",
+      "sourceGitBlobSha": "9f50ed6c3ba1a3f96b614e34ecaaf067ef6ab9cd",
+      "outputSha256": "403ad72ec7e433e97ad5001fa057c4a09aacd7e8ec6282d08d4de25a0974f8a8",
+      "frames": 229,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "chi-token": {
+      "source": "吃Token.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%90%83Token.webm",
+      "sourceSha256": "d46ef798fb189cd7652f63d03a35e6f314e5a598b4a65f76202ec95852eb719c",
+      "sourceGitBlobSha": "619722b50ea75fcb3c18b3de5d996ce4e87a7893",
+      "outputSha256": "2e4caa56e97ac7652d95e5613c8771d256e24e24e63a217624a2e458c6fd832e",
+      "frames": 229,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "chi-dazhaxie": {
+      "source": "吃大闸蟹.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%90%83%E5%A4%A7%E9%97%B8%E8%9F%B9.webm",
+      "sourceSha256": "fbd0f445c15fda1f827e6eb485270ddf9025ac29b3edcac28a5eff7d9aa80f46",
+      "sourceGitBlobSha": "f8e0774d6b4b38f27adfecdfc591dd40812f5e38",
+      "outputSha256": "b4e4e79de7cd5760b95b4f9541a060c02b97e37e34fff2e04ad0e0d83408f597",
+      "frames": 236,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "chi-tanghulu": {
+      "source": "吃糖葫芦.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%90%83%E7%B3%96%E8%91%AB%E8%8A%A6.webm",
+      "sourceSha256": "6900468dc166bfb90e1cfb73de9b41a08c62513483ce1300658340cf942be3cd",
+      "sourceGitBlobSha": "def3fa70022f6b728f0d0b3ebbfcff601c406c57",
+      "outputSha256": "a264a76cced0120a1d3775ff29f073005b87e99aa4923caa23c3da849ce85626",
+      "frames": 229,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "xie-fuzi": {
+      "source": "写福字.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%86%99%E7%A6%8F%E5%AD%97.webm",
+      "sourceSha256": "7841a47a6997bb7c90d81671d524c44b1afc87ca2e8fceb17d06d99003a67181",
+      "sourceGitBlobSha": "b7aa9ce458b6e8d1c9513b5e4b059a07ca143f88",
+      "outputSha256": "93520fe4318f71de7940685b513f571cc35fc93df43a8689675cbc6706d28812",
+      "frames": 229,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "shou-hongbao": {
+      "source": "收红包.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E6%94%B6%E7%BA%A2%E5%8C%85.webm",
+      "sourceSha256": "a0e7a9a5997aff1357c76eeaaad7a01503c320f7017766dd5a42e643daa505c1",
+      "sourceGitBlobSha": "ca07f8792572e3b182b2077b768fbcf9ece4ee91",
+      "outputSha256": "c1ed194522b44e1bc1c3a47c7b2745e904ed9bee14d8f1e703894499a16fb123",
+      "frames": 230,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "wu-shitou": {
+      "source": "舞狮头.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E8%88%9E%E7%8B%AE%E5%A4%B4.webm",
+      "sourceSha256": "6d2006b4023d44087cf4c7dc055d1d8f2a8cec32e22610807a2dfea7bb0dc367",
+      "sourceGitBlobSha": "b16d549ec2572f5d693bdc7691e3247544ccb88e",
+      "outputSha256": "417494b5e35fc39c0b35ab2997d8f6dccdd17c94b922d8972342166405fe070a",
+      "frames": 236,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "fang-yanhua": {
+      "source": "放烟花.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E6%94%BE%E7%83%9F%E8%8A%B1.webm",
+      "sourceSha256": "539ac09ae29ed0a11bd828df096f3e72f606529b3c59e29a5fcf3b051779a4d0",
+      "sourceGitBlobSha": "3a1bcd38b00b170b619e42b76ab8c9ea9225903a",
+      "outputSha256": "46d0a17a78f54a1795273cfa6dae239b10c91748ecfe3b76746b0d80eab69e6f",
+      "frames": 241,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "chijiaozi": {
+      "source": "吃饺子.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%90%83%E9%A5%BA%E5%AD%90.webm",
+      "sourceSha256": "a607391c206cb2a1a977d72f318a6b5bfe95aee4da9b11c9de8724bd9981cc06",
+      "sourceGitBlobSha": "2dee24954bae172a20ef1e0d44b34d7105872851",
+      "outputSha256": "9ec481a8ade7f67de780b2920adb63679e884877edd50ca24b2f39948785a40e",
+      "frames": 228,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "chi-niangao": {
+      "source": "吃年糕.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%90%83%E5%B9%B4%E7%B3%95.webm",
+      "sourceSha256": "ba0c86988687801a5b19d055d728bb182c8a95a0bdd7071dea16b83c1162135c",
+      "sourceGitBlobSha": "7b4473435dfa219428f5bb2e1dbf34fe83b59190",
+      "outputSha256": "1ef882b85cce0912526d73f68b7d0567ada2617b0ee176a8210eba218047e43c",
+      "frames": 233,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "chitangyuan": {
+      "source": "吃汤圆.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%90%83%E6%B1%A4%E5%9C%86.webm",
+      "sourceSha256": "53a0f93612bb59c7279010f993a1101b033fc01df1998dd9874d8aea175afa6f",
+      "sourceGitBlobSha": "eac65950006cf0814e6e4f1ebe1c73b9e36a8791",
+      "outputSha256": "851259d04efd94c3433a6ba11b1f1a4fd55598dd504367d1cdd125d278e0b24c",
+      "frames": 225,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "zhongqiu-shangyue-chi-yuebing": {
+      "source": "中秋赏月吃月饼.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E4%B8%AD%E7%A7%8B%E8%B5%8F%E6%9C%88%E5%90%83%E6%9C%88%E9%A5%BC.webm",
+      "sourceSha256": "3f64003262d3f129470721495695ecd231795d859693a748914c02c6e3883a3a",
+      "sourceGitBlobSha": "48beff57ddc5b3c7e1c0387348e33ce8e3a5b819",
+      "outputSha256": "56b4d1c31ff24aff73053dc7325475b0db0d3f00e67261427cad7a5a1f302ab4",
+      "frames": 227,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "chi-zongzi": {
+      "source": "吃粽子.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%90%83%E7%B2%BD%E5%AD%90.webm",
+      "sourceSha256": "f3af3217674427fdc5609bf50b170f69669c84cf229cd7b44261c00da7876ade",
+      "sourceGitBlobSha": "6ad057c473cbaf209de8d4ec91781d9bc759cda9",
+      "outputSha256": "58301bda4d338e05c6f637fdd901ddb4a7557ba9986071cb50f896d80eff46e2",
+      "frames": 237,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "chi-qingtuan": {
+      "source": "吃青团.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%90%83%E9%9D%92%E5%9B%A2.webm",
+      "sourceSha256": "0d99393dd64ddf0b1ec4ab4cf392c86092ab5edf58d12f5b72e325035da23606",
+      "sourceGitBlobSha": "00031236d476501f71b3f03f978a4b79952e5097",
+      "outputSha256": "6f265d464b5d72313b8c0e7339b2eb15352a00115c221dcb665ab037445fd81d",
+      "frames": 220,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "chi-labazhou": {
+      "source": "吃腊八粥.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%90%83%E8%85%8A%E5%85%AB%E7%B2%A5.webm",
+      "sourceSha256": "f821527812875262cc0dda50fe023c603fc89ec566172777c6bff4fa45943011",
+      "sourceGitBlobSha": "c20156c0de0863832d7bc10fb65153559de388be",
+      "outputSha256": "a41938e45a87100640d425b6045cb9afcd512e84899a6f1e7311cff52e7cd848",
+      "frames": 229,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "chi-chongyanggao": {
+      "source": "吃重阳糕.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%90%83%E9%87%8D%E9%98%B3%E7%B3%95.webm",
+      "sourceSha256": "d2b6b466fcb1ee689ae130680bf38311e9988d995879ca3b5b1d9aa0b5438058",
+      "sourceGitBlobSha": "cc54c1f82bb5c4b8e366fba6433b6534bedcf4fc",
+      "outputSha256": "efbfc0a01dc144a7c7fe324e03cdee4648d5d297592974ca47e021c65139af18",
+      "frames": 229,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "chuanzhenqiqiao": {
+      "source": "穿针乞巧.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E7%A9%BF%E9%92%88%E4%B9%9E%E5%B7%A7.webm",
+      "sourceSha256": "cf16647ec4cb5634e4ff022bfc139a2233cd8be82f2391472bc842f7014ddc90",
+      "sourceGitBlobSha": "f78881f4e996d5160ce4910ed06646b5b9d5bd60",
+      "outputSha256": "03676cf53a4032b411d796c7964d658d1e985ca32ac9fe8ecc93dd04d05dacc3",
+      "frames": 222,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "cha-zhuyu-shangju": {
+      "source": "插茱萸赏菊.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E6%8F%92%E8%8C%B1%E8%90%B8%E8%B5%8F%E8%8F%8A.webm",
+      "sourceSha256": "4e1ba56724da3663e2f5480001ab1141a82e8618c316e6e81e3dae84998452f3",
+      "sourceGitBlobSha": "7e2976e00317dfd681279890ab48f3a68ceb03f9",
+      "outputSha256": "4aff258155ebb544cc22968ac8db90fc66ccb6329c6365d8abdd286dc0b013ec",
+      "frames": 236,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "fanghedeng": {
+      "source": "放河灯.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E6%94%BE%E6%B2%B3%E7%81%AF.webm",
+      "sourceSha256": "af744bed1ff20cc1b0492247add45f2b16433fde0b0897c31d6b0579429b788d",
+      "sourceGitBlobSha": "2827fd308393a036201bc85dca0a9b2cc9f3ee13",
+      "outputSha256": "c05550fb9f30a42d9fbb113a17d1bb96d8126bff9ee28ccea1687dd0df49e86d",
+      "frames": 232,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "fang-kongmingdeng": {
+      "source": "放孔明灯.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E6%94%BE%E5%AD%94%E6%98%8E%E7%81%AF.webm",
+      "sourceSha256": "cc6540b4651f6603363dd326801921d6ba220ecaaf00828b42d248eb28beeb31",
+      "sourceGitBlobSha": "ca554c0df5fb9cd2f35ad9eb54957b9e1dfcd2cf",
+      "outputSha256": "ab96905ba2d8b333d2d62c9295a59ab857627d4c9a2c73991e76d23ec6c90c68",
+      "frames": 237,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "beiluoye-yanmo": {
+      "source": "被落叶淹没.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E8%A2%AB%E8%90%BD%E5%8F%B6%E6%B7%B9%E6%B2%A1.webm",
+      "sourceSha256": "91fc8e3dbfcd24546bc30366beb120fb5de7823ed67986dd8032c9c1b29ff079",
+      "sourceGitBlobSha": "1e35fff171fb8856bd89de91329ef357c7d33e65",
+      "outputSha256": "bca581f1b335ab5d5d7c0fefdcc81449aee76ac1ad874632a8c3e9165d885da2",
+      "frames": 238,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "duixueren": {
+      "source": "堆雪人.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%A0%86%E9%9B%AA%E4%BA%BA.webm",
+      "sourceSha256": "478bdc31cc60e55e3efa139b81c7d8680a8cf83aca2304495e6da50a20a09cf5",
+      "sourceGitBlobSha": "ce8e8be3b7e5c0dfbdebf15f5a8fd70e2836ee0f",
+      "outputSha256": "17ca3ea65a3c4958376623933163da98128e070695cd094661cf9e4e14b31037",
+      "frames": 234,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "menghua-xiaoyouling": {
+      "source": "萌化小幽灵.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E8%90%8C%E5%8C%96%E5%B0%8F%E5%B9%BD%E7%81%B5.webm",
+      "sourceSha256": "ac2012601d05bf7de7c7cced415b8793b0be3b7cfa569da06c2325f135f7e94f",
+      "sourceGitBlobSha": "cae5ebbca8634591a49daf5f7a4bc56fa369a7bf",
+      "outputSha256": "2bd61e60ce19813ec2465b14b08071b211e115b2dc884b91e6672067be9d65fe",
+      "frames": 236,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "taotang-nanguadeng": {
+      "source": "讨糖南瓜灯.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E8%AE%A8%E7%B3%96%E5%8D%97%E7%93%9C%E7%81%AF.webm",
+      "sourceSha256": "9535d1a29f780aa2d78ffaabd7ee1765952bf34b2b380e9edc25dc6a3003070b",
+      "sourceGitBlobSha": "3a17ac14fba449e8d7bb0e0d38085825b068a9e1",
+      "outputSha256": "db1126b0336f8239738ad279e36ef4bfaf7ca036450468789581d99e9ed3954e",
+      "frames": 227,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "zhuangdian-shengdanshu": {
+      "source": "装点圣诞树.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E8%A3%85%E7%82%B9%E5%9C%A3%E8%AF%9E%E6%A0%91.webm",
+      "sourceSha256": "25da448acdbba49c2d4b209d24053b6dd1b79e656273d1f3e659385dc2bc3759",
+      "sourceGitBlobSha": "1217c9625c3a682732bc4398108ce7c4ae2a07f6",
+      "outputSha256": "4a2d33ea2d67a195209b9a0002c77b0cac54c9330da223b8c08b4423196cf0ad",
+      "frames": 240,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "dianji-huiying-naoyang-gegexiao": {
+      "source": "点击回应-挠痒咯咯笑.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E7%82%B9%E5%87%BB%E5%9B%9E%E5%BA%94-%E6%8C%A0%E7%97%92%E5%92%AF%E5%92%AF%E7%AC%91.webm",
+      "sourceSha256": "f228279219f4084323ca1bfef1604f7c77bb3f505d45a8d1747b5ac3f9f2393b",
+      "sourceGitBlobSha": "d896eb9a91ca8eafa7f0af35a3073dc04a397742",
+      "outputSha256": "c4e1d0d697d23395005b16d5aa15a0cc0680d9e6f86bdd9098163b56a186b8fa",
+      "frames": 218,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "beixiayitiao-zhamao": {
+      "source": "被吓一跳.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E8%A2%AB%E5%90%93%E4%B8%80%E8%B7%B3.webm",
+      "sourceSha256": "537dde496e0f776e775dec1bb7bfe3fbc5eebf89112469a1a910ad0433ccde66",
+      "sourceGitBlobSha": "a7afe71ed72990bbace7026abb1ef69ae7e3706c",
+      "outputSha256": "9f639a0f8c38fecb5ed35c6c42038b7e1d62fc3b96339e38ee488e38f027c88a",
+      "frames": 226,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "yuandi-zuozhuan-benpao": {
+      "source": "原地左转奔跑.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%8E%9F%E5%9C%B0%E5%B7%A6%E8%BD%AC%E5%A5%94%E8%B7%91.webm",
+      "sourceSha256": "79882aedd7b77caaacce1a34dece68e2f001a3dbfa5f9d049c1ce2fc04518d52",
+      "sourceGitBlobSha": "d9b6611b32065a7937878a5467cd84d47a1be543",
+      "outputSha256": "4e076f7999886ebae9eb21a7cbde350a1f1b40a71c42bc9fd7f722c6129d283c",
+      "frames": 235,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "yuandi-piaofu-tabu": {
+      "source": "原地漂浮踏步.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%8E%9F%E5%9C%B0%E6%BC%82%E6%B5%AE%E8%B8%8F%E6%AD%A5.webm",
+      "sourceSha256": "7dee1c14672f1f99bebe5e6f1a52d6664b851ed95f9958ac6c12b753a5e5cc81",
+      "sourceGitBlobSha": "d700e4fdd38e8795b88f6d81418e8fc196fe80ed",
+      "outputSha256": "27c6411242e09e2153c3deac576ada76209aeee1a18c1a94628133c7dcde39a3",
+      "frames": 232,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "yuandi-qiaoji-zhuomian-hudong": {
+      "source": "原地敲击桌面互动.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%8E%9F%E5%9C%B0%E6%95%B2%E5%87%BB%E6%A1%8C%E9%9D%A2%E4%BA%92%E5%8A%A8.webm",
+      "sourceSha256": "a40f481e89abcc726c89f30b01d085ca8c17a090e71facdd5e7f747e771093eb",
+      "sourceGitBlobSha": "c7e55e6f83c1847a45d81d60c04de2a167680c92",
+      "outputSha256": "9bd92d870bb18fb5df91a70ca741beaf89045cdfed1efee799104c5e467dbc56",
+      "frames": 228,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "yuandi-zhongli-xiadun-yasuo": {
+      "source": "原地重力下蹲压缩.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%8E%9F%E5%9C%B0%E9%87%8D%E5%8A%9B%E4%B8%8B%E8%B9%B2%E5%8E%8B%E7%BC%A9.webm",
+      "sourceSha256": "1c8972478a7f347818165db62b468f1624ec11d0862f38aec3078e3870831d24",
+      "sourceGitBlobSha": "67acb52f7e7c49e77b000730b3bff9a65fb21a10",
+      "outputSha256": "92c73394c0c5eea254b6cbf6ead0864ee81b6074be10953b161fdcd4f259b307",
+      "frames": 220,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "xiaofudu-yuandi-360du-xuanzhuan-zhanshi": {
+      "source": "小幅度原地360度旋转展示.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E5%B0%8F%E5%B9%85%E5%BA%A6%E5%8E%9F%E5%9C%B0360%E5%BA%A6%E6%97%8B%E8%BD%AC%E5%B1%95%E7%A4%BA.webm",
+      "sourceSha256": "9f1a927f63c73e3c35ee5f4d2eb58f4a46ac7eca2af69388f320d10cdef8d29c",
+      "sourceGitBlobSha": "915feb453f11f0267693109b3e847a850cdb1ec7",
+      "outputSha256": "3727075ea1a6224d9d77636daceb66c012ce6978fd0101b984afa13b3cdbb47d",
+      "frames": 230,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "yong-jingyu-weiba-paidadi": {
+      "source": "用鲸鱼尾巴拍打地面.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E7%94%A8%E9%B2%B8%E9%B1%BC%E5%B0%BE%E5%B7%B4%E6%8B%8D%E6%89%93%E5%9C%B0%E9%9D%A2.webm",
+      "sourceSha256": "e3f92df2cf182fdcb109ad0a865689d66e0a0d10db14c1528e5b3cb2f0bf090d",
+      "sourceGitBlobSha": "822a7c41f795906ca46e2f1757c63e6633d39214",
+      "outputSha256": "58079c68685d7b5297d8a6b43a442b39d52a087ed4239839279ec5055a079946",
+      "frames": 223,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "qingkuai-jilu": {
+      "source": "轻快记录.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E8%BD%BB%E5%BF%AB%E8%AE%B0%E5%BD%95.webm",
+      "sourceSha256": "1da04162fed5cd52bd4a6a6027a6902f50bda0969d34465bc2d332cf3679bbd5",
+      "sourceGitBlobSha": "d0c1bc670b74450e53019b36366edbe54056a363",
+      "outputSha256": "a9634ff77f58fb7cf29357d3e13be8a2adda087b37bc26d1cca54b5cbabce263",
+      "frames": 226,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "shia-chishenme": {
+      "source": "是啊，吃什么.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E6%98%AF%E5%95%8A%EF%BC%8C%E5%90%83%E4%BB%80%E4%B9%88.webm",
+      "sourceSha256": "94e1d69e05cc66cc1dc8bf6986efc51dfd71fe22fd34166f9efe7ca2d21c1e8c",
+      "sourceGitBlobSha": "e347b7574b4dca0d65bdd34bf9af0a176fbb15a1",
+      "outputSha256": "ac047e02fdbbdf1a6fc594028052f0be472ac7325c09e8f0c0169e52872b5381",
+      "frames": 232,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "shendu-sikao-suisuinian": {
+      "source": "深度思考碎碎念.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E6%B7%B1%E5%BA%A6%E6%80%9D%E8%80%83%E7%A2%8E%E7%A2%8E%E5%BF%B5.webm",
+      "sourceSha256": "db66867cd1f5bf68b0638fe1f966d0fdf95d1573523e60c77aa8913706118e82",
+      "sourceGitBlobSha": "5a40d5bfdfa818a1df37cef6405f10cd8b71961c",
+      "outputSha256": "b10b91171d2f1618f6941f9990fcae3011f785ee7e763b8c95aa5686e9a3830b",
+      "frames": 235,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "suisuinian-fadai-suisuinian": {
+      "source": "碎碎念-发呆碎碎念.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E5%8F%91%E5%91%86%E7%A2%8E%E7%A2%8E%E5%BF%B5.webm",
+      "sourceSha256": "02da8cc2194250ae9708b137a3deff43fed2ebd40a7aa4a033b6262c3485eb5b",
+      "sourceGitBlobSha": "4afcaf7459e3b27b30252648b388e9cd3296807f",
+      "outputSha256": "81001781a94b45b7afbb368865767051b746f91c15ec2f804686efcbd644c14b",
+      "frames": 225,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "suisuinian-duiping-suisuinian": {
+      "source": "碎碎念-对屏碎碎念.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E5%AF%B9%E5%B1%8F%E7%A2%8E%E7%A2%8E%E5%BF%B5.webm",
+      "sourceSha256": "fda85ca286e173b7cf868c91829c3445e55c395e0c788b6be310a855b9b37973",
+      "sourceGitBlobSha": "8b7b357f01a9e5cf733dce28f32e8f94be4a030d",
+      "outputSha256": "ab217454ed2f2b439ef8978410ec9218acd4ffb8d9cdda292d7e2de42ea7fb3f",
+      "frames": 223,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "suisuinian-cazhuo-suisuinian": {
+      "source": "碎碎念-擦桌碎碎念.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E6%93%A6%E6%A1%8C%E7%A2%8E%E7%A2%8E%E5%BF%B5.webm",
+      "sourceSha256": "bfb616a3e6ed7375826d8fd00b41b9476d2e4bd65e10abddfb98f04c734e30e6",
+      "sourceGitBlobSha": "343513cf0d5583b5f476080d5082f3f5e01588b8",
+      "outputSha256": "3cb480c6c3b114e351bbf4b5e3c0a17c440a5e9f12b3e9ebf0d418423a79a84b",
+      "frames": 228,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "qian-dai-man-yi": {
+      "source": "余额-钱袋满溢.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E4%BD%99%E9%A2%9D-%E9%92%B1%E8%A2%8B%E6%BB%A1%E6%BA%A2.webm",
+      "sourceSha256": "dddd6ffc4e763b77360e49c0ccee0987a43c3d253a23e3133c334aabb598b362",
+      "sourceGitBlobSha": "34212594a3b9fc03daf2ae742763e62dfe4b034f",
+      "outputSha256": "24bf4aa6a9a513f1ac9bbbd9b67848c1b90b9afc8ee7172d4d92590f313722e5",
+      "frames": 239,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "jin-dai-ding-dang": {
+      "source": "余额-金袋叮当.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E4%BD%99%E9%A2%9D-%E9%87%91%E8%A2%8B%E5%8F%AE%E5%BD%93.webm",
+      "sourceSha256": "6fda0c4ae013cf7906afa1cb846717d097db576343dab11006f14ca5c7a9a34f",
+      "sourceGitBlobSha": "1bbe074a0bef1a7ef80508b3033269885edb6b2c",
+      "outputSha256": "e19b4c283c76b36dcef62fc4754a7a045e0cb483740783b0fc52eb0b4d3ccd9f",
+      "frames": 230,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "qian-dai-ru-chang": {
+      "source": "余额-钱袋如常.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E4%BD%99%E9%A2%9D-%E9%92%B1%E8%A2%8B%E5%A6%82%E5%B8%B8.webm",
+      "sourceSha256": "f6cb9aa1c829fcbc62478dbddd0e0fcd7beb47433cea751d18b81ccccbec95d3",
+      "sourceGitBlobSha": "a52b686a7a3d801a98cccb81534eae2bfa7ac2b3",
+      "outputSha256": "55264c709590403a6728eb263e064186bc930e5ca1a5ca7806ee7c55b993fb95",
+      "frames": 229,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "shu-jin-zhou-mei": {
+      "source": "余额-数金皱眉.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E4%BD%99%E9%A2%9D-%E6%95%B0%E9%87%91%E7%9A%B1%E7%9C%89.webm",
+      "sourceSha256": "94a7e0ee8e1012aadec33492301c893c2d1c5df7e36049dbada8c4a264bf1810",
+      "sourceGitBlobSha": "6c1dac8e3edddc02f4988e1c38e289177c335ecf",
+      "outputSha256": "84a791d976caa11ea239e4368dcee98d720ec07a6af0af35cbd657b9234582dd",
+      "frames": 223,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "dai-kong-ru-xi": {
+      "source": "余额-袋空如洗.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E4%BD%99%E9%A2%9D-%E8%A2%8B%E7%A9%BA%E5%A6%82%E6%B4%97.webm",
+      "sourceSha256": "3db780bbc96bb362ced36078fecacfb63b9d292c06b533cfb61797adb553a7f8",
+      "sourceGitBlobSha": "a85eb2206596c7031fbc64146df09f6e7b137aae",
+      "outputSha256": "92ce3be11e0466d19571728112716ae9301b6621a5f7a23f59a8b5d7880f6caa",
+      "frames": 226,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    },
+    "fen-wen-bu-sheng": {
+      "source": "余额-分文不剩.webm",
+      "url": "https://raw.githubusercontent.com/PC2005-cloud/dsh-pet/71ed01b2010f1a55a4442763d70bcb79d5fadd68/dsh-pet/assets/webm/%E4%BD%99%E9%A2%9D-%E5%88%86%E6%96%87%E4%B8%8D%E5%89%A9.webm",
+      "sourceSha256": "b232349bdbd962bad7f3a15cfce539c6fadadfd0a286b7f03b03e59cf7aca7a8",
+      "sourceGitBlobSha": "013b69906a5c56b219bbd74986f973eea53e3675",
+      "outputSha256": "174ab85e7f8a7c51a42b04f40febf1f6609514ca68f368093c54847e26771e08",
+      "frames": 229,
+      "sourceFrames": 241,
+      "durationMs": 10042,
+      "encoding": {
+        "fps": 24,
+        "size": [
+          480,
+          270
+        ],
+        "quality": 85,
+        "alphaCutoff": 3,
+        "version": 2
+      }
+    }
+  }
+}

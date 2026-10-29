@@ -1,0 +1,1663 @@
+{
+  "schemaVersion": 1,
+  "name": {
+    "en": "DSH Whale-chan",
+    "zh": "DSH 鲸鱼娘"
+  },
+  "version": "1.4.0",
+  "idleTrigger": "work",
+  "author": "PC2005-cloud/dsh-pet; local Clawd adaptation",
+  "roamFlipAssets": true,
+  "license": "CC BY-NC-SA 4.0 (assets; non-commercial)",
+  "description": {
+    "zh": "DSH 大肥鱼动画适配；非官方、非商业同人主题。"
+  },
+  "customization": {
+    "petTint": false
+  },
+  "viewBox": {
+    "x": 0,
+    "y": 0,
+    "width": 480,
+    "height": 270
+  },
+  "layout": {
+    "contentBox": {
+      "x": 118,
+      "y": 0,
+      "width": 237,
+      "height": 270
+    },
+    "centerX": 240,
+    "baselineY": 270,
+    "visibleHeightRatio": 0.58,
+    "baselineBottomRatio": 0.05
+  },
+  "eyeTracking": {
+    "enabled": false,
+    "states": []
+  },
+  "sleepSequence": {
+    "mode": "direct"
+  },
+  "states": {
+    "idle": [
+      "idle.webp"
+    ],
+    "thinking": [
+      "thinking.webp"
+    ],
+    "working": [
+      "working.webp"
+    ],
+    "juggling": [
+      "juggling.webp"
+    ],
+    "attention": [
+      "done.webp"
+    ],
+    "notification": [
+      "waiting.webp"
+    ],
+    "error": [
+      "error.webp"
+    ],
+    "sweeping": [
+      "organizing.webp"
+    ],
+    "carrying": [
+      "busy.webp"
+    ],
+    "sleeping": [
+      "sleeping.webp"
+    ],
+    "roam": [
+      "walk.webp"
+    ]
+  },
+  "workingTiers": [
+    {
+      "minSessions": 2,
+      "file": "busy.webp"
+    },
+    {
+      "minSessions": 1,
+      "file": "working.webp"
+    }
+  ],
+  "displayHintMap": {
+    "clawd-working-building.svg": "busy.webp",
+    "clawd-working-typing.svg": "working.webp",
+    "clawd-working-juggling.svg": "juggling.webp",
+    "clawd-working-conducting.svg": "juggling.webp",
+    "clawd-working-thinking.svg": "thinking.webp"
+  },
+  "idleAnimations": [
+    {
+      "file": "look-around.webp",
+      "duration": 10042
+    },
+    {
+      "file": "yawning.webp",
+      "duration": 10042
+    },
+    {
+      "file": "nvpu-quxi-liyi.webp",
+      "duration": 10042
+    },
+    {
+      "file": "stretch.webp",
+      "duration": 10042
+    },
+    {
+      "file": "da-keshui-bei-jingxing.webp",
+      "duration": 10042
+    },
+    {
+      "file": "mirror.webp",
+      "duration": 10042
+    },
+    {
+      "file": "zhengti-huanzhuang-shise.webp",
+      "duration": 10042
+    },
+    {
+      "file": "chenjian-shuaya.webp",
+      "duration": 10042
+    },
+    {
+      "file": "fan.webp",
+      "duration": 10042
+    },
+    {
+      "file": "cube.webp",
+      "duration": 10042
+    },
+    {
+      "file": "toy-car.webp",
+      "duration": 10042
+    },
+    {
+      "file": "game.webp",
+      "duration": 10042
+    },
+    {
+      "file": "chou-tuoluo.webp",
+      "duration": 10042
+    },
+    {
+      "file": "juggling.webp",
+      "duration": 10042
+    },
+    {
+      "file": "xiawuziqi.webp",
+      "duration": 10042
+    },
+    {
+      "file": "qi-muma.webp",
+      "duration": 10042
+    },
+    {
+      "file": "ti-jianzi.webp",
+      "duration": 10042
+    },
+    {
+      "file": "balloon.webp",
+      "duration": 10042
+    },
+    {
+      "file": "gift.webp",
+      "duration": 10042
+    },
+    {
+      "file": "dongwu-huanrao.webp",
+      "duration": 10042
+    },
+    {
+      "file": "cat.webp",
+      "duration": 10042
+    },
+    {
+      "file": "wan-shuiqiang.webp",
+      "duration": 10042
+    },
+    {
+      "file": "fang-fengzheng.webp",
+      "duration": 10042
+    },
+    {
+      "file": "dangqiuqian.webp",
+      "duration": 10042
+    },
+    {
+      "file": "card-magic.webp",
+      "duration": 10042
+    },
+    {
+      "file": "bian-gezi.webp",
+      "duration": 10042
+    },
+    {
+      "file": "pingkong-shenghua.webp",
+      "duration": 10042
+    },
+    {
+      "file": "lanjing-xianshi.webp",
+      "duration": 10042
+    },
+    {
+      "file": "jingyu-tu-paopao-texiao.webp",
+      "duration": 10042
+    },
+    {
+      "file": "hudie-mifeng-huanrao-touding-kaihua.webp",
+      "duration": 10042
+    },
+    {
+      "file": "yuandi-tiaoyue-zhuasui-touding-wupin.webp",
+      "duration": 10042
+    },
+    {
+      "file": "humming.webp",
+      "duration": 10042
+    },
+    {
+      "file": "violin.webp",
+      "duration": 10042
+    },
+    {
+      "file": "flute.webp",
+      "duration": 10042
+    },
+    {
+      "file": "youya-nvpuwu.webp",
+      "duration": 10042
+    },
+    {
+      "file": "qingkuai-yaobaiwu.webp",
+      "duration": 10042
+    },
+    {
+      "file": "dance.webp",
+      "duration": 10042
+    },
+    {
+      "file": "chi-baifan.webp",
+      "duration": 10042
+    },
+    {
+      "file": "chi-zaocan.webp",
+      "duration": 10042
+    },
+    {
+      "file": "chi-wucan.webp",
+      "duration": 10042
+    },
+    {
+      "file": "chi-wancan.webp",
+      "duration": 10042
+    },
+    {
+      "file": "hotpot.webp",
+      "duration": 10042
+    },
+    {
+      "file": "chi-changshoumian.webp",
+      "duration": 10042
+    },
+    {
+      "file": "snack.webp",
+      "duration": 10042
+    },
+    {
+      "file": "touchi-lingshi-bei-zhuazhu.webp",
+      "duration": 10042
+    },
+    {
+      "file": "chi-token.webp",
+      "duration": 10042
+    },
+    {
+      "file": "ice-cream.webp",
+      "duration": 10042
+    },
+    {
+      "file": "chi-dazhaxie.webp",
+      "duration": 10042
+    },
+    {
+      "file": "chi-tanghulu.webp",
+      "duration": 10042
+    },
+    {
+      "file": "watermelon.webp",
+      "duration": 10042
+    },
+    {
+      "file": "xie-fuzi.webp",
+      "duration": 10042
+    },
+    {
+      "file": "shou-hongbao.webp",
+      "duration": 10042
+    },
+    {
+      "file": "wu-shitou.webp",
+      "duration": 10042
+    },
+    {
+      "file": "fang-yanhua.webp",
+      "duration": 10042
+    },
+    {
+      "file": "chijiaozi.webp",
+      "duration": 10042
+    },
+    {
+      "file": "chi-niangao.webp",
+      "duration": 10042
+    },
+    {
+      "file": "chitangyuan.webp",
+      "duration": 10042
+    },
+    {
+      "file": "zhongqiu-shangyue-chi-yuebing.webp",
+      "duration": 10042
+    },
+    {
+      "file": "chi-zongzi.webp",
+      "duration": 10042
+    },
+    {
+      "file": "chi-qingtuan.webp",
+      "duration": 10042
+    },
+    {
+      "file": "chi-labazhou.webp",
+      "duration": 10042
+    },
+    {
+      "file": "chi-chongyanggao.webp",
+      "duration": 10042
+    },
+    {
+      "file": "chuanzhenqiqiao.webp",
+      "duration": 10042
+    },
+    {
+      "file": "cha-zhuyu-shangju.webp",
+      "duration": 10042
+    },
+    {
+      "file": "fanghedeng.webp",
+      "duration": 10042
+    },
+    {
+      "file": "fang-kongmingdeng.webp",
+      "duration": 10042
+    },
+    {
+      "file": "beiluoye-yanmo.webp",
+      "duration": 10042
+    },
+    {
+      "file": "duixueren.webp",
+      "duration": 10042
+    },
+    {
+      "file": "menghua-xiaoyouling.webp",
+      "duration": 10042
+    },
+    {
+      "file": "taotang-nanguadeng.webp",
+      "duration": 10042
+    },
+    {
+      "file": "zhuangdian-shengdanshu.webp",
+      "duration": 10042
+    }
+  ],
+  "manualAnimations": [
+    {
+      "file": "idle.webp",
+      "label": "待机呼吸休闲",
+      "category": [
+        "日常生活"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "look-around.webp",
+      "label": "东张西望",
+      "category": [
+        "日常生活"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "yawning.webp",
+      "label": "哈欠连天",
+      "category": [
+        "日常生活"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "sleeping.webp",
+      "label": "原地小憩沉眠",
+      "category": [
+        "日常生活"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "nvpu-quxi-liyi.webp",
+      "label": "女仆屈膝礼仪",
+      "category": [
+        "日常生活"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "stretch.webp",
+      "label": "超大伸懒腰",
+      "category": [
+        "日常生活"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "da-keshui-bei-jingxing.webp",
+      "label": "打瞌睡被惊醒",
+      "category": [
+        "日常生活"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "mirror.webp",
+      "label": "照镜子",
+      "category": [
+        "日常生活"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "zhengti-huanzhuang-shise.webp",
+      "label": "整体换装试色",
+      "category": [
+        "日常生活"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "chenjian-shuaya.webp",
+      "label": "晨间刷牙",
+      "category": [
+        "日常生活"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "fan.webp",
+      "label": "摇扇纳凉",
+      "category": [
+        "日常生活"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "cube.webp",
+      "label": "原地专心玩魔方",
+      "category": [
+        "玩耍互动",
+        "玩具游戏"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "toy-car.webp",
+      "label": "原地蹲下玩玩具汽车",
+      "category": [
+        "玩耍互动",
+        "玩具游戏"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "game.webp",
+      "label": "玩游戏气急败坏",
+      "category": [
+        "玩耍互动",
+        "玩具游戏"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "chou-tuoluo.webp",
+      "label": "抽陀螺",
+      "category": [
+        "玩耍互动",
+        "玩具游戏"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "juggling.webp",
+      "label": "三球抛接",
+      "category": [
+        "玩耍互动",
+        "玩具游戏"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "xiawuziqi.webp",
+      "label": "下五子棋",
+      "category": [
+        "玩耍互动",
+        "玩具游戏"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "qi-muma.webp",
+      "label": "骑木马",
+      "category": [
+        "玩耍互动",
+        "玩具游戏"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "ti-jianzi.webp",
+      "label": "踢毽子",
+      "category": [
+        "玩耍互动",
+        "玩具游戏"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "balloon.webp",
+      "label": "吹气球",
+      "category": [
+        "玩耍互动",
+        "玩具游戏"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "gift.webp",
+      "label": "拆礼物",
+      "category": [
+        "玩耍互动",
+        "玩具游戏"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "dongwu-huanrao.webp",
+      "label": "动物环绕",
+      "category": [
+        "玩耍互动",
+        "动物与户外"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "cat.webp",
+      "label": "撸猫",
+      "category": [
+        "玩耍互动",
+        "动物与户外"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "wan-shuiqiang.webp",
+      "label": "玩水枪",
+      "category": [
+        "玩耍互动",
+        "动物与户外"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "fang-fengzheng.webp",
+      "label": "放风筝",
+      "category": [
+        "玩耍互动",
+        "动物与户外"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "dangqiuqian.webp",
+      "label": "荡秋千",
+      "category": [
+        "玩耍互动",
+        "动物与户外"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "card-magic.webp",
+      "label": "扑克魔术",
+      "category": [
+        "玩耍互动",
+        "魔术与特效"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "bian-gezi.webp",
+      "label": "变鸽子",
+      "category": [
+        "玩耍互动",
+        "魔术与特效"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "pingkong-shenghua.webp",
+      "label": "凭空生花",
+      "category": [
+        "玩耍互动",
+        "魔术与特效"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "lanjing-xianshi.webp",
+      "label": "蓝鲸现世",
+      "category": [
+        "玩耍互动",
+        "魔术与特效"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "jingyu-tu-paopao-texiao.webp",
+      "label": "鲸鱼吐泡泡特效",
+      "category": [
+        "玩耍互动",
+        "魔术与特效"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "hudie-mifeng-huanrao-touding-kaihua.webp",
+      "label": "蝴蝶蜜蜂环绕头顶开花",
+      "category": [
+        "玩耍互动",
+        "魔术与特效"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "yuandi-tiaoyue-zhuasui-touding-wupin.webp",
+      "label": "原地跳跃抓碎头顶物品",
+      "category": [
+        "玩耍互动",
+        "魔术与特效"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "humming.webp",
+      "label": "悠闲哼歌",
+      "category": [
+        "音乐舞蹈"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "violin.webp",
+      "label": "小提琴演奏",
+      "category": [
+        "音乐舞蹈"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "flute.webp",
+      "label": "吹笛子",
+      "category": [
+        "音乐舞蹈"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "youya-nvpuwu.webp",
+      "label": "优雅女仆舞",
+      "category": [
+        "音乐舞蹈"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "qingkuai-yaobaiwu.webp",
+      "label": "轻快摇摆舞",
+      "category": [
+        "音乐舞蹈"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "dance.webp",
+      "label": "可爱宅舞",
+      "category": [
+        "音乐舞蹈"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "chi-baifan.webp",
+      "label": "吃白饭",
+      "category": [
+        "吃喝美食",
+        "三餐主食"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "chi-zaocan.webp",
+      "label": "吃早餐",
+      "category": [
+        "吃喝美食",
+        "三餐主食"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "chi-wucan.webp",
+      "label": "吃午餐",
+      "category": [
+        "吃喝美食",
+        "三餐主食"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "chi-wancan.webp",
+      "label": "吃晚餐",
+      "category": [
+        "吃喝美食",
+        "三餐主食"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "hotpot.webp",
+      "label": "涮火锅",
+      "category": [
+        "吃喝美食",
+        "三餐主食"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "chi-changshoumian.webp",
+      "label": "吃长寿面",
+      "category": [
+        "吃喝美食",
+        "三餐主食"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "snack.webp",
+      "label": "大口吃零食",
+      "category": [
+        "吃喝美食",
+        "零食水果"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "touchi-lingshi-bei-zhuazhu.webp",
+      "label": "偷吃零食被抓住",
+      "category": [
+        "吃喝美食",
+        "零食水果"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "chi-token.webp",
+      "label": "吃Token",
+      "category": [
+        "吃喝美食",
+        "零食水果"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "ice-cream.webp",
+      "label": "吃冰淇淋融化",
+      "category": [
+        "吃喝美食",
+        "零食水果"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "chi-dazhaxie.webp",
+      "label": "吃大闸蟹",
+      "category": [
+        "吃喝美食",
+        "零食水果"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "chi-tanghulu.webp",
+      "label": "吃糖葫芦",
+      "category": [
+        "吃喝美食",
+        "零食水果"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "watermelon.webp",
+      "label": "吃西瓜",
+      "category": [
+        "吃喝美食",
+        "零食水果"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "xie-fuzi.webp",
+      "label": "写福字",
+      "category": [
+        "节日庆祝",
+        "春节元宵"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "shou-hongbao.webp",
+      "label": "收红包",
+      "category": [
+        "节日庆祝",
+        "春节元宵"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "wu-shitou.webp",
+      "label": "舞狮头",
+      "category": [
+        "节日庆祝",
+        "春节元宵"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "fang-yanhua.webp",
+      "label": "放烟花",
+      "category": [
+        "节日庆祝",
+        "春节元宵"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "chijiaozi.webp",
+      "label": "吃饺子",
+      "category": [
+        "节日庆祝",
+        "春节元宵"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "chi-niangao.webp",
+      "label": "吃年糕",
+      "category": [
+        "节日庆祝",
+        "春节元宵"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "chitangyuan.webp",
+      "label": "吃汤圆",
+      "category": [
+        "节日庆祝",
+        "春节元宵"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "zhongqiu-shangyue-chi-yuebing.webp",
+      "label": "中秋赏月吃月饼",
+      "category": [
+        "节日庆祝",
+        "其他传统节日"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "chi-zongzi.webp",
+      "label": "吃粽子",
+      "category": [
+        "节日庆祝",
+        "其他传统节日"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "chi-qingtuan.webp",
+      "label": "吃青团",
+      "category": [
+        "节日庆祝",
+        "其他传统节日"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "chi-labazhou.webp",
+      "label": "吃腊八粥",
+      "category": [
+        "节日庆祝",
+        "其他传统节日"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "chi-chongyanggao.webp",
+      "label": "吃重阳糕",
+      "category": [
+        "节日庆祝",
+        "其他传统节日"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "chuanzhenqiqiao.webp",
+      "label": "穿针乞巧",
+      "category": [
+        "节日庆祝",
+        "其他传统节日"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "cha-zhuyu-shangju.webp",
+      "label": "插茱萸赏菊",
+      "category": [
+        "节日庆祝",
+        "其他传统节日"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "fanghedeng.webp",
+      "label": "放河灯",
+      "category": [
+        "节日庆祝",
+        "其他传统节日"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "fang-kongmingdeng.webp",
+      "label": "放孔明灯",
+      "category": [
+        "节日庆祝",
+        "其他传统节日"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "beiluoye-yanmo.webp",
+      "label": "被落叶淹没",
+      "category": [
+        "节日庆祝",
+        "季节与西方节日"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "duixueren.webp",
+      "label": "堆雪人",
+      "category": [
+        "节日庆祝",
+        "季节与西方节日"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "menghua-xiaoyouling.webp",
+      "label": "萌化小幽灵",
+      "category": [
+        "节日庆祝",
+        "季节与西方节日"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "taotang-nanguadeng.webp",
+      "label": "讨糖南瓜灯",
+      "category": [
+        "节日庆祝",
+        "季节与西方节日"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "zhuangdian-shengdanshu.webp",
+      "label": "装点圣诞树",
+      "category": [
+        "节日庆祝",
+        "季节与西方节日"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "annoyed.webp",
+      "label": "点击回应-傲娇生气",
+      "category": [
+        "表情与移动",
+        "点击表情"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "wave.webp",
+      "label": "点击回应-元气挥手",
+      "category": [
+        "表情与移动",
+        "点击表情"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "shy.webp",
+      "label": "点击回应-害羞惊讶",
+      "category": [
+        "表情与移动",
+        "点击表情"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "happy.webp",
+      "label": "点击回应-开心跃动",
+      "category": [
+        "表情与移动",
+        "点击表情"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "dianji-huiying-naoyang-gegexiao.webp",
+      "label": "点击回应-挠痒咯咯笑",
+      "category": [
+        "表情与移动",
+        "点击表情"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "beixiayitiao-zhamao.webp",
+      "label": "被吓一跳",
+      "category": [
+        "表情与移动",
+        "点击表情"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "drag.webp",
+      "label": "被鼠标拖拽悬空反馈",
+      "category": [
+        "表情与移动",
+        "移动与肢体"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "walk.webp",
+      "label": "螃蟹走路",
+      "category": [
+        "表情与移动",
+        "移动与肢体"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "yuandi-zuozhuan-benpao.webp",
+      "label": "原地左转奔跑",
+      "category": [
+        "表情与移动",
+        "移动与肢体"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "yuandi-piaofu-tabu.webp",
+      "label": "原地漂浮踏步",
+      "category": [
+        "表情与移动",
+        "移动与肢体"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "yuandi-qiaoji-zhuomian-hudong.webp",
+      "label": "原地敲击桌面互动",
+      "category": [
+        "表情与移动",
+        "移动与肢体"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "yuandi-zhongli-xiadun-yasuo.webp",
+      "label": "原地重力下蹲压缩",
+      "category": [
+        "表情与移动",
+        "移动与肢体"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "xiaofudu-yuandi-360du-xuanzhuan-zhanshi.webp",
+      "label": "小幅度原地360度旋转展示",
+      "category": [
+        "表情与移动",
+        "移动与肢体"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "yong-jingyu-weiba-paidadi.webp",
+      "label": "用鲸鱼尾巴拍打地面",
+      "category": [
+        "表情与移动",
+        "移动与肢体"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "working.webp",
+      "label": "写代码",
+      "category": [
+        "工作学习"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "qingkuai-jilu.webp",
+      "label": "轻快记录",
+      "category": [
+        "工作学习"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "waiting.webp",
+      "label": "工作状态-原地踱步张望",
+      "category": [
+        "工作学习"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "error.webp",
+      "label": "工作状态-垂头叹气冒汗",
+      "category": [
+        "工作学习"
+      ],
+      "duration": 4917
+    },
+    {
+      "file": "busy.webp",
+      "label": "工作状态-忙碌点按",
+      "category": [
+        "工作学习"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "thinking.webp",
+      "label": "工作状态-思考冒泡",
+      "category": [
+        "工作学习"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "organizing.webp",
+      "label": "工作状态-清点归档",
+      "category": [
+        "工作学习"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "done.webp",
+      "label": "工作状态-雀跃庆祝",
+      "category": [
+        "工作学习"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "shia-chishenme.webp",
+      "label": "是啊，吃什么",
+      "category": [
+        "说话交流"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "shendu-sikao-suisuinian.webp",
+      "label": "深度思考碎碎念",
+      "category": [
+        "说话交流"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "suisuinian-fadai-suisuinian.webp",
+      "label": "碎碎念-发呆碎碎念",
+      "category": [
+        "说话交流"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "suisuinian-duiping-suisuinian.webp",
+      "label": "碎碎念-对屏碎碎念",
+      "category": [
+        "说话交流"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "suisuinian-cazhuo-suisuinian.webp",
+      "label": "碎碎念-擦桌碎碎念",
+      "category": [
+        "说话交流"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "qian-dai-man-yi.webp",
+      "label": "余额-钱袋满溢",
+      "category": [
+        "额度展示"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "jin-dai-ding-dang.webp",
+      "label": "余额-金袋叮当",
+      "category": [
+        "额度展示"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "qian-dai-ru-chang.webp",
+      "label": "余额-钱袋如常",
+      "category": [
+        "额度展示"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "shu-jin-zhou-mei.webp",
+      "label": "余额-数金皱眉",
+      "category": [
+        "额度展示"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "dai-kong-ru-xi.webp",
+      "label": "余额-袋空如洗",
+      "category": [
+        "额度展示"
+      ],
+      "duration": 10042
+    },
+    {
+      "file": "fen-wen-bu-sheng.webp",
+      "label": "余额-分文不剩",
+      "category": [
+        "额度展示"
+      ],
+      "duration": 10042
+    }
+  ],
+  "idleVisualOptions": [
+    {
+      "file": "idle.webp"
+    },
+    {
+      "file": "look-around.webp"
+    },
+    {
+      "file": "yawning.webp"
+    },
+    {
+      "file": "sleeping.webp"
+    },
+    {
+      "file": "nvpu-quxi-liyi.webp"
+    },
+    {
+      "file": "stretch.webp"
+    },
+    {
+      "file": "da-keshui-bei-jingxing.webp"
+    },
+    {
+      "file": "mirror.webp"
+    },
+    {
+      "file": "zhengti-huanzhuang-shise.webp"
+    },
+    {
+      "file": "chenjian-shuaya.webp"
+    },
+    {
+      "file": "fan.webp"
+    },
+    {
+      "file": "cube.webp"
+    },
+    {
+      "file": "toy-car.webp"
+    },
+    {
+      "file": "game.webp"
+    },
+    {
+      "file": "chou-tuoluo.webp"
+    },
+    {
+      "file": "juggling.webp"
+    },
+    {
+      "file": "xiawuziqi.webp"
+    },
+    {
+      "file": "qi-muma.webp"
+    },
+    {
+      "file": "ti-jianzi.webp"
+    },
+    {
+      "file": "balloon.webp"
+    },
+    {
+      "file": "gift.webp"
+    },
+    {
+      "file": "dongwu-huanrao.webp"
+    },
+    {
+      "file": "cat.webp"
+    },
+    {
+      "file": "wan-shuiqiang.webp"
+    },
+    {
+      "file": "fang-fengzheng.webp"
+    },
+    {
+      "file": "dangqiuqian.webp"
+    },
+    {
+      "file": "card-magic.webp"
+    },
+    {
+      "file": "bian-gezi.webp"
+    },
+    {
+      "file": "pingkong-shenghua.webp"
+    },
+    {
+      "file": "lanjing-xianshi.webp"
+    },
+    {
+      "file": "jingyu-tu-paopao-texiao.webp"
+    },
+    {
+      "file": "hudie-mifeng-huanrao-touding-kaihua.webp"
+    },
+    {
+      "file": "yuandi-tiaoyue-zhuasui-touding-wupin.webp"
+    },
+    {
+      "file": "humming.webp"
+    },
+    {
+      "file": "violin.webp"
+    },
+    {
+      "file": "flute.webp"
+    },
+    {
+      "file": "youya-nvpuwu.webp"
+    },
+    {
+      "file": "qingkuai-yaobaiwu.webp"
+    },
+    {
+      "file": "dance.webp"
+    },
+    {
+      "file": "chi-baifan.webp"
+    },
+    {
+      "file": "chi-zaocan.webp"
+    },
+    {
+      "file": "chi-wucan.webp"
+    },
+    {
+      "file": "chi-wancan.webp"
+    },
+    {
+      "file": "hotpot.webp"
+    },
+    {
+      "file": "chi-changshoumian.webp"
+    },
+    {
+      "file": "snack.webp"
+    },
+    {
+      "file": "touchi-lingshi-bei-zhuazhu.webp"
+    },
+    {
+      "file": "chi-token.webp"
+    },
+    {
+      "file": "ice-cream.webp"
+    },
+    {
+      "file": "chi-dazhaxie.webp"
+    },
+    {
+      "file": "chi-tanghulu.webp"
+    },
+    {
+      "file": "watermelon.webp"
+    },
+    {
+      "file": "xie-fuzi.webp"
+    },
+    {
+      "file": "shou-hongbao.webp"
+    },
+    {
+      "file": "wu-shitou.webp"
+    },
+    {
+      "file": "fang-yanhua.webp"
+    },
+    {
+      "file": "chijiaozi.webp"
+    },
+    {
+      "file": "chi-niangao.webp"
+    },
+    {
+      "file": "chitangyuan.webp"
+    },
+    {
+      "file": "zhongqiu-shangyue-chi-yuebing.webp"
+    },
+    {
+      "file": "chi-zongzi.webp"
+    },
+    {
+      "file": "chi-qingtuan.webp"
+    },
+    {
+      "file": "chi-labazhou.webp"
+    },
+    {
+      "file": "chi-chongyanggao.webp"
+    },
+    {
+      "file": "chuanzhenqiqiao.webp"
+    },
+    {
+      "file": "cha-zhuyu-shangju.webp"
+    },
+    {
+      "file": "fanghedeng.webp"
+    },
+    {
+      "file": "fang-kongmingdeng.webp"
+    },
+    {
+      "file": "beiluoye-yanmo.webp"
+    },
+    {
+      "file": "duixueren.webp"
+    },
+    {
+      "file": "menghua-xiaoyouling.webp"
+    },
+    {
+      "file": "taotang-nanguadeng.webp"
+    },
+    {
+      "file": "zhuangdian-shengdanshu.webp"
+    },
+    {
+      "file": "annoyed.webp"
+    },
+    {
+      "file": "wave.webp"
+    },
+    {
+      "file": "shy.webp"
+    },
+    {
+      "file": "happy.webp"
+    },
+    {
+      "file": "dianji-huiying-naoyang-gegexiao.webp"
+    },
+    {
+      "file": "beixiayitiao-zhamao.webp"
+    },
+    {
+      "file": "drag.webp"
+    },
+    {
+      "file": "walk.webp"
+    },
+    {
+      "file": "yuandi-zuozhuan-benpao.webp"
+    },
+    {
+      "file": "yuandi-piaofu-tabu.webp"
+    },
+    {
+      "file": "yuandi-qiaoji-zhuomian-hudong.webp"
+    },
+    {
+      "file": "yuandi-zhongli-xiadun-yasuo.webp"
+    },
+    {
+      "file": "xiaofudu-yuandi-360du-xuanzhuan-zhanshi.webp"
+    },
+    {
+      "file": "yong-jingyu-weiba-paidadi.webp"
+    },
+    {
+      "file": "working.webp"
+    },
+    {
+      "file": "qingkuai-jilu.webp"
+    },
+    {
+      "file": "waiting.webp"
+    },
+    {
+      "file": "error.webp"
+    },
+    {
+      "file": "busy.webp"
+    },
+    {
+      "file": "thinking.webp"
+    },
+    {
+      "file": "organizing.webp"
+    },
+    {
+      "file": "done.webp"
+    },
+    {
+      "file": "shia-chishenme.webp"
+    },
+    {
+      "file": "shendu-sikao-suisuinian.webp"
+    },
+    {
+      "file": "suisuinian-fadai-suisuinian.webp"
+    },
+    {
+      "file": "suisuinian-duiping-suisuinian.webp"
+    },
+    {
+      "file": "suisuinian-cazhuo-suisuinian.webp"
+    },
+    {
+      "file": "qian-dai-man-yi.webp"
+    },
+    {
+      "file": "jin-dai-ding-dang.webp"
+    },
+    {
+      "file": "qian-dai-ru-chang.webp"
+    },
+    {
+      "file": "shu-jin-zhou-mei.webp"
+    },
+    {
+      "file": "dai-kong-ru-xi.webp"
+    },
+    {
+      "file": "fen-wen-bu-sheng.webp"
+    }
+  ],
+  "hitBoxes": {
+    "default": {
+      "x": 118,
+      "y": 0,
+      "w": 237,
+      "h": 270
+    }
+  },
+  "reactions": {
+    "drag": {
+      "file": "drag.webp"
+    },
+    "clickLeft": {
+      "file": "wave.webp",
+      "duration": 10042
+    },
+    "clickRight": {
+      "file": "shy.webp",
+      "duration": 10042
+    },
+    "annoyed": {
+      "file": "annoyed.webp",
+      "duration": 10042
+    },
+    "double": {
+      "files": [
+        "happy.webp"
+      ],
+      "duration": 10042
+    }
+  },
+  "miniMode": {
+    "supported": false
+  },
+  "autoIdleCategoryWeights": {
+    "日常生活": 30,
+    "玩耍互动": 25,
+    "音乐舞蹈": 15,
+    "吃喝美食": 20,
+    "节日庆祝": 10
+  },
+  "infoBubbles": true
+}

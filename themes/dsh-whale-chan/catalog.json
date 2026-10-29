@@ -1,0 +1,1243 @@
+{
+  "repository": "https://github.com/PC2005-cloud/dsh-pet",
+  "revision": "71ed01b2010f1a55a4442763d70bcb79d5fadd68",
+  "previewDirectory": "dsh-pet/assets/preview",
+  "assets": [
+    {
+      "id": "idle",
+      "label": "待机呼吸休闲",
+      "category": [
+        "日常生活"
+      ],
+      "source": "待机呼吸休闲.webm",
+      "sourceGitBlobSha": "fd64a428a2be1d3b4ff6cd7f9867dfe978ba0bbb",
+      "preview": "daiji-huxi-xiuxian.gif",
+      "previewGitBlobSha": "f6fb7cca1bd6e32f80174ce7679fc5ae5554bc2f"
+    },
+    {
+      "id": "look-around",
+      "label": "东张西望",
+      "category": [
+        "日常生活"
+      ],
+      "source": "东张西望.webm",
+      "sourceGitBlobSha": "3ba4edb2cc647c51edd41b5a6c71eeee8c418ed0",
+      "preview": "dongzhangxiwang.gif",
+      "previewGitBlobSha": "8dad2f125e515a9a745167287dddaddb584ad554"
+    },
+    {
+      "id": "yawning",
+      "label": "哈欠连天",
+      "category": [
+        "日常生活"
+      ],
+      "source": "哈欠连天.webm",
+      "sourceGitBlobSha": "63da356fa373ecf6256bc8f4deb9709577e2f18e",
+      "preview": "haqian-liantian.gif",
+      "previewGitBlobSha": "eed5f69f89eadb6a1d3003fe8031658d86a5c691"
+    },
+    {
+      "id": "sleeping",
+      "label": "原地小憩沉眠",
+      "category": [
+        "日常生活"
+      ],
+      "source": "原地小憩沉眠.webm",
+      "sourceGitBlobSha": "9b258545a841647a11ffdc5882ad8b2bb808a343",
+      "preview": "yuandi-xiaoqi-chenmian.gif",
+      "previewGitBlobSha": "07a66d90998ea5ae79f90b5e5f809adaad65e1e7"
+    },
+    {
+      "id": "nvpu-quxi-liyi",
+      "label": "女仆屈膝礼仪",
+      "category": [
+        "日常生活"
+      ],
+      "source": "女仆屈膝礼仪.webm",
+      "sourceGitBlobSha": "0bcac6ada85e78527fcce020db73bf0b6eff41d3",
+      "preview": "nvpu-quxi-liyi.gif",
+      "previewGitBlobSha": "170843899c3c35123fe18b6d62cc7ed74a29ca6c"
+    },
+    {
+      "id": "stretch",
+      "label": "超大伸懒腰",
+      "category": [
+        "日常生活"
+      ],
+      "source": "超大伸懒腰.webm",
+      "sourceGitBlobSha": "689e04f120f9f678a9424dac6cadf4b6a0bd6e6b",
+      "preview": "chaoda-shenlanyao.gif",
+      "previewGitBlobSha": "b47ebcb730e1ce906787c558823890d45bbdbf10"
+    },
+    {
+      "id": "da-keshui-bei-jingxing",
+      "label": "打瞌睡被惊醒",
+      "category": [
+        "日常生活"
+      ],
+      "source": "打瞌睡被惊醒.webm",
+      "sourceGitBlobSha": "e5c5759895274e1f7c4017dce9c9c51beec44e51",
+      "preview": "da-keshui-bei-jingxing.gif",
+      "previewGitBlobSha": "97264491fde2dd1993cf242f9f8da6ec351616c1"
+    },
+    {
+      "id": "mirror",
+      "label": "照镜子",
+      "category": [
+        "日常生活"
+      ],
+      "source": "照镜子.webm",
+      "sourceGitBlobSha": "f9ead4a5e1ab6cb702bd349794264f398f470867",
+      "preview": "zhao-jingzi.gif",
+      "previewGitBlobSha": "1bde220f1cae917fe4dbcfcc4256c6b54e79e144"
+    },
+    {
+      "id": "zhengti-huanzhuang-shise",
+      "label": "整体换装试色",
+      "category": [
+        "日常生活"
+      ],
+      "source": "整体换装试色.webm",
+      "sourceGitBlobSha": "abd198a8d1e4e67f09d86e4a5bdc99859e61098e",
+      "preview": "zhengti-huanzhuang-shise.gif",
+      "previewGitBlobSha": "4b903dd61cf65f1f168fb6618725ab92ac450375"
+    },
+    {
+      "id": "chenjian-shuaya",
+      "label": "晨间刷牙",
+      "category": [
+        "日常生活"
+      ],
+      "source": "晨间刷牙.webm",
+      "sourceGitBlobSha": "66581dbd88c72bcba960d551b9cdcb0239da7d2f",
+      "preview": "chenjian-shuaya.gif",
+      "previewGitBlobSha": "319cf45d0fdfe051374bca52a1431740fc144c94"
+    },
+    {
+      "id": "fan",
+      "label": "摇扇纳凉",
+      "category": [
+        "日常生活"
+      ],
+      "source": "摇扇纳凉.webm",
+      "sourceGitBlobSha": "bbb9b8344e6c30579c967a27831ad85f19db1002",
+      "preview": "yaoshan-naliang.gif",
+      "previewGitBlobSha": "5d698b43516b9fbe46f415438598c921bab2f08b"
+    },
+    {
+      "id": "cube",
+      "label": "原地专心玩魔方",
+      "category": [
+        "玩耍互动",
+        "玩具游戏"
+      ],
+      "source": "原地专心玩魔方.webm",
+      "sourceGitBlobSha": "d2730f4c17e8ccb793973929c237b4fb32d8e3fc",
+      "preview": "yuandi-zhuanxin-wan-mofang.gif",
+      "previewGitBlobSha": "9db5d701fd94264a5cbaddd07a76370ecd3eefcf"
+    },
+    {
+      "id": "toy-car",
+      "label": "原地蹲下玩玩具汽车",
+      "category": [
+        "玩耍互动",
+        "玩具游戏"
+      ],
+      "source": "原地蹲下玩玩具汽车.webm",
+      "sourceGitBlobSha": "9a4ba01b33e6fba841a99ebf55631433651cdcd3",
+      "preview": "yuandi-dunxia-wan-wanju-qiche.gif",
+      "previewGitBlobSha": "0ce137e4e5d0c8421ac769045753b925834008dd"
+    },
+    {
+      "id": "game",
+      "label": "玩游戏气急败坏",
+      "category": [
+        "玩耍互动",
+        "玩具游戏"
+      ],
+      "source": "玩游戏气急败坏.webm",
+      "sourceGitBlobSha": "a3375c2980634529e84ba2ee61a57776ea8205e9",
+      "preview": "wan-youxi-qijibaituai.gif",
+      "previewGitBlobSha": "a24239cc4e37662d54a148920d6b88d3b26bfad1"
+    },
+    {
+      "id": "chou-tuoluo",
+      "label": "抽陀螺",
+      "category": [
+        "玩耍互动",
+        "玩具游戏"
+      ],
+      "source": "抽陀螺.webm",
+      "sourceGitBlobSha": "1a0cd6a9447c3a36b068fb9db46fd56447520a73",
+      "preview": "chou-tuoluo.gif",
+      "previewGitBlobSha": "1ca7394968873f7919997c6ed6e0254ce4f26d82"
+    },
+    {
+      "id": "juggling",
+      "label": "三球抛接",
+      "category": [
+        "玩耍互动",
+        "玩具游戏"
+      ],
+      "source": "三球抛接.webm",
+      "sourceGitBlobSha": "a76228cb5f42fa159e3ec565b8ef969a7d289dca",
+      "preview": "sanqiu-paojie.gif",
+      "previewGitBlobSha": "17dcb3d13c85184c61f4dbeb0f5772dfadb69956"
+    },
+    {
+      "id": "xiawuziqi",
+      "label": "下五子棋",
+      "category": [
+        "玩耍互动",
+        "玩具游戏"
+      ],
+      "source": "下五子棋.webm",
+      "sourceGitBlobSha": "63295b32e6a0522dac3840abb74a5af7b1431a08",
+      "preview": "xiawuziqi.gif",
+      "previewGitBlobSha": "3225be44ba0dd1336373833ab65463d6dfe4bb02"
+    },
+    {
+      "id": "qi-muma",
+      "label": "骑木马",
+      "category": [
+        "玩耍互动",
+        "玩具游戏"
+      ],
+      "source": "骑木马.webm",
+      "sourceGitBlobSha": "b578f4c951a11c3fe97bdbd609315d3e72fe6827",
+      "preview": "qi-muma.gif",
+      "previewGitBlobSha": "518416887f41c5cc84533dbef7c3ac016fc4d760"
+    },
+    {
+      "id": "ti-jianzi",
+      "label": "踢毽子",
+      "category": [
+        "玩耍互动",
+        "玩具游戏"
+      ],
+      "source": "踢毽子.webm",
+      "sourceGitBlobSha": "1a0586564e58e6a60e4f151d2bf161e975673e30",
+      "preview": "ti-jianzi.gif",
+      "previewGitBlobSha": "7c2fd787c47ac532b22c418a173551a6ff94a896"
+    },
+    {
+      "id": "balloon",
+      "label": "吹气球",
+      "category": [
+        "玩耍互动",
+        "玩具游戏"
+      ],
+      "source": "吹气球.webm",
+      "sourceGitBlobSha": "3a632cd91c409ed1b889f0313ae1394113c0d7c0",
+      "preview": "chui-qiqiu.gif",
+      "previewGitBlobSha": "3392c9784a165affd7d3a25769b61507f7123c05"
+    },
+    {
+      "id": "gift",
+      "label": "拆礼物",
+      "category": [
+        "玩耍互动",
+        "玩具游戏"
+      ],
+      "source": "拆礼物.webm",
+      "sourceGitBlobSha": "01445f708db3e19b707e6d1609902dd4da9c0ade",
+      "preview": "chai-liwu.gif",
+      "previewGitBlobSha": "de7d76b64a1e120f06816cfba55f46d7d12fbeee"
+    },
+    {
+      "id": "dongwu-huanrao",
+      "label": "动物环绕",
+      "category": [
+        "玩耍互动",
+        "动物与户外"
+      ],
+      "source": "动物环绕.webm",
+      "sourceGitBlobSha": "44722e0afb7ef4c1cd85c5c98eadd9b4ade2fea9",
+      "preview": "dongwu-huanrao.gif",
+      "previewGitBlobSha": "d5c7a39dc0fc0b1e776a4477e41b45b315cb0fcf"
+    },
+    {
+      "id": "cat",
+      "label": "撸猫",
+      "category": [
+        "玩耍互动",
+        "动物与户外"
+      ],
+      "source": "撸猫.webm",
+      "sourceGitBlobSha": "466044675ea20b863db850373aab8a6c2b7c11a8",
+      "preview": "lu-mao.gif",
+      "previewGitBlobSha": "903641e4e1f2c34cd01bd737ca9627c58bbf3e96"
+    },
+    {
+      "id": "wan-shuiqiang",
+      "label": "玩水枪",
+      "category": [
+        "玩耍互动",
+        "动物与户外"
+      ],
+      "source": "玩水枪.webm",
+      "sourceGitBlobSha": "70cabac39a03ab1738540fdb9a9581ae523de463",
+      "preview": "wan-shuiqiang.gif",
+      "previewGitBlobSha": "5ff73ee4ae035c31b8900dae7c436c48ab6b946f"
+    },
+    {
+      "id": "fang-fengzheng",
+      "label": "放风筝",
+      "category": [
+        "玩耍互动",
+        "动物与户外"
+      ],
+      "source": "放风筝.webm",
+      "sourceGitBlobSha": "000eba2f49a11beb21aa63ddc64c4d1522afa27e",
+      "preview": "fang-fengzheng.gif",
+      "previewGitBlobSha": "375425febc798ec8aaf841cf141ffaf68894ce5f"
+    },
+    {
+      "id": "dangqiuqian",
+      "label": "荡秋千",
+      "category": [
+        "玩耍互动",
+        "动物与户外"
+      ],
+      "source": "荡秋千.webm",
+      "sourceGitBlobSha": "41c61429405139344b13875135468edb25b6f28e",
+      "preview": "dangqiuqian.gif",
+      "previewGitBlobSha": "b4e856ece2a5655f3cfc6b3beaac3aa6f8a3ac26"
+    },
+    {
+      "id": "card-magic",
+      "label": "扑克魔术",
+      "category": [
+        "玩耍互动",
+        "魔术与特效"
+      ],
+      "source": "扑克魔术.webm",
+      "sourceGitBlobSha": "2e33efead726dff587fa0ca46adef5ecb5d0b7c9",
+      "preview": "puke-moshu.gif",
+      "previewGitBlobSha": "82d6fa242045ba8d5e6f39480c5d15c3282ab1a1"
+    },
+    {
+      "id": "bian-gezi",
+      "label": "变鸽子",
+      "category": [
+        "玩耍互动",
+        "魔术与特效"
+      ],
+      "source": "变鸽子.webm",
+      "sourceGitBlobSha": "150abd9011b3c9fec7229fa2b30418958040a7ad",
+      "preview": "bian-gezi.gif",
+      "previewGitBlobSha": "4b4547822afaf08473f558f0e5384fd1fbd6487a"
+    },
+    {
+      "id": "pingkong-shenghua",
+      "label": "凭空生花",
+      "category": [
+        "玩耍互动",
+        "魔术与特效"
+      ],
+      "source": "凭空生花.webm",
+      "sourceGitBlobSha": "085fe6d74ddfc268670be32b7c3f78c6806b68f1",
+      "preview": "pingkong-shenghua.gif",
+      "previewGitBlobSha": "7c8b1caf067a22cf8350ea0d4467631e64d4a85d"
+    },
+    {
+      "id": "lanjing-xianshi",
+      "label": "蓝鲸现世",
+      "category": [
+        "玩耍互动",
+        "魔术与特效"
+      ],
+      "source": "蓝鲸现世.webm",
+      "sourceGitBlobSha": "eb62a155d056d35a16b1d4e961d5ff10c109f684",
+      "preview": "lanjing-xianshi.gif",
+      "previewGitBlobSha": "bf6e789610b63e51e740c73b12295b0bf14b155d"
+    },
+    {
+      "id": "jingyu-tu-paopao-texiao",
+      "label": "鲸鱼吐泡泡特效",
+      "category": [
+        "玩耍互动",
+        "魔术与特效"
+      ],
+      "source": "鲸鱼吐泡泡特效.webm",
+      "sourceGitBlobSha": "4848e28f2c4fde323025a03a7980b75f1c56f98e",
+      "preview": "jingyu-tu-paopao-texiao.gif",
+      "previewGitBlobSha": "0c9ad80dfa6ce536689010f50a047f2ea582156d"
+    },
+    {
+      "id": "hudie-mifeng-huanrao-touding-kaihua",
+      "label": "蝴蝶蜜蜂环绕头顶开花",
+      "category": [
+        "玩耍互动",
+        "魔术与特效"
+      ],
+      "source": "蝴蝶蜜蜂环绕头顶开花.webm",
+      "sourceGitBlobSha": "6f39bb90fd8349d5f23d0912a4bc01c2c06470f2",
+      "preview": "hudie-mifeng-huanrao-touding-kaihua.gif",
+      "previewGitBlobSha": "b465a1830a63fd5473c78652f730b28d4efd7e2e"
+    },
+    {
+      "id": "yuandi-tiaoyue-zhuasui-touding-wupin",
+      "label": "原地跳跃抓碎头顶物品",
+      "category": [
+        "玩耍互动",
+        "魔术与特效"
+      ],
+      "source": "原地跳跃抓碎头顶物品.webm",
+      "sourceGitBlobSha": "b45cdcb57340f12fff1b40ea9391bdd1d3c2845a",
+      "preview": "yuandi-tiaoyue-zhuasui-touding-wupin.gif",
+      "previewGitBlobSha": "85109278c416f8b66404ca1ea90b0101bac3fdb0"
+    },
+    {
+      "id": "humming",
+      "label": "悠闲哼歌",
+      "category": [
+        "音乐舞蹈"
+      ],
+      "source": "悠闲哼歌.webm",
+      "sourceGitBlobSha": "01bd5c202583ef634de424904e76f2906f7289d3",
+      "preview": "youxian-hengga.gif",
+      "previewGitBlobSha": "8d218a18962a36bde4e774212085051472d27142"
+    },
+    {
+      "id": "violin",
+      "label": "小提琴演奏",
+      "category": [
+        "音乐舞蹈"
+      ],
+      "source": "小提琴演奏.webm",
+      "sourceGitBlobSha": "2de1533cd0f2d7a72e0099f9ac6f816353f3912f",
+      "preview": "xiaotiqin-yanzou.gif",
+      "previewGitBlobSha": "743cd821bf9ff2d2d1cafd8f93b65ff0474c4a53"
+    },
+    {
+      "id": "flute",
+      "label": "吹笛子",
+      "category": [
+        "音乐舞蹈"
+      ],
+      "source": "吹笛子.webm",
+      "sourceGitBlobSha": "fd57f820116b72c35e7b50ee3cdb5c20e775062b",
+      "preview": "chui-dizi.gif",
+      "previewGitBlobSha": "11f53ced7ef7dbb59ede474eb75070ddc6cfdb61"
+    },
+    {
+      "id": "youya-nvpuwu",
+      "label": "优雅女仆舞",
+      "category": [
+        "音乐舞蹈"
+      ],
+      "source": "优雅女仆舞.webm",
+      "sourceGitBlobSha": "390c504dfb0b56bb647f0253782a91ee705f8933",
+      "preview": "youya-nvpuwu.gif",
+      "previewGitBlobSha": "d3502f2d4069c460e2810f1d63b9731659d53dca"
+    },
+    {
+      "id": "qingkuai-yaobaiwu",
+      "label": "轻快摇摆舞",
+      "category": [
+        "音乐舞蹈"
+      ],
+      "source": "轻快摇摆舞.webm",
+      "sourceGitBlobSha": "596558b14cacee0d96f5e9d3942fd5731be49718",
+      "preview": "qingkuai-yaobaiwu.gif",
+      "previewGitBlobSha": "a26da12212eb22f1da2ef89759e56125b4510319"
+    },
+    {
+      "id": "dance",
+      "label": "可爱宅舞",
+      "category": [
+        "音乐舞蹈"
+      ],
+      "source": "可爱宅舞.webm",
+      "sourceGitBlobSha": "0b96ac0de6fa7afe72f256148dd719698769043c",
+      "preview": "keai-zhaiwu.gif",
+      "previewGitBlobSha": "2bd7a42a7f168cc7300e8ef098c1b177a42b52ed"
+    },
+    {
+      "id": "chi-baifan",
+      "label": "吃白饭",
+      "category": [
+        "吃喝美食",
+        "三餐主食"
+      ],
+      "source": "吃白饭.webm",
+      "sourceGitBlobSha": "0f400023c2f036e6edc28033083d49f68686d347",
+      "preview": "chi-baifan.gif",
+      "previewGitBlobSha": "ad2bde6883e6667db72c803e9271bc9dca45abfb"
+    },
+    {
+      "id": "chi-zaocan",
+      "label": "吃早餐",
+      "category": [
+        "吃喝美食",
+        "三餐主食"
+      ],
+      "source": "吃早餐.webm",
+      "sourceGitBlobSha": "6691dc43900e3f906b6576cc6eb7e0f23b0e2702",
+      "preview": "chi-zaocan.gif",
+      "previewGitBlobSha": "a6f6a92f132b8418717a2cb5251c73d5776527a4"
+    },
+    {
+      "id": "chi-wucan",
+      "label": "吃午餐",
+      "category": [
+        "吃喝美食",
+        "三餐主食"
+      ],
+      "source": "吃午餐.webm",
+      "sourceGitBlobSha": "83618038d3d4fe98b9f42d0fd7ae1b7a24f686b3",
+      "preview": "chi-wucan.gif",
+      "previewGitBlobSha": "b6bbf3111e86e9a76b8d9af720a103aa4cf935f6"
+    },
+    {
+      "id": "chi-wancan",
+      "label": "吃晚餐",
+      "category": [
+        "吃喝美食",
+        "三餐主食"
+      ],
+      "source": "吃晚餐.webm",
+      "sourceGitBlobSha": "14f9eee2a361a592fd55c95979f5810b7b8dcd03",
+      "preview": "chi-wancan.gif",
+      "previewGitBlobSha": "66a0a520fe9e17fee0572a8febe7696e5a6155a6"
+    },
+    {
+      "id": "hotpot",
+      "label": "涮火锅",
+      "category": [
+        "吃喝美食",
+        "三餐主食"
+      ],
+      "source": "涮火锅.webm",
+      "sourceGitBlobSha": "d3e99cf6d8694b5e83a3957793f8fc7a0fc2cc2a",
+      "preview": "shuan-huoguo.gif",
+      "previewGitBlobSha": "f0d33f3aa8e4ae6b2735daa0213c0ea595adcc2b"
+    },
+    {
+      "id": "chi-changshoumian",
+      "label": "吃长寿面",
+      "category": [
+        "吃喝美食",
+        "三餐主食"
+      ],
+      "source": "吃长寿面.webm",
+      "sourceGitBlobSha": "ac71008a07686f858627e7f7f69e77448941bb97",
+      "preview": "chi-changshoumian.gif",
+      "previewGitBlobSha": "03b83daca2442e7155718897cb21dc2bf57a6bc5"
+    },
+    {
+      "id": "snack",
+      "label": "大口吃零食",
+      "category": [
+        "吃喝美食",
+        "零食水果"
+      ],
+      "source": "大口吃零食.webm",
+      "sourceGitBlobSha": "ab57e48e28d0e0fb832549e1b546bed28f2eb3df",
+      "preview": "dakou-chi-lingshi.gif",
+      "previewGitBlobSha": "0a431bee8ce903c6fa1c7e168e58f77bc05940ed"
+    },
+    {
+      "id": "touchi-lingshi-bei-zhuazhu",
+      "label": "偷吃零食被抓住",
+      "category": [
+        "吃喝美食",
+        "零食水果"
+      ],
+      "source": "偷吃零食被抓住.webm",
+      "sourceGitBlobSha": "9f50ed6c3ba1a3f96b614e34ecaaf067ef6ab9cd",
+      "preview": "touchi-lingshi-bei-zhuazhu.gif",
+      "previewGitBlobSha": "f807dc47ab546c8528ccf305e05e8e2707f447a1"
+    },
+    {
+      "id": "chi-token",
+      "label": "吃Token",
+      "category": [
+        "吃喝美食",
+        "零食水果"
+      ],
+      "source": "吃Token.webm",
+      "sourceGitBlobSha": "619722b50ea75fcb3c18b3de5d996ce4e87a7893",
+      "preview": "chi-token.gif",
+      "previewGitBlobSha": "2e0c05713e5ee1562699f93bed2badf9e9a6a8cc"
+    },
+    {
+      "id": "ice-cream",
+      "label": "吃冰淇淋融化",
+      "category": [
+        "吃喝美食",
+        "零食水果"
+      ],
+      "source": "吃冰淇淋融化.webm",
+      "sourceGitBlobSha": "c696cf2f61366cd9ba973aae1526dbf920c3d85d",
+      "preview": "chi-bingqilin-ronghua.gif",
+      "previewGitBlobSha": "12035fbb533612da7305585b6eaea6b5233dfa9b"
+    },
+    {
+      "id": "chi-dazhaxie",
+      "label": "吃大闸蟹",
+      "category": [
+        "吃喝美食",
+        "零食水果"
+      ],
+      "source": "吃大闸蟹.webm",
+      "sourceGitBlobSha": "f8e0774d6b4b38f27adfecdfc591dd40812f5e38",
+      "preview": "chi-dazhaxie.gif",
+      "previewGitBlobSha": "db14d3975c0cac414b979f7421c48b884ef52da7"
+    },
+    {
+      "id": "chi-tanghulu",
+      "label": "吃糖葫芦",
+      "category": [
+        "吃喝美食",
+        "零食水果"
+      ],
+      "source": "吃糖葫芦.webm",
+      "sourceGitBlobSha": "def3fa70022f6b728f0d0b3ebbfcff601c406c57",
+      "preview": "chi-tanghulu.gif",
+      "previewGitBlobSha": "7576ade5e1c040f813aa41e2d668ae6d3661103d"
+    },
+    {
+      "id": "watermelon",
+      "label": "吃西瓜",
+      "category": [
+        "吃喝美食",
+        "零食水果"
+      ],
+      "source": "吃西瓜.webm",
+      "sourceGitBlobSha": "ffa2c36e86e9056a7e965c73364a50c1fd8bb192",
+      "preview": "chi-xigua.gif",
+      "previewGitBlobSha": "bb5eacee835959f980666e923f178499484de3d5"
+    },
+    {
+      "id": "xie-fuzi",
+      "label": "写福字",
+      "category": [
+        "节日庆祝",
+        "春节元宵"
+      ],
+      "source": "写福字.webm",
+      "sourceGitBlobSha": "b7aa9ce458b6e8d1c9513b5e4b059a07ca143f88",
+      "preview": "xie-fuzi.gif",
+      "previewGitBlobSha": "11bec1d5e023ce905d1dcbac30d1abf33da38657"
+    },
+    {
+      "id": "shou-hongbao",
+      "label": "收红包",
+      "category": [
+        "节日庆祝",
+        "春节元宵"
+      ],
+      "source": "收红包.webm",
+      "sourceGitBlobSha": "ca07f8792572e3b182b2077b768fbcf9ece4ee91",
+      "preview": "shou-hongbao.gif",
+      "previewGitBlobSha": "b151a43b3137bbda5246d947b2a075cf53b40378"
+    },
+    {
+      "id": "wu-shitou",
+      "label": "舞狮头",
+      "category": [
+        "节日庆祝",
+        "春节元宵"
+      ],
+      "source": "舞狮头.webm",
+      "sourceGitBlobSha": "b16d549ec2572f5d693bdc7691e3247544ccb88e",
+      "preview": "wu-shitou.gif",
+      "previewGitBlobSha": "e922d30c65309268305849cdbb901b091353626a"
+    },
+    {
+      "id": "fang-yanhua",
+      "label": "放烟花",
+      "category": [
+        "节日庆祝",
+        "春节元宵"
+      ],
+      "source": "放烟花.webm",
+      "sourceGitBlobSha": "3a1bcd38b00b170b619e42b76ab8c9ea9225903a",
+      "preview": "fang-yanhua.gif",
+      "previewGitBlobSha": "b389afc584c403d12a9b021a19f2b6da3b12a627"
+    },
+    {
+      "id": "chijiaozi",
+      "label": "吃饺子",
+      "category": [
+        "节日庆祝",
+        "春节元宵"
+      ],
+      "source": "吃饺子.webm",
+      "sourceGitBlobSha": "2dee24954bae172a20ef1e0d44b34d7105872851",
+      "preview": "chijiaozi.gif",
+      "previewGitBlobSha": "91846b420f21e223ce9b0f2180310c094a5727c7"
+    },
+    {
+      "id": "chi-niangao",
+      "label": "吃年糕",
+      "category": [
+        "节日庆祝",
+        "春节元宵"
+      ],
+      "source": "吃年糕.webm",
+      "sourceGitBlobSha": "7b4473435dfa219428f5bb2e1dbf34fe83b59190",
+      "preview": "chi-niangao.gif",
+      "previewGitBlobSha": "6dc0ab0d6fe3a3b55368a0d363090c8ec29b0101"
+    },
+    {
+      "id": "chitangyuan",
+      "label": "吃汤圆",
+      "category": [
+        "节日庆祝",
+        "春节元宵"
+      ],
+      "source": "吃汤圆.webm",
+      "sourceGitBlobSha": "eac65950006cf0814e6e4f1ebe1c73b9e36a8791",
+      "preview": "chitangyuan.gif",
+      "previewGitBlobSha": "08d8c000e9ca9643954df0f1b9d5011241b90be2"
+    },
+    {
+      "id": "zhongqiu-shangyue-chi-yuebing",
+      "label": "中秋赏月吃月饼",
+      "category": [
+        "节日庆祝",
+        "其他传统节日"
+      ],
+      "source": "中秋赏月吃月饼.webm",
+      "sourceGitBlobSha": "48beff57ddc5b3c7e1c0387348e33ce8e3a5b819",
+      "preview": "zhongqiu-shangyue-chi-yuebing.gif",
+      "previewGitBlobSha": "d77dc603c0bfdb62b0aa1151f53409f2148f72cb"
+    },
+    {
+      "id": "chi-zongzi",
+      "label": "吃粽子",
+      "category": [
+        "节日庆祝",
+        "其他传统节日"
+      ],
+      "source": "吃粽子.webm",
+      "sourceGitBlobSha": "6ad057c473cbaf209de8d4ec91781d9bc759cda9",
+      "preview": "chi-zongzi.gif",
+      "previewGitBlobSha": "0dc10ded49a1c05f2bbb816c652493411fe6306d"
+    },
+    {
+      "id": "chi-qingtuan",
+      "label": "吃青团",
+      "category": [
+        "节日庆祝",
+        "其他传统节日"
+      ],
+      "source": "吃青团.webm",
+      "sourceGitBlobSha": "00031236d476501f71b3f03f978a4b79952e5097",
+      "preview": "chi-qingtuan.gif",
+      "previewGitBlobSha": "e20d8403d5adccb4639700e4a23c5e5471ce0559"
+    },
+    {
+      "id": "chi-labazhou",
+      "label": "吃腊八粥",
+      "category": [
+        "节日庆祝",
+        "其他传统节日"
+      ],
+      "source": "吃腊八粥.webm",
+      "sourceGitBlobSha": "c20156c0de0863832d7bc10fb65153559de388be",
+      "preview": "chi-labazhou.gif",
+      "previewGitBlobSha": "5e547091a96687376d1deefe10fb3325c46e4c4b"
+    },
+    {
+      "id": "chi-chongyanggao",
+      "label": "吃重阳糕",
+      "category": [
+        "节日庆祝",
+        "其他传统节日"
+      ],
+      "source": "吃重阳糕.webm",
+      "sourceGitBlobSha": "cc54c1f82bb5c4b8e366fba6433b6534bedcf4fc",
+      "preview": "chi-chongyanggao.gif",
+      "previewGitBlobSha": "218df8b72cec91ddad18e2d9b8dda34282f00aab"
+    },
+    {
+      "id": "chuanzhenqiqiao",
+      "label": "穿针乞巧",
+      "category": [
+        "节日庆祝",
+        "其他传统节日"
+      ],
+      "source": "穿针乞巧.webm",
+      "sourceGitBlobSha": "f78881f4e996d5160ce4910ed06646b5b9d5bd60",
+      "preview": "chuanzhenqiqiao.gif",
+      "previewGitBlobSha": "ed7c4de77c9872bdf34c48d4a5b3d1122e062c9a"
+    },
+    {
+      "id": "cha-zhuyu-shangju",
+      "label": "插茱萸赏菊",
+      "category": [
+        "节日庆祝",
+        "其他传统节日"
+      ],
+      "source": "插茱萸赏菊.webm",
+      "sourceGitBlobSha": "7e2976e00317dfd681279890ab48f3a68ceb03f9",
+      "preview": "cha-zhuyu-shangju.gif",
+      "previewGitBlobSha": "2a6f786b18ac27f5c317374bb7e55527d9a76891"
+    },
+    {
+      "id": "fanghedeng",
+      "label": "放河灯",
+      "category": [
+        "节日庆祝",
+        "其他传统节日"
+      ],
+      "source": "放河灯.webm",
+      "sourceGitBlobSha": "2827fd308393a036201bc85dca0a9b2cc9f3ee13",
+      "preview": "fanghedeng.gif",
+      "previewGitBlobSha": "90206540737ebf84fc23bf58badbb8a747b0bce7"
+    },
+    {
+      "id": "fang-kongmingdeng",
+      "label": "放孔明灯",
+      "category": [
+        "节日庆祝",
+        "其他传统节日"
+      ],
+      "source": "放孔明灯.webm",
+      "sourceGitBlobSha": "ca554c0df5fb9cd2f35ad9eb54957b9e1dfcd2cf",
+      "preview": "fang-kongmingdeng.gif",
+      "previewGitBlobSha": "e4162d1167c70388c219d5e471c1f3cd147db048"
+    },
+    {
+      "id": "beiluoye-yanmo",
+      "label": "被落叶淹没",
+      "category": [
+        "节日庆祝",
+        "季节与西方节日"
+      ],
+      "source": "被落叶淹没.webm",
+      "sourceGitBlobSha": "1e35fff171fb8856bd89de91329ef357c7d33e65",
+      "preview": "beiluoye-yanmo.gif",
+      "previewGitBlobSha": "1928057248d8867822c319c682be6b25f0205613"
+    },
+    {
+      "id": "duixueren",
+      "label": "堆雪人",
+      "category": [
+        "节日庆祝",
+        "季节与西方节日"
+      ],
+      "source": "堆雪人.webm",
+      "sourceGitBlobSha": "ce8e8be3b7e5c0dfbdebf15f5a8fd70e2836ee0f",
+      "preview": "duixueren.gif",
+      "previewGitBlobSha": "6c9b36956e00f540fecf2757f75b967ff16fb1b1"
+    },
+    {
+      "id": "menghua-xiaoyouling",
+      "label": "萌化小幽灵",
+      "category": [
+        "节日庆祝",
+        "季节与西方节日"
+      ],
+      "source": "萌化小幽灵.webm",
+      "sourceGitBlobSha": "cae5ebbca8634591a49daf5f7a4bc56fa369a7bf",
+      "preview": "menghua-xiaoyouling.gif",
+      "previewGitBlobSha": "cce36b4b4cc1c8cfbf21edfff0d1f298f84473f4"
+    },
+    {
+      "id": "taotang-nanguadeng",
+      "label": "讨糖南瓜灯",
+      "category": [
+        "节日庆祝",
+        "季节与西方节日"
+      ],
+      "source": "讨糖南瓜灯.webm",
+      "sourceGitBlobSha": "3a17ac14fba449e8d7bb0e0d38085825b068a9e1",
+      "preview": "taotang-nanguadeng.gif",
+      "previewGitBlobSha": "0b2c7aab35910583f0f69b7a4cfeabf1bae2c2f3"
+    },
+    {
+      "id": "zhuangdian-shengdanshu",
+      "label": "装点圣诞树",
+      "category": [
+        "节日庆祝",
+        "季节与西方节日"
+      ],
+      "source": "装点圣诞树.webm",
+      "sourceGitBlobSha": "1217c9625c3a682732bc4398108ce7c4ae2a07f6",
+      "preview": "zhuangdian-shengdanshu.gif",
+      "previewGitBlobSha": "7b80df4c4e6ddf65d116fabdf415adb21ccfcea1"
+    },
+    {
+      "id": "annoyed",
+      "label": "点击回应-傲娇生气",
+      "category": [
+        "表情与移动",
+        "点击表情"
+      ],
+      "source": "点击回应-傲娇生气.webm",
+      "sourceGitBlobSha": "77c6461a1f8ced2dc7272f44192f37dd682becf8",
+      "preview": "dianji-huiying-aojiao-shengqi-ceshen-zhanshi.gif",
+      "previewGitBlobSha": "be0d6b07fb337c27222d85d2f4eb8b750d40052a"
+    },
+    {
+      "id": "wave",
+      "label": "点击回应-元气挥手",
+      "category": [
+        "表情与移动",
+        "点击表情"
+      ],
+      "source": "点击回应-元气挥手.webm",
+      "sourceGitBlobSha": "f60556f06c386cfb569f76b0cfa2e34e34fdc362",
+      "preview": "dianji-huiying-yuanqi-huishou.gif",
+      "previewGitBlobSha": "7834dabf82cd33b0fd857efec4d8f1921bc908de"
+    },
+    {
+      "id": "shy",
+      "label": "点击回应-害羞惊讶",
+      "category": [
+        "表情与移动",
+        "点击表情"
+      ],
+      "source": "点击回应-害羞惊讶.webm",
+      "sourceGitBlobSha": "499b73c42844bd0268bff9044e0523fcae1c1b27",
+      "preview": "dianji-huiying-haixiu-jingya.gif",
+      "previewGitBlobSha": "79041862a134c542d750509bfcdcb86fd0b1b625"
+    },
+    {
+      "id": "happy",
+      "label": "点击回应-开心跃动",
+      "category": [
+        "表情与移动",
+        "点击表情"
+      ],
+      "source": "点击回应-开心跃动.webm",
+      "sourceGitBlobSha": "fb614abf8d19c650fb5bd4727b2585282733a996",
+      "preview": "dianji-huiying-kaixin-yuedong.gif",
+      "previewGitBlobSha": "e9aa82c702ce97e572d38cc57e884cce5827bb08"
+    },
+    {
+      "id": "dianji-huiying-naoyang-gegexiao",
+      "label": "点击回应-挠痒咯咯笑",
+      "category": [
+        "表情与移动",
+        "点击表情"
+      ],
+      "source": "点击回应-挠痒咯咯笑.webm",
+      "sourceGitBlobSha": "d896eb9a91ca8eafa7f0af35a3073dc04a397742",
+      "preview": "dianji-huiying-naoyang-gegexiao.gif",
+      "previewGitBlobSha": "fbffcb6b6ce4191557eb792fae5c2b765e5ef4d9"
+    },
+    {
+      "id": "beixiayitiao-zhamao",
+      "label": "被吓一跳",
+      "category": [
+        "表情与移动",
+        "点击表情"
+      ],
+      "source": "被吓一跳.webm",
+      "sourceGitBlobSha": "a7afe71ed72990bbace7026abb1ef69ae7e3706c",
+      "preview": "beixiayitiao-zhamao.gif",
+      "previewGitBlobSha": "42476913b85c13eb1898cdce1f865a6f8db883e3"
+    },
+    {
+      "id": "drag",
+      "label": "被鼠标拖拽悬空反馈",
+      "category": [
+        "表情与移动",
+        "移动与肢体"
+      ],
+      "source": "被鼠标拖拽悬空反馈.webm",
+      "sourceGitBlobSha": "728f04b2997aa9ec4bdb87d1b9b14d7910bc7fd6",
+      "preview": "beishubiao-tuozhuai-xuankong-fankui.gif",
+      "previewGitBlobSha": "5ee7e437d4e475e8cd09049eed09c54bf76e8ac5"
+    },
+    {
+      "id": "walk",
+      "label": "螃蟹走路",
+      "category": [
+        "表情与移动",
+        "移动与肢体"
+      ],
+      "source": "螃蟹走路.webm",
+      "sourceGitBlobSha": "6ff80136295718a2e866e70d90fa8a0bada333dd",
+      "preview": "pangxie-zoulu.gif",
+      "previewGitBlobSha": "86a8b6d0882e89cb516435e78b401374cc0714c2"
+    },
+    {
+      "id": "yuandi-zuozhuan-benpao",
+      "label": "原地左转奔跑",
+      "category": [
+        "表情与移动",
+        "移动与肢体"
+      ],
+      "source": "原地左转奔跑.webm",
+      "sourceGitBlobSha": "d9b6611b32065a7937878a5467cd84d47a1be543",
+      "preview": "yuandi-zuozhuan-benpao.gif",
+      "previewGitBlobSha": "f19f07fdef7e9d0277a6effaa3cb08873d94ab5c"
+    },
+    {
+      "id": "yuandi-piaofu-tabu",
+      "label": "原地漂浮踏步",
+      "category": [
+        "表情与移动",
+        "移动与肢体"
+      ],
+      "source": "原地漂浮踏步.webm",
+      "sourceGitBlobSha": "d700e4fdd38e8795b88f6d81418e8fc196fe80ed",
+      "preview": "yuandi-piaofu-tabu.gif",
+      "previewGitBlobSha": "1ff1a09ef333f951132f18b92c4c2619582146b7"
+    },
+    {
+      "id": "yuandi-qiaoji-zhuomian-hudong",
+      "label": "原地敲击桌面互动",
+      "category": [
+        "表情与移动",
+        "移动与肢体"
+      ],
+      "source": "原地敲击桌面互动.webm",
+      "sourceGitBlobSha": "c7e55e6f83c1847a45d81d60c04de2a167680c92",
+      "preview": "yuandi-qiaoji-zhuomian-hudong.gif",
+      "previewGitBlobSha": "2705649630c3578fe7c5a9e52f4b803b3b750a8b"
+    },
+    {
+      "id": "yuandi-zhongli-xiadun-yasuo",
+      "label": "原地重力下蹲压缩",
+      "category": [
+        "表情与移动",
+        "移动与肢体"
+      ],
+      "source": "原地重力下蹲压缩.webm",
+      "sourceGitBlobSha": "67acb52f7e7c49e77b000730b3bff9a65fb21a10",
+      "preview": "yuandi-zhongli-xiadun-yasuo.gif",
+      "previewGitBlobSha": "e733b1b23aa7298c2ce83b9e9217d9c39f3a20f1"
+    },
+    {
+      "id": "xiaofudu-yuandi-360du-xuanzhuan-zhanshi",
+      "label": "小幅度原地360度旋转展示",
+      "category": [
+        "表情与移动",
+        "移动与肢体"
+      ],
+      "source": "小幅度原地360度旋转展示.webm",
+      "sourceGitBlobSha": "915feb453f11f0267693109b3e847a850cdb1ec7",
+      "preview": "xiaofudu-yuandi-360du-xuanzhuan-zhanshi.gif",
+      "previewGitBlobSha": "1953ddc6be3d4c1a66a6129a49358e44724733a6"
+    },
+    {
+      "id": "yong-jingyu-weiba-paidadi",
+      "label": "用鲸鱼尾巴拍打地面",
+      "category": [
+        "表情与移动",
+        "移动与肢体"
+      ],
+      "source": "用鲸鱼尾巴拍打地面.webm",
+      "sourceGitBlobSha": "822a7c41f795906ca46e2f1757c63e6633d39214",
+      "preview": "yong-jingyu-weiba-paidadi.gif",
+      "previewGitBlobSha": "1f6b4172cfaa67ede270070491b8b276436938e8"
+    },
+    {
+      "id": "working",
+      "label": "写代码",
+      "category": [
+        "工作学习"
+      ],
+      "source": "写代码.webm",
+      "sourceGitBlobSha": "47902f235c11fadd22134dd71d2fbcc3a36a13fc",
+      "preview": "xie-daima.gif",
+      "previewGitBlobSha": "1ed0d8d9affdf44f67c2b205d264ec0c17a59b9b"
+    },
+    {
+      "id": "qingkuai-jilu",
+      "label": "轻快记录",
+      "category": [
+        "工作学习"
+      ],
+      "source": "轻快记录.webm",
+      "sourceGitBlobSha": "d0c1bc670b74450e53019b36366edbe54056a363",
+      "preview": "qingkuai-jilu.gif",
+      "previewGitBlobSha": "60e049c165a5b0144036a76925d6d9db1175d73b"
+    },
+    {
+      "id": "waiting",
+      "label": "工作状态-原地踱步张望",
+      "category": [
+        "工作学习"
+      ],
+      "source": "工作状态-原地踱步张望.webm",
+      "sourceGitBlobSha": "7b9459a1efdf4155f5ddd3beb07936fcc5c8a7ed",
+      "preview": "gongzuozhuangtai-yuandi-duobu-zhangwang.gif",
+      "previewGitBlobSha": "15c8d5342c8da4a32f0f3914720b34c1fe361be3"
+    },
+    {
+      "id": "error",
+      "label": "工作状态-垂头叹气冒汗",
+      "category": [
+        "工作学习"
+      ],
+      "source": "工作状态-垂头叹气冒汗.webm",
+      "sourceGitBlobSha": "653ef82b71d52faa1d26a014afb7764f778926f7",
+      "preview": "gongzuozhuangtai-chuitou-tanqi-maohan.gif",
+      "previewGitBlobSha": "d1e725542f4d0b09bfafc16642290c6b48842970"
+    },
+    {
+      "id": "busy",
+      "label": "工作状态-忙碌点按",
+      "category": [
+        "工作学习"
+      ],
+      "source": "工作状态-忙碌点按.webm",
+      "sourceGitBlobSha": "32bc6dbf65a7f1afa403520c3dd37980ca353e5f",
+      "preview": "gongzuozhuangtai-manglu-dianan.gif",
+      "previewGitBlobSha": "16e18cd4d6458b3923b3abbbe4a13798512a09a2"
+    },
+    {
+      "id": "thinking",
+      "label": "工作状态-思考冒泡",
+      "category": [
+        "工作学习"
+      ],
+      "source": "工作状态-思考冒泡.webm",
+      "sourceGitBlobSha": "51bc3bb2fb894e6f1499974d62a3d93592f91859",
+      "preview": "gongzuozhuangtai-sikao-maopao.gif",
+      "previewGitBlobSha": "19ed3513cee9f9ff5e008dc00a0bf5fc4f2cbdb2"
+    },
+    {
+      "id": "organizing",
+      "label": "工作状态-清点归档",
+      "category": [
+        "工作学习"
+      ],
+      "source": "工作状态-清点归档.webm",
+      "sourceGitBlobSha": "af694fb0013cbc0aa5313ab0221f417b4efdb14a",
+      "preview": "gongzuozhuangtai-qingdian-guidang.gif",
+      "previewGitBlobSha": "3945e1e5673b1d75a3ab35617e498b0d0a19ab41"
+    },
+    {
+      "id": "done",
+      "label": "工作状态-雀跃庆祝",
+      "category": [
+        "工作学习"
+      ],
+      "source": "工作状态-雀跃庆祝.webm",
+      "sourceGitBlobSha": "edd6645a8ee9b222c720fb20cfff3b715e92db9b",
+      "preview": "gongzuozhuangtai-queyue-qingzhu.gif",
+      "previewGitBlobSha": "3b4f41e0e92971dc3b21e6ab35853c72b8b47fa8"
+    },
+    {
+      "id": "shia-chishenme",
+      "label": "是啊，吃什么",
+      "category": [
+        "说话交流"
+      ],
+      "source": "是啊，吃什么.webm",
+      "sourceGitBlobSha": "e347b7574b4dca0d65bdd34bf9af0a176fbb15a1",
+      "preview": "shia-chishenme.gif",
+      "previewGitBlobSha": "a834913afab0e9897c0b16d17e43fe476e8c6156"
+    },
+    {
+      "id": "shendu-sikao-suisuinian",
+      "label": "深度思考碎碎念",
+      "category": [
+        "说话交流"
+      ],
+      "source": "深度思考碎碎念.webm",
+      "sourceGitBlobSha": "5a40d5bfdfa818a1df37cef6405f10cd8b71961c",
+      "preview": "shendu-sikao-suisuinian.gif",
+      "previewGitBlobSha": "8350ee21d391fd728ca96f08b50a8aad2d8000d6"
+    },
+    {
+      "id": "suisuinian-fadai-suisuinian",
+      "label": "碎碎念-发呆碎碎念",
+      "category": [
+        "说话交流"
+      ],
+      "source": "碎碎念-发呆碎碎念.webm",
+      "sourceGitBlobSha": "4afcaf7459e3b27b30252648b388e9cd3296807f",
+      "preview": "suisuinian-fadai-suisuinian.gif",
+      "previewGitBlobSha": "82acdb18f999d4748c4a89691da0625d2fe6a588"
+    },
+    {
+      "id": "suisuinian-duiping-suisuinian",
+      "label": "碎碎念-对屏碎碎念",
+      "category": [
+        "说话交流"
+      ],
+      "source": "碎碎念-对屏碎碎念.webm",
+      "sourceGitBlobSha": "8b7b357f01a9e5cf733dce28f32e8f94be4a030d",
+      "preview": "suisuinian-duiping-suisuinian.gif",
+      "previewGitBlobSha": "c3d255ec6bb8bbb1a54bf3c3e5b4dd53877e06e3"
+    },
+    {
+      "id": "suisuinian-cazhuo-suisuinian",
+      "label": "碎碎念-擦桌碎碎念",
+      "category": [
+        "说话交流"
+      ],
+      "source": "碎碎念-擦桌碎碎念.webm",
+      "sourceGitBlobSha": "343513cf0d5583b5f476080d5082f3f5e01588b8",
+      "preview": "suisuinian-cazhuo-suisuinian.gif",
+      "previewGitBlobSha": "17545394fdee143bf26826ba4c1d6fc34f0f612f"
+    },
+    {
+      "id": "qian-dai-man-yi",
+      "label": "余额-钱袋满溢",
+      "category": [
+        "额度展示"
+      ],
+      "source": "余额-钱袋满溢.webm",
+      "sourceGitBlobSha": "34212594a3b9fc03daf2ae742763e62dfe4b034f",
+      "preview": "qian-dai-man-yi.gif",
+      "previewGitBlobSha": "265310f4d01941406381364ec610a814a0edb99d"
+    },
+    {
+      "id": "jin-dai-ding-dang",
+      "label": "余额-金袋叮当",
+      "category": [
+        "额度展示"
+      ],
+      "source": "余额-金袋叮当.webm",
+      "sourceGitBlobSha": "1bbe074a0bef1a7ef80508b3033269885edb6b2c",
+      "preview": "jin-dai-ding-dang.gif",
+      "previewGitBlobSha": "ee0c6c35209493b82fb5346d13c13ef38e337b94"
+    },
+    {
+      "id": "qian-dai-ru-chang",
+      "label": "余额-钱袋如常",
+      "category": [
+        "额度展示"
+      ],
+      "source": "余额-钱袋如常.webm",
+      "sourceGitBlobSha": "a52b686a7a3d801a98cccb81534eae2bfa7ac2b3",
+      "preview": "qian-dai-ru-chang.gif",
+      "previewGitBlobSha": "63c685bd1f3f9800785ba5ba4c0cc643339447a5"
+    },
+    {
+      "id": "shu-jin-zhou-mei",
+      "label": "余额-数金皱眉",
+      "category": [
+        "额度展示"
+      ],
+      "source": "余额-数金皱眉.webm",
+      "sourceGitBlobSha": "6c1dac8e3edddc02f4988e1c38e289177c335ecf",
+      "preview": "shu-jin-zhou-mei.gif",
+      "previewGitBlobSha": "2e33a00efef80d3187403bb158767b26a83c3f56"
+    },
+    {
+      "id": "dai-kong-ru-xi",
+      "label": "余额-袋空如洗",
+      "category": [
+        "额度展示"
+      ],
+      "source": "余额-袋空如洗.webm",
+      "sourceGitBlobSha": "a85eb2206596c7031fbc64146df09f6e7b137aae",
+      "preview": "dai-kong-ru-xi.gif",
+      "previewGitBlobSha": "6091a0064d971348ad1014e2f4be6ec16fff62fe"
+    },
+    {
+      "id": "fen-wen-bu-sheng",
+      "label": "余额-分文不剩",
+      "category": [
+        "额度展示"
+      ],
+      "source": "余额-分文不剩.webm",
+      "sourceGitBlobSha": "013b69906a5c56b219bbd74986f973eea53e3675",
+      "preview": "fen-wen-bu-sheng.gif",
+      "previewGitBlobSha": "9a27dd2304a890d469d9c5259afa15ff55d7278e"
+    }
+  ]
+}

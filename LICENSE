@@ -1,0 +1,17 @@
+本仓库采用分项许可，请勿将代码许可套用于动画素材。
+
+1. Clawd on Desk 原有代码、测试 fixture 与本仓库适配代码：
+   GNU Affero General Public License version 3 (AGPL-3.0)。
+   完整条款见 licenses/AGPL-3.0.txt。
+   上游：https://github.com/rullerzhou-afk/clawd-on-desk
+
+2. dsh-pet 上游程序代码：MIT。
+   原始条款与署名见 licenses/dsh-pet-MIT.txt。
+   上游：https://github.com/PC2005-cloud/dsh-pet
+
+3. 鲸鱼娘 / DeepSeek 大肥鱼形象及本仓库转换的对应动画素材：
+   CC BY-NC-SA 4.0（署名、非商业、相同方式共享）。
+   完整许可：https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans
+   素材 README、catalog.json、sources.json 与 ACKNOWLEDGEMENTS.md
+   保留原作者、来源、转换记录和校验信息。禁止将 MIT/AGPL 代码许可
+   解释为动画角色的商业授权。
