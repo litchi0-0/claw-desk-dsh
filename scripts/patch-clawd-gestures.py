@@ -10,6 +10,18 @@ let lastPetRelease = -Infinity;
 let physicsHoldTimer = null;
 let physicsHoldTriggered = false;
 let physicsModifiedPress = false;
+let physicsReleaseConsumed = false;
+let petPointerSamples = [];
+function petDragPoint(e) {
+  return tc.petInteractions && tc.petInteractions.enabled === true && Number.isFinite(e.screenX) && Number.isFinite(e.screenY)
+    ? {x: e.screenX, y: e.screenY} : {x: e.clientX, y: e.clientY};
+}
+function recordPetPointer(e) {
+  if (!Number.isFinite(e.screenX) || !Number.isFinite(e.screenY)) return;
+  const t = Date.now();
+  petPointerSamples.push({x: e.screenX, y: e.screenY, t});
+  petPointerSamples = petPointerSamples.filter(p => t - p.t <= 200).slice(-64);
+}
 function petGesture(kind, data) {
   if (tc.petInteractions && tc.petInteractions.enabled === true && window.hitAPI.physicsGesture) {
     window.hitAPI.physicsGesture(kind, data);
@@ -19,7 +31,24 @@ function clearPetHold() {
   if (physicsHoldTimer !== null) { clearTimeout(physicsHoldTimer); physicsHoldTimer = null; }
 }
 // --- Pointer handlers ---''')
-    change('    window.hitAPI.dragLock(true);', '''    physicsHoldTriggered = false;
+    change('    area.setPointerCapture(e.pointerId);', '''    physicsReleaseConsumed = false;
+    petPointerSamples = [];
+    recordPetPointer(e);
+    area.setPointerCapture(e.pointerId);''')
+    for old, new in [('mouseDownX = e.clientX', 'mouseDownX = petDragPoint(e).x'),
+                     ('mouseDownY = e.clientY', 'mouseDownY = petDragPoint(e).y'),
+                     ('const totalDx = e.clientX', 'const totalDx = petDragPoint(e).x'),
+                     ('const totalDy = e.clientY', 'const totalDy = petDragPoint(e).y'),
+                     ('const stepDx = e.clientX', 'const stepDx = petDragPoint(e).x')]:
+        change(old, new)
+    source = source.replace('lastDragClientX = e.clientX', 'lastDragClientX = petDragPoint(e).x')
+    change('    if (e.buttons === 0) {\n      stopDrag();', '''    recordPetPointer(e);
+    if (e.buttons === 0) {
+      // Physical release can precede pointerup. Complete once, without a click.
+      physicsReleaseConsumed = true;
+      lastPetRelease = -Infinity;
+      stopDrag(didDrag);''')
+    change('    window.hitAPI.dragLock(true);' , '''    physicsHoldTriggered = false;
     physicsModifiedPress = !!(e.metaKey || e.ctrlKey || e.shiftKey);
     const secondPress = !physicsModifiedPress && Date.now() - lastPetRelease < CLICK_WINDOW_MS;
     petGesture("press", { slingshot: secondPress });
@@ -40,8 +69,11 @@ function clearPetHold() {
     change('  clearQueuedDragMove();\n  isDragging = false;', '  clearQueuedDragMove();\n  clearPetHold();\n  isDragging = false;')
     change('  endDragReaction(didDrag);', '''  endDragReaction(didDrag);
   if (allowThrow !== true || physicsModifiedPress) petGesture("cancel");
-  else petGesture(didDrag ? "release" : (physicsHoldTriggered ? "cancel" : "tap"));''')
-    change('  stopDrag();\n  if (wasDrag) return;', '''  stopDrag(true);
+  else petGesture(didDrag ? "release" : (physicsHoldTriggered ? "cancel" : "tap"), { samples: petPointerSamples });''')
+    change('  const wasDrag = didDrag;', '''  if (physicsReleaseConsumed) return;
+  if (isDragging) recordPetPointer(e);
+  const wasDrag = didDrag;''')
+    change('  stopDrag();\n  if (wasDrag) return;' , '''  stopDrag(true);
   if (wasDrag || physicsHoldTriggered) { lastPetRelease = -Infinity; return; }
   lastPetRelease = Date.now();
   if (e.shiftKey && !e.metaKey && !e.ctrlKey && tc.petInteractions && tc.petInteractions.enabled === true) {

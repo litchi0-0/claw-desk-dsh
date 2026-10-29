@@ -11,7 +11,7 @@ def patch_interactions(main, hit, read):
     integration = (ROOT / 'integrations/clawd-interaction-main.js').read_text()
     main = replace(main, 'const infoBubble = require("./clawd-info-bubble")({', integration + '\nconst infoBubble = require("./clawd-info-bubble")({')
     main = replace(main, 'function requestDisplayedVisual(displayState, file, options = {}) {', '''function requestDisplayedVisual(displayState, file, options = {}) {
-  if (petPhysics.isActive() && (options.manualPlayback === true || !["idle", "roam"].includes(displayState))) petPhysics.cancel(false);''')
+  if (petPhysics.isActive() && options.manualPlayback === true) petPhysics.cancel(false);''')
     main = replace(main, '    options, manualPlayer: manualAnimationPlayer,', '    options, manualPlayer: manualAnimationPlayer, physicsActive: petPhysics.isActive(),')
     main = replace(main, 'isRoamAnimating: () => _roam.isRoamAnimating(),', 'isRoamAnimating: () => _roam.isRoamAnimating() || petPhysics.isActive(),')
     main = replace(main, 'pollQuotaAnimation: () => { pollQuotaAnimation(); infoBubble.poll(); },', 'pollQuotaAnimation: () => { petPhysics.poll(); pollQuotaAnimation(); infoBubble.poll(); },')

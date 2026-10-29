@@ -5,7 +5,7 @@ const petPhysics = require('./clawd-physics-runtime')({
   enabled: () => !isQuitting && getActiveTheme().petInteractions?.enabled === true && !doNotDisturb
     && !_mini.getMiniMode() && !_mini.getMiniTransitioning()
     && !!win && !win.isDestroyed() && win.isVisible(),
-  canFly: () => !anySessionInProgress() && !menuOpen && !petWindowRuntime.isDragLocked()
+  canFly: () => !menuOpen && !petWindowRuntime.isDragLocked()
     && !_perm.hasVisiblePermissionBubbles(),
   canReact: () => !anySessionInProgress() && !menuOpen
     && ['idle', 'roam'].includes(_state.getCurrentState()) && !_perm.hasVisiblePermissionBubbles(),
@@ -56,6 +56,14 @@ const petPhysics = require('./clawd-physics-runtime')({
 ipcMain.on('clawd-pet-gesture', (event, kind, data) => {
   if (!hitWin || hitWin.isDestroyed() || !isTrustedMainFrameEvent(event, hitWin.webContents)) return;
   if (!['press', 'release', 'tap', 'cancel', 'tickle', 'startle'].includes(kind)) return;
-  petPhysics.gesture(kind, data && typeof data === 'object' ? { slingshot: data.slingshot === true } : null);
+  const payload = data && typeof data === 'object' ? { slingshot: data.slingshot === true } : null;
+  if (payload && kind === 'release' && Array.isArray(data.samples)) {
+    const t = Date.now();
+    payload.samples = data.samples.slice(-64).filter(p => p && [p.x, p.y, p.t].every(Number.isFinite)
+      && Math.abs(p.x) <= 1000000 && Math.abs(p.y) <= 1000000 && p.t <= t && t - p.t <= 300)
+      .map(p => ({x: p.x, y: p.y, t: p.t}));
+    if (payload.samples.some((p, i, a) => i && p.t < a[i - 1].t)) payload.samples = [];
+  }
+  petPhysics.gesture(kind, payload);
 });
 app.on('before-quit', () => petPhysics.dispose());

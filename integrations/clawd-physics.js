@@ -3,11 +3,13 @@
 const clamp=(v,min,max)=>Math.max(min,Math.min(max,v));
 function cap(vx,vy,max=2400){const speed=Math.hypot(vx,vy);const ratio=speed>max?max/speed:1;return {vx:vx*ratio,vy:vy*ratio}}
 function releaseVelocity(samples,now){
- const last=samples.at(-1);if(!last||now-last.t>150)return {vx:0,vy:0};
- const recent=samples.filter(p=>now-p.t<=150);
- if(recent.length<2)return {vx:0,vy:0};
- const first=recent[0],dt=last.t-first.t;
- if(dt<20)return {vx:0,vy:0};
+ // Use the final 60 ms, so the last flick is not averaged with a slow drag.
+ const recent=samples.filter(p=>p&&[p.x,p.y,p.t].every(Number.isFinite)&&now-p.t>=0&&now-p.t<=150);
+ const last=recent.at(-1);if(!last||now-last.t>80)return {vx:0,vy:0};
+ const tail=recent.filter(p=>last.t-p.t<=60);
+ if(tail.length<2)return {vx:0,vy:0};
+ const first=tail[0],dt=last.t-first.t;
+ if(dt<8)return {vx:0,vy:0};
  const v=cap((last.x-first.x)*1000/dt,(last.y-first.y)*1000/dt);
  return Math.hypot(v.vx,v.vy)<320?{vx:0,vy:0}:v;
 }

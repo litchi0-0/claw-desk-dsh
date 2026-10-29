@@ -25,3 +25,9 @@ test('floor friction and inelastic bounces settle; large pauses do not tunnel',(
 test('collision uses visible body instead of transparent window padding',()=>{
  assert.deepEqual(collisionBounds({x:-1600,y:0,width:1600,height:900},{x:-1000,y:100,width:480,height:270},{left:-850,top:160,right:-650,bottom:350}),{minX:-1750,minY:-60,maxX:-350,maxY:650});
 });
+
+test('final flick is not diluted by a slow lead-in and high-rate short gestures throw',()=>{
+ assert(releaseVelocity([{x:0,y:0,t:0},{x:0,y:0,t:100},{x:25,y:0,t:125}],125).vx>=900);
+ assert(releaseVelocity([{x:0,y:0,t:0},{x:20,y:0,t:8}],8).vx>0);
+ assert.deepEqual(releaseVelocity([{x:0,y:0,t:0},{x:100,y:0,t:20},{x:100,y:0,t:140}],140),{vx:0,vy:0});
+});

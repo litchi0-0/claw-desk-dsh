@@ -19,3 +19,18 @@ test('click sound reuses the app volume and obeys mute, DND and shutdown gates',
  f.ctx.soundMuted=true;f.controls.feedback({kind:'tap',sound:true});assert.equal(f.messages.filter(a=>a[0]==='play-sound').length,1);
  f.ctx.doNotDisturb=true;assert.equal(f.controls.enabled(),false);f.ctx.doNotDisturb=false;f.ctx.isQuitting=true;assert.equal(f.controls.enabled(),false);
 });
+
+test('explicit throwing stays available while AI works, with menu and permission gates retained',()=>{
+ const f=setup();f.ctx.petWindowRuntime={isDragLocked:()=>false};f.ctx.anySessionInProgress=()=>true;
+ assert.equal(f.controls.canFly(),true);assert.equal(f.controls.canReact(),false);
+ f.ctx.menuOpen=true;assert.equal(f.controls.canFly(),false);f.ctx.menuOpen=false;
+ f.ctx._perm.hasVisiblePermissionBubbles=()=>true;assert.equal(f.controls.canFly(),false);
+});
+
+test('release IPC keeps ordered finite screen samples and drops malformed or stale data',()=>{
+ const f=setup(),handler=f.channels.get('clawd-pet-gesture'),event={sender:f.hitContents,trusted:true},t=Date.now();
+ handler(event,'release',{samples:[{x:10,y:20,t:t-50},{x:30,y:20,t:t-10},{x:NaN,y:0,t},{x:0,y:0,t:t-1000}]});
+ const samples=f.gestures.at(-1)[1].samples;assert.equal(samples.length,2);assert.equal(samples[1].x,30);
+ handler(event,'release',{samples:[{x:10,y:20,t:t-10},{x:30,y:20,t:t-50}]});
+ assert.equal(f.gestures.at(-1)[1].samples.length,0);
+});

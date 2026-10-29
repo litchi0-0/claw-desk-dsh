@@ -16,7 +16,7 @@ test('slingshot holds the anchored window during pull and launches backwards',()
  const f=fixture();f.runtime.press(true);f.move(450,250);assert(f.runtime.isSlingshot());assert.equal(f.box.x,250);assert(f.fx.some(x=>x.kind==='stretch'));
  f.runtime.release();f.advance(80);assert(f.box.x<250);
 });
-test('catch and work interrupt flight and stale frame callbacks cannot resume it',()=>{
+test('catch and eligibility gates interrupt flight and stale frame callbacks cannot resume it',()=>{
  for(const action of ['catch','work']){const f=fixture();f.runtime.press(false);f.move(500,150);f.runtime.release();f.advance(100);if(action==='catch')f.runtime.press(false);else f.work();f.advance(50);const x=f.box.x;f.advance(2000);assert.equal(f.box.x,x);assert(!f.runtime.isActive());}
 });
 test('explicit cancellation never throws; tickle is an actual gesture reaction',()=>{
@@ -25,4 +25,16 @@ test('explicit cancellation never throws; tickle is an actual gesture reaction',
 test('fast outside-to-inside cursor entry startles once, ordinary hover does not',()=>{
  const f=fixture();f.move(0,0,100);f.runtime.poll();f.move(300,200,50);f.runtime.poll();assert.deepEqual(f.reactions,['startle']);f.runtime.poll();assert.equal(f.reactions.length,1);
  const g=fixture();g.move(230,200,100);g.runtime.poll();g.move(260,200,200);g.runtime.poll();assert.equal(g.reactions.length,0);
+});
+
+test('release uses captured screen samples even when main-process cursor sampling missed the flick',()=>{
+ const f=fixture();f.runtime.press(false);f.advance(60);
+ f.runtime.gesture('release',{samples:[{x:300,y:200,t:1000},{x:350,y:180,t:1040},{x:400,y:160,t:1060}]});
+ assert(f.runtime.isActive());f.advance(32);assert(f.box.x>250);
+});
+
+test('a long slingshot pull keeps the original anchor after the sample ring expires',()=>{
+ const f=fixture();f.runtime.press(true);f.move(450,200,300);f.move(450,200,100);
+ f.runtime.gesture('release',{samples:[{x:450,y:200,t:1300},{x:450,y:200,t:1400}]});
+ assert(f.runtime.isActive());f.advance(32);assert(f.box.x<250);
 });

@@ -37,9 +37,10 @@ module.exports=function createPhysics(controls){
   const p=controls.cursor(),t=now();gesture.samples.push({...p,t});gesture.samples=gesture.samples.filter(s=>t-s.t<=200);
   if(gesture.slingshot)controls.feedback({kind:'stretch',dx:p.x-gesture.origin.x,dy:p.y-gesture.origin.y});
  }
- function release(){
+ function release(samples){
   if(!gesture)return;track();const g=gesture;gesture=null;controls.feedback({kind:'reset'});
-  const v=g.slingshot?physics.slingshotVelocity(g.origin,controls.cursor()):physics.releaseVelocity(g.samples,now());launch(v);
+  const captured=Array.isArray(samples)&&samples.length>=2?samples:g.samples;
+  const v=g.slingshot?physics.slingshotVelocity(g.origin,captured.at(-1)):physics.releaseVelocity(captured,now());launch(v);
  }
  function tap(){gesture=null;if(controls.enabled())controls.feedback({kind:'tap',sound:true})}
  function tickle(){if(controls.enabled()&&controls.canReact()){controls.reaction('tickle');controls.feedback({kind:'tap',sound:true})}}
@@ -55,5 +56,5 @@ module.exports=function createPhysics(controls){
   }
  }
  return {press,track,release,tap,tickle,startle,poll,cancel,isActive:()=>active,isSlingshot:()=>!!gesture?.slingshot,
-  gesture(kind,data){if(kind==='press')press(data?.slingshot===true);else if(kind==='release')release();else if(kind==='tap')tap();else if(kind==='tickle')tickle();else if(kind==='startle')startle();else if(kind==='cancel')cancel()},dispose:()=>cancel(false)};
+  gesture(kind,data){if(kind==='press')press(data?.slingshot===true);else if(kind==='release')release(data?.samples);else if(kind==='tap')tap();else if(kind==='tickle')tickle();else if(kind==='startle')startle();else if(kind==='cancel')cancel()},dispose:()=>cancel(false)};
 };

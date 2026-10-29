@@ -30,3 +30,9 @@ test('airborne visual is held against ordinary restores but explicit physics and
  assert.equal(resolve({options:{physicsPlayback:true},physicsActive:true,visual,manualPlayer}),null);
  assert.equal(resolve({options:{dragReaction:true},physicsActive:true,visual,manualPlayer}),null);
 });
+
+test('live work visual requests do not cut off a user throw and can resume after landing',()=>{
+ const visual={source:'reaction',file:'drag.webp'},manualPlayer={isActive:()=>false};
+ assert.deepEqual(resolve({options:{source:'state'},physicsActive:true,visual,manualPlayer}),{request:visual});
+ assert.equal(resolve({options:{source:'state'},physicsActive:false,visual,manualPlayer}),null);
+});
