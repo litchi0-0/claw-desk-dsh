@@ -45,6 +45,7 @@ module.exports = function buildAnimationMenu(theme, controls) {
     });
   }
   if (!submenu.length) return null;
+  if (controls.extraMenu) submenu.push(controls.extraMenu);
   submenu.push({type: 'separator'}, {label: '停止播放，恢复自动状态', click: () => controls.stop()});
   return {label: '播放动画', enabled: controls.disabled !== true, submenu};
 };

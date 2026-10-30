@@ -43,6 +43,9 @@ test('floating bubble stays noninteractive, follows the pet and hides for blocke
  allowed=false;clock+=250;bubble.poll();assert.equal(visible,false);
  allowed=true;clock+=250;bubble.poll();assert(visible);
  clock+=1000;bubble.poll();assert.equal(visible,false);
+ bubble.showImage('可爱','file:///tmp/fish.png');assert(visible);assert.equal(sent.at(-1)[1].image,'file:///tmp/fish.png');assert.equal(bounds.at(-1).height,324);
+ bubble.showQuota({label:'Codex',remaining:25},1000);assert.equal(bounds.at(-1).height,104);assert.equal(sent.at(-1)[1].image,undefined);
+ clock+=1250;bubble.poll();assert.equal(visible,false);
  bubble.dispose();assert(destroyed);
 });
 

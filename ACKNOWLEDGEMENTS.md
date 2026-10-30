@@ -21,6 +21,15 @@
 - 本项目将动画转换为透明 WebP，保留源片 24 FPS 时间轴、原片时长，调整角色布局并接入 Clawd 状态及菜单。
 - dsh-pet 的**程序代码**为 MIT，原条款与署名保留于 [licenses/dsh-pet-MIT.txt](licenses/dsh-pet-MIT.txt)。这一许可不覆盖角色形象的商业使用。
 
+## MerZlin 独立桌面版与新增素材
+
+感谢 [MerZlin/dsh-pet-indesktop](https://github.com/MerZlin/dsh-pet-indesktop) 的功能实现与资源整理。本次只读取功能、素材清单及所需文件，没有安装或运行该应用。
+
+- 固定来源：`34d810b1eadd98d00e7cb9b3b51428a45b5bf03e`；新增 24 张 `assets/big_blue_fat_fish` 静态表情和 6 段 `assets/sounds` 音效，均按原字节复制。
+- 每项源路径、Git blob、SHA-256 和大小见 [新增素材记录](integrations/merzlin-media/catalog.json)；106 段动画逐项对应见 [核查结果](themes/dsh-whale-chan/merzlin-audit.json)。
+- MerZlin 项目 MIT 原文见 [licenses/MerZlin-MIT.txt](licenses/MerZlin-MIT.txt)。角色及二创素材既有署名和非商业限制继续保留。
+- `Ya1.mp3`、`Ya2.mp3` 原始来源为 [MeteorNOX/DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget)，感谢 MeteorNOX。相关第三方声明及完整 MIT 正文随新增素材一起打入 ASAR，见 [随包声明](integrations/merzlin-media/THIRD_PARTY_NOTICES.md)。它们在桌面版中用于小鸭点击包，不当作余额动画自带音轨。
+
 ## 形象作者与素材限制
 
 依据 [dsh-pet 上游许可说明](https://github.com/PC2005-cloud/dsh-pet#许可)：

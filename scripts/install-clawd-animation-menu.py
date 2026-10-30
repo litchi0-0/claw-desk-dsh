@@ -48,7 +48,7 @@ def repack(raw, original, start, replacements):
         parts = name.split('/')
         parent = header
         for part in parts[:-1]:
-            parent = parent['files'][part]
+            parent = parent['files'].setdefault(part, {'files': {}})
         parent['files'].setdefault(parts[-1], {})
     chunks = []
     offset = 0

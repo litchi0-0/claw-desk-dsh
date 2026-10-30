@@ -20,8 +20,8 @@ function workInfo(snapshot,raw={},now=Date.now()){
  }
  return {title:clean(`${s.agentName||s.agentId||'AI'}${s.displayTitle?` · ${s.displayTitle}`:''}`,70),body:clean(body)};
 }
-function placeBubble(anchor,area){
- const width=Math.min(300,area.width),height=Math.min(104,area.height);
+function placeBubble(anchor,area,size={width:300,height:104}){
+ const width=Math.min(size.width,area.width),height=Math.min(size.height,area.height);
  const x=Math.round(Math.max(area.x,Math.min(area.x+area.width-width,(anchor.left+anchor.right-width)/2)));
  const above=anchor.top-height-12;
  const y=Math.round(Math.max(area.y,Math.min(area.y+area.height-height,above>=area.y?above:anchor.bottom+12)));

@@ -18,7 +18,7 @@ def install(target):
         backup = target.with_name(target.name + '-backup-' + datetime.datetime.now().strftime('%Y%m%d-%H%M%S-%f'))
         shutil.copytree(target, backup)
     target.mkdir(parents=True, exist_ok=True)
-    for name in ['theme.json', 'catalog.json', 'sources.json', 'README.md']:
+    for name in ['theme.json', 'catalog.json', 'sources.json', 'README.md', 'merzlin-audit.json']:
         shutil.copy2(source / name, target / name)
     shutil.copytree(source / 'assets', target / 'assets', dirs_exist_ok=True)
     print('Theme installed:', target)

@@ -4,8 +4,8 @@ function setup(){let controls,time=1000;const channels=new Map(),gestures=[],mes
  getActiveTheme:()=>({petInteractions:{enabled:true,clickSound:true}}),_mini:{getMiniMode:()=>false,getMiniTransitioning:()=>false},
  _perm:{hasVisiblePermissionBubbles:()=>false},anySessionInProgress:()=>false,manualAnimationPlayer:{isActive:()=>false},_state:{getCurrentState:()=> 'idle'},
  screen:{getCursorScreenPoint:()=>({x:0,y:0})},sendRawToRenderer:(...a)=>messages.push(a),path:require('node:path'),__dirname:'/tmp',
- isTrustedMainFrameEvent:(e,w)=>e.sender===w&&e.trusted===true,ipcMain:{on:(k,f)=>channels.set(k,f)},app:{on(){}},
- require:n=>n==='./clawd-physics-runtime'?(c=>{controls=c;return {gesture:(...a)=>gestures.push(a),dispose(){}}}):require(n)};
+ isTrustedMainFrameEvent:(e,w)=>e.sender===w&&e.trusted===true,ipcMain:{on:(k,f)=>channels.set(k,f)},app:{on(){},getPath:()=>'/tmp/clawd-extra-media-unit-tests'},
+ require:n=>n==='./clawd-physics-runtime'?(c=>{controls=c;return {gesture:(...a)=>gestures.push(a),dispose(){}}}):n==='./clawd-extra-media'?require('../integrations/clawd-extra-media'):require(n)};
  vm.runInNewContext(fs.readFileSync('integrations/clawd-interaction-main.js','utf8'),ctx);
  return {ctx,advance:ms=>{time+=ms},get controls(){return controls},channels,gestures,messages,hitContents};
 }

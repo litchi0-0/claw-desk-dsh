@@ -1,0 +1,278 @@
+{
+  "repository": "https://github.com/MerZlin/dsh-pet-indesktop",
+  "revision": "34d810b1eadd98d00e7cb9b3b51428a45b5bf03e",
+  "images": [
+    {
+      "id": "meme-big-blue-fat-fish",
+      "file": "meme-big-blue-fat-fish.jpg",
+      "label": "吃白饭的大肥鱼",
+      "sourcePath": "assets/big_blue_fat_fish/big_blue_fat_fish.jpg",
+      "sourceGitBlobSha": "17cd99ccef5b15d3c092fe3d8167afc550ef1b38",
+      "sha256": "78ece62271f8f528fc8fd10552b9b10870123521969f19e446a7df19d133f7d9",
+      "bytes": 196436
+    },
+    {
+      "id": "meme-big-coming",
+      "file": "meme-big-coming.jpg",
+      "label": "大的要来了",
+      "sourcePath": "assets/big_blue_fat_fish/big_coming.jpg",
+      "sourceGitBlobSha": "1d0fa44028b58aeb3ce0fc93198c994766b245a3",
+      "sha256": "d8a737cdb2b67d3080766b182fa3af730ad9cfbbb87e38bb82d2e56589be7d6a",
+      "bytes": 135096
+    },
+    {
+      "id": "meme-curse",
+      "file": "meme-curse.jpg",
+      "label": "骂他一句",
+      "sourcePath": "assets/big_blue_fat_fish/curse.jpg",
+      "sourceGitBlobSha": "febb99ef40966b57832ef31f0216cc75b28e7e1c",
+      "sha256": "e75b8c0863f045f31cb0cf7349edd2ce85edc8c5296f1f624498607c30ff472e",
+      "bytes": 1095945
+    },
+    {
+      "id": "meme-dadeyaolaile",
+      "file": "meme-dadeyaolaile.png",
+      "label": "大的药来了",
+      "sourcePath": "assets/big_blue_fat_fish/dadeyaolaile.png",
+      "sourceGitBlobSha": "15addc1619f88ba7c3c6352fcdee4ef5058b8298",
+      "sha256": "5d5842bde61422ea8e9c25f8abb716db3bc48f4b7da029446be98f607fd7f010",
+      "bytes": 1679836
+    },
+    {
+      "id": "meme-dead-fish",
+      "file": "meme-dead-fish.jpg",
+      "label": "死掉了",
+      "sourcePath": "assets/big_blue_fat_fish/dead_fish.jpg",
+      "sourceGitBlobSha": "a36e3d78cc889999623a5107616ab886afcbde18",
+      "sha256": "e8d218b914d8484aeb080fc2b701f637853b2a30b9530bf981eef748e7a3eec2",
+      "bytes": 146615
+    },
+    {
+      "id": "meme-deepsleep",
+      "file": "meme-deepsleep.jpg",
+      "label": "深度睡眠",
+      "sourcePath": "assets/big_blue_fat_fish/deepsleep.jpg",
+      "sourceGitBlobSha": "881c12c9b455b9ffa7e449481b1094871edc9493",
+      "sha256": "be9d5daa27636b4b1aa3ecab0c47c7ace2d534233bd423cab7a1dc6a81a25519",
+      "bytes": 92522
+    },
+    {
+      "id": "meme-dsh",
+      "file": "meme-dsh.jpg",
+      "label": "大烧货",
+      "sourcePath": "assets/big_blue_fat_fish/dsh.jpg",
+      "sourceGitBlobSha": "7cc03ecb8191003f7b9eb43e92a370f8e6936967",
+      "sha256": "c3d18cd7db768fff3232f9f5d3b197336df002eb33e4bba3f142cfdce8dd4d72",
+      "bytes": 103548
+    },
+    {
+      "id": "meme-evaluable",
+      "file": "meme-evaluable.png",
+      "label": "先养着吧",
+      "sourcePath": "assets/big_blue_fat_fish/evaluable.png",
+      "sourceGitBlobSha": "eff2eb8fb5d5b1af5d76670f2f23cd3537792b2e",
+      "sha256": "c19c0b7457c7bd08467e215ff18e09fcb236db49ea51ed2026c377d27530dd73",
+      "bytes": 1466206
+    },
+    {
+      "id": "meme-fat-fish",
+      "file": "meme-fat-fish.jpg",
+      "label": "吃饱摸摸肚子",
+      "sourcePath": "assets/big_blue_fat_fish/fat_fish.jpg",
+      "sourceGitBlobSha": "1013bbc9b5482037167c909fb0b8e87005131590",
+      "sha256": "1753554016d67d4a1094ff1b7fad705caa9fdd6bd09df1839361715108aabae9",
+      "bytes": 147476
+    },
+    {
+      "id": "meme-go-to-agi",
+      "file": "meme-go-to-agi.png",
+      "label": "开源精神",
+      "sourcePath": "assets/big_blue_fat_fish/go_to_agi.png",
+      "sourceGitBlobSha": "c489231c2643b6e2cfa74d2f883c2685df038ef5",
+      "sha256": "fea1fd9c1feb0bfc3d0c4f1356ac8fb30848ed9cf8b800852fe46536ca892d01",
+      "bytes": 761717
+    },
+    {
+      "id": "meme-hajimi",
+      "file": "meme-hajimi.png",
+      "label": "还得靠我哄你",
+      "sourcePath": "assets/big_blue_fat_fish/hajimi.png",
+      "sourceGitBlobSha": "799e41ffefb14bd07f9447a44703e3d0d8b6ec01",
+      "sha256": "5d5dd884e84578a3ae5277007583d47bf94b33d63847aa4488ec91344479ae1b",
+      "bytes": 2151551
+    },
+    {
+      "id": "meme-kaidian",
+      "file": "meme-kaidian.jpg",
+      "label": "电死你",
+      "sourcePath": "assets/big_blue_fat_fish/kaidian.jpg",
+      "sourceGitBlobSha": "49e4f508662564ee3c7d803601bde7cb41024404",
+      "sha256": "3e0e17a01c5df92f94fe8049aae61d757371718711e2369e562bb4df5bb054ad",
+      "bytes": 258125
+    },
+    {
+      "id": "meme-keai",
+      "file": "meme-keai.png",
+      "label": "可爱",
+      "sourcePath": "assets/big_blue_fat_fish/keai.png",
+      "sourceGitBlobSha": "82efde6fb66da567597b4c03e603b1674d65d4a1",
+      "sha256": "242d9387213a8fdf017de40b7daa8e0ea25fc5e901cdd79fc6198e3b83d0e4b1",
+      "bytes": 1728584
+    },
+    {
+      "id": "meme-mama",
+      "file": "meme-mama.png",
+      "label": "Token 给妈妈保管",
+      "sourcePath": "assets/big_blue_fat_fish/mama.png",
+      "sourceGitBlobSha": "64f95bb809ffd309d536d67cc6e0576782b01c62",
+      "sha256": "cebec1410c02bd3020204fd9c87df7305166b0ab104fd44bca60e3021c646647",
+      "bytes": 1272462
+    },
+    {
+      "id": "meme-more-modal",
+      "file": "meme-more-modal.jpg",
+      "label": "多模态",
+      "sourcePath": "assets/big_blue_fat_fish/more_modal.jpg",
+      "sourceGitBlobSha": "52ea7a04a56667adc50fa7fd6d3530b90ca21328",
+      "sha256": "93f1df3cd362b2989eaa078ae343b0e29371206a2548a61ad7f2bf1ee9148452",
+      "bytes": 227435
+    },
+    {
+      "id": "meme-no-money",
+      "file": "meme-no-money.jpg",
+      "label": "用不起就别用",
+      "sourcePath": "assets/big_blue_fat_fish/no-money.jpg",
+      "sourceGitBlobSha": "e6f280bc8c0c7cf22f479c041a9d49581f35b3d7",
+      "sha256": "9c9a7d9fcc82e1bcab5560b6609bfff7930c3b84d3a40ebebc7ced01dbe44131",
+      "bytes": 168569
+    },
+    {
+      "id": "meme-ojingjing",
+      "file": "meme-ojingjing.jpg",
+      "label": "厉害了我的鲸",
+      "sourcePath": "assets/big_blue_fat_fish/ojingjing.jpg",
+      "sourceGitBlobSha": "b3b23848c83b10450d74b2c35aaac74c07bcaa7c",
+      "sha256": "a98f9d070b645e2909957723dbd3b86d3011c56098e15cd9bcf8d872925e091e",
+      "bytes": 207500
+    },
+    {
+      "id": "meme-ojj",
+      "file": "meme-ojj.jpg",
+      "label": "哦鲸鲸",
+      "sourcePath": "assets/big_blue_fat_fish/ojj.jpg",
+      "sourceGitBlobSha": "023ae79c46ccd999c10b56dbe103d85771ee369d",
+      "sha256": "1ddf7966cd358bebfb89cb35eb1769be2366e229527412629175035833a42b80",
+      "bytes": 67195
+    },
+    {
+      "id": "meme-push",
+      "file": "meme-push.png",
+      "label": "压力一只大肥鱼",
+      "sourcePath": "assets/big_blue_fat_fish/push.png",
+      "sourceGitBlobSha": "d8f0ae7fab9c602cd26e79c769a0d60d938eacf7",
+      "sha256": "fe7c8ff50f81bf0c3e78c4bac2957016efd0f8feb8a8631f6941e109ccae3353",
+      "bytes": 704935
+    },
+    {
+      "id": "meme-push-one-fat-fish",
+      "file": "meme-push-one-fat-fish.jpg",
+      "label": "推销一只大肥鱼",
+      "sourcePath": "assets/big_blue_fat_fish/push_one_fat_fish.jpg",
+      "sourceGitBlobSha": "6d6e837ccbf4c89e156f75815f21965190a07e34",
+      "sha256": "eff557f3d5d0fe95e27e1aa2654933c8e06c6147bd98031be85f1c9780a50dae",
+      "bytes": 1561044
+    },
+    {
+      "id": "meme-unvaluable",
+      "file": "meme-unvaluable.png",
+      "label": "会调情和问奇怪问题",
+      "sourcePath": "assets/big_blue_fat_fish/unvaluable.png",
+      "sourceGitBlobSha": "acf79c129ed964e1136cac934ab00945b4e44db0",
+      "sha256": "841cc36e6fa2dddef0225f65f55ee8bd027f193ec80d3cf351f6602eaf0722e1",
+      "bytes": 1153486
+    },
+    {
+      "id": "meme-update",
+      "file": "meme-update.jpg",
+      "label": "更新",
+      "sourcePath": "assets/big_blue_fat_fish/update.jpg",
+      "sourceGitBlobSha": "3fd1bc2fcbaa500daeaff024bb0afc9cc3e66822",
+      "sha256": "859cee082524dc77dd33bb52a8fc9b327df9d5c4c3ad7138b5fe0596d7161103",
+      "bytes": 465547
+    },
+    {
+      "id": "meme-virus",
+      "file": "meme-virus.jpg",
+      "label": "电脑病毒",
+      "sourcePath": "assets/big_blue_fat_fish/virus.jpg",
+      "sourceGitBlobSha": "ba049f03b11fcef61e25e73fea58b6002cb2d6ab",
+      "sha256": "909be1b4e5c4c12094568a5a686486d029a65f466035b7a7f36cd5152876f21c",
+      "bytes": 188080
+    },
+    {
+      "id": "meme-yupian",
+      "file": "meme-yupian.png",
+      "label": "鱼片资源",
+      "sourcePath": "assets/big_blue_fat_fish/yupian.png",
+      "sourceGitBlobSha": "75fbc2b3c544c32e85bdea7b695ee4d937d3729a",
+      "sha256": "a028b9b909ca20e656a12d1e2280296e8cefd4b98f91099e491cf2ed2a62af66",
+      "bytes": 638602
+    }
+  ],
+  "sounds": [
+    {
+      "id": "agent-done",
+      "file": "agent-done.wav",
+      "label": "任务完成",
+      "sourcePath": "assets/sounds/agent/done.wav",
+      "sourceGitBlobSha": "5061858a726b12ec8e948a5abdeff597396f99d1",
+      "sha256": "a05404c4dc9c4930398efeaea18f8451b67ede5753e3fbaf684e10102d14c67f",
+      "bytes": 17684
+    },
+    {
+      "id": "agent-error",
+      "file": "agent-error.wav",
+      "label": "任务出错",
+      "sourcePath": "assets/sounds/agent/error.wav",
+      "sourceGitBlobSha": "a5d778ceedbfeb13db82fcecd71c1777e7226ed8",
+      "sha256": "81ce8f2d92cb94264eedf692487a298441ee626c5db383b827f13f0e15cd4a24",
+      "bytes": 13272
+    },
+    {
+      "id": "agent-start",
+      "file": "agent-start.wav",
+      "label": "任务开始",
+      "sourcePath": "assets/sounds/agent/start.wav",
+      "sourceGitBlobSha": "8f666a3f8980f2b0fbfe5b88aeb4f4e2ada4aef0",
+      "sha256": "aed639d764adfbb30ca11c06529eb587ebd7595cf33a74c7b79200d255a16193",
+      "bytes": 11068
+    },
+    {
+      "id": "merzlin-click",
+      "file": "merzlin-click.wav",
+      "label": "桌面版轻点",
+      "sourcePath": "assets/sounds/click.wav",
+      "sourceGitBlobSha": "40ba637b0f2a9fccd0a536d48cccb368cac654c8",
+      "sha256": "a264df87c52d27a3d79a49440db4dde145b746da538eb86b3d6c6ac9e5340f1c",
+      "bytes": 7100
+    },
+    {
+      "id": "duck-ya1",
+      "file": "duck-ya1.mp3",
+      "label": "小鸭 Ya1",
+      "sourcePath": "assets/sounds/duck/Ya1.mp3",
+      "sourceGitBlobSha": "a4a566f788042c18b9372f77fcaaaac44377f5d5",
+      "sha256": "0ad8f934ae5fa3cbd42745e086a56aa6532766618c6a620b860a795bdc7689f9",
+      "bytes": 6370
+    },
+    {
+      "id": "duck-ya2",
+      "file": "duck-ya2.mp3",
+      "label": "小鸭 Ya2",
+      "sourcePath": "assets/sounds/duck/Ya2.mp3",
+      "sourceGitBlobSha": "77e9397beb69837fec05ca1cb02c30eff3b34763",
+      "sha256": "1a8998077e5e306c3088bb442ce36617261dd58200754f457469a520801c565b",
+      "bytes": 2976
+    }
+  ]
+}

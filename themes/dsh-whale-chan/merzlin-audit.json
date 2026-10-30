@@ -1,0 +1,862 @@
+{
+  "repository": "https://github.com/MerZlin/dsh-pet-indesktop",
+  "revision": "34d810b1eadd98d00e7cb9b3b51428a45b5bf03e",
+  "animations": [
+    {
+      "sourcePath": "assets/characters/shenshen/videos/click/点击回应-傲娇生气.webm",
+      "sourceGitBlobSha": "77c6461a1f8ced2dc7272f44192f37dd682becf8",
+      "localId": "annoyed",
+      "localSourceGitBlobSha": "77c6461a1f8ced2dc7272f44192f37dd682becf8",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/click/点击回应-元气挥手.webm",
+      "sourceGitBlobSha": "f60556f06c386cfb569f76b0cfa2e34e34fdc362",
+      "localId": "wave",
+      "localSourceGitBlobSha": "f60556f06c386cfb569f76b0cfa2e34e34fdc362",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/click/点击回应-害羞惊讶.webm",
+      "sourceGitBlobSha": "499b73c42844bd0268bff9044e0523fcae1c1b27",
+      "localId": "shy",
+      "localSourceGitBlobSha": "499b73c42844bd0268bff9044e0523fcae1c1b27",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/click/点击回应-开心跃动.webm",
+      "sourceGitBlobSha": "fb614abf8d19c650fb5bd4727b2585282733a996",
+      "localId": "happy",
+      "localSourceGitBlobSha": "fb614abf8d19c650fb5bd4727b2585282733a996",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/click/点击回应-挠痒咯咯笑.webm",
+      "sourceGitBlobSha": "d896eb9a91ca8eafa7f0af35a3073dc04a397742",
+      "localId": "dianji-huiying-naoyang-gegexiao",
+      "localSourceGitBlobSha": "d896eb9a91ca8eafa7f0af35a3073dc04a397742",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/drag/被鼠标拖拽悬空反馈.webm",
+      "sourceGitBlobSha": "728f04b2997aa9ec4bdb87d1b9b14d7910bc7fd6",
+      "localId": "drag",
+      "localSourceGitBlobSha": "728f04b2997aa9ec4bdb87d1b9b14d7910bc7fd6",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/events/balance/余额-分文不剩.webm",
+      "sourceGitBlobSha": "013b69906a5c56b219bbd74986f973eea53e3675",
+      "localId": "fen-wen-bu-sheng",
+      "localSourceGitBlobSha": "013b69906a5c56b219bbd74986f973eea53e3675",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/events/balance/余额-数金皱眉.webm",
+      "sourceGitBlobSha": "6c1dac8e3edddc02f4988e1c38e289177c335ecf",
+      "localId": "shu-jin-zhou-mei",
+      "localSourceGitBlobSha": "6c1dac8e3edddc02f4988e1c38e289177c335ecf",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/events/balance/余额-袋空如洗.webm",
+      "sourceGitBlobSha": "a85eb2206596c7031fbc64146df09f6e7b137aae",
+      "localId": "dai-kong-ru-xi",
+      "localSourceGitBlobSha": "a85eb2206596c7031fbc64146df09f6e7b137aae",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/events/balance/余额-金袋叮当.webm",
+      "sourceGitBlobSha": "1bbe074a0bef1a7ef80508b3033269885edb6b2c",
+      "localId": "jin-dai-ding-dang",
+      "localSourceGitBlobSha": "1bbe074a0bef1a7ef80508b3033269885edb6b2c",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/events/balance/余额-钱袋如常.webm",
+      "sourceGitBlobSha": "a52b686a7a3d801a98cccb81534eae2bfa7ac2b3",
+      "localId": "qian-dai-ru-chang",
+      "localSourceGitBlobSha": "a52b686a7a3d801a98cccb81534eae2bfa7ac2b3",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/events/balance/余额-钱袋满溢.webm",
+      "sourceGitBlobSha": "34212594a3b9fc03daf2ae742763e62dfe4b034f",
+      "localId": "qian-dai-man-yi",
+      "localSourceGitBlobSha": "34212594a3b9fc03daf2ae742763e62dfe4b034f",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/idle/待机呼吸休闲.webm",
+      "sourceGitBlobSha": "fd64a428a2be1d3b4ff6cd7f9867dfe978ba0bbb",
+      "localId": "idle",
+      "localSourceGitBlobSha": "fd64a428a2be1d3b4ff6cd7f9867dfe978ba0bbb",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/move/左转奔跑.webm",
+      "sourceGitBlobSha": "d9b6611b32065a7937878a5467cd84d47a1be543",
+      "localId": "yuandi-zuozhuan-benpao",
+      "localSourceGitBlobSha": "d9b6611b32065a7937878a5467cd84d47a1be543",
+      "identical": true,
+      "renamed": true
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/move/漂浮踏步.webm",
+      "sourceGitBlobSha": "d700e4fdd38e8795b88f6d81418e8fc196fe80ed",
+      "localId": "yuandi-piaofu-tabu",
+      "localSourceGitBlobSha": "d700e4fdd38e8795b88f6d81418e8fc196fe80ed",
+      "identical": true,
+      "renamed": true
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/move/螃蟹走路.webm",
+      "sourceGitBlobSha": "6ff80136295718a2e866e70d90fa8a0bada333dd",
+      "localId": "walk",
+      "localSourceGitBlobSha": "6ff80136295718a2e866e70d90fa8a0bada333dd",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/三球抛接.webm",
+      "sourceGitBlobSha": "a76228cb5f42fa159e3ec565b8ef969a7d289dca",
+      "localId": "juggling",
+      "localSourceGitBlobSha": "a76228cb5f42fa159e3ec565b8ef969a7d289dca",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/下五子棋.webm",
+      "sourceGitBlobSha": "63295b32e6a0522dac3840abb74a5af7b1431a08",
+      "localId": "xiawuziqi",
+      "localSourceGitBlobSha": "63295b32e6a0522dac3840abb74a5af7b1431a08",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/中秋赏月吃月饼.webm",
+      "sourceGitBlobSha": "48beff57ddc5b3c7e1c0387348e33ce8e3a5b819",
+      "localId": "zhongqiu-shangyue-chi-yuebing",
+      "localSourceGitBlobSha": "48beff57ddc5b3c7e1c0387348e33ce8e3a5b819",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/优雅女仆舞.webm",
+      "sourceGitBlobSha": "390c504dfb0b56bb647f0253782a91ee705f8933",
+      "localId": "youya-nvpuwu",
+      "localSourceGitBlobSha": "390c504dfb0b56bb647f0253782a91ee705f8933",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/偷吃零食被抓住.webm",
+      "sourceGitBlobSha": "9f50ed6c3ba1a3f96b614e34ecaaf067ef6ab9cd",
+      "localId": "touchi-lingshi-bei-zhuazhu",
+      "localSourceGitBlobSha": "9f50ed6c3ba1a3f96b614e34ecaaf067ef6ab9cd",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/写代码.webm",
+      "sourceGitBlobSha": "47902f235c11fadd22134dd71d2fbcc3a36a13fc",
+      "localId": "working",
+      "localSourceGitBlobSha": "47902f235c11fadd22134dd71d2fbcc3a36a13fc",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/写福字.webm",
+      "sourceGitBlobSha": "b7aa9ce458b6e8d1c9513b5e4b059a07ca143f88",
+      "localId": "xie-fuzi",
+      "localSourceGitBlobSha": "b7aa9ce458b6e8d1c9513b5e4b059a07ca143f88",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/凭空生花.webm",
+      "sourceGitBlobSha": "085fe6d74ddfc268670be32b7c3f78c6806b68f1",
+      "localId": "pingkong-shenghua",
+      "localSourceGitBlobSha": "085fe6d74ddfc268670be32b7c3f78c6806b68f1",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/动物环绕.webm",
+      "sourceGitBlobSha": "44722e0afb7ef4c1cd85c5c98eadd9b4ade2fea9",
+      "localId": "dongwu-huanrao",
+      "localSourceGitBlobSha": "44722e0afb7ef4c1cd85c5c98eadd9b4ade2fea9",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/原地专心玩魔方.webm",
+      "sourceGitBlobSha": "d2730f4c17e8ccb793973929c237b4fb32d8e3fc",
+      "localId": "cube",
+      "localSourceGitBlobSha": "d2730f4c17e8ccb793973929c237b4fb32d8e3fc",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/原地小憩沉眠.webm",
+      "sourceGitBlobSha": "9b258545a841647a11ffdc5882ad8b2bb808a343",
+      "localId": "sleeping",
+      "localSourceGitBlobSha": "9b258545a841647a11ffdc5882ad8b2bb808a343",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/原地敲击桌面互动.webm",
+      "sourceGitBlobSha": "c7e55e6f83c1847a45d81d60c04de2a167680c92",
+      "localId": "yuandi-qiaoji-zhuomian-hudong",
+      "localSourceGitBlobSha": "c7e55e6f83c1847a45d81d60c04de2a167680c92",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/原地跳跃抓碎头顶物品.webm",
+      "sourceGitBlobSha": "b45cdcb57340f12fff1b40ea9391bdd1d3c2845a",
+      "localId": "yuandi-tiaoyue-zhuasui-touding-wupin",
+      "localSourceGitBlobSha": "b45cdcb57340f12fff1b40ea9391bdd1d3c2845a",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/原地蹲下玩玩具汽车.webm",
+      "sourceGitBlobSha": "9a4ba01b33e6fba841a99ebf55631433651cdcd3",
+      "localId": "toy-car",
+      "localSourceGitBlobSha": "9a4ba01b33e6fba841a99ebf55631433651cdcd3",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/原地重力下蹲压缩.webm",
+      "sourceGitBlobSha": "67acb52f7e7c49e77b000730b3bff9a65fb21a10",
+      "localId": "yuandi-zhongli-xiadun-yasuo",
+      "localSourceGitBlobSha": "67acb52f7e7c49e77b000730b3bff9a65fb21a10",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/变鸽子.webm",
+      "sourceGitBlobSha": "150abd9011b3c9fec7229fa2b30418958040a7ad",
+      "localId": "bian-gezi",
+      "localSourceGitBlobSha": "150abd9011b3c9fec7229fa2b30418958040a7ad",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/可爱宅舞.webm",
+      "sourceGitBlobSha": "0b96ac0de6fa7afe72f256148dd719698769043c",
+      "localId": "dance",
+      "localSourceGitBlobSha": "0b96ac0de6fa7afe72f256148dd719698769043c",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/吃Token.webm",
+      "sourceGitBlobSha": "619722b50ea75fcb3c18b3de5d996ce4e87a7893",
+      "localId": "chi-token",
+      "localSourceGitBlobSha": "619722b50ea75fcb3c18b3de5d996ce4e87a7893",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/吃冰淇淋融化.webm",
+      "sourceGitBlobSha": "c696cf2f61366cd9ba973aae1526dbf920c3d85d",
+      "localId": "ice-cream",
+      "localSourceGitBlobSha": "c696cf2f61366cd9ba973aae1526dbf920c3d85d",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/吃午餐.webm",
+      "sourceGitBlobSha": "83618038d3d4fe98b9f42d0fd7ae1b7a24f686b3",
+      "localId": "chi-wucan",
+      "localSourceGitBlobSha": "83618038d3d4fe98b9f42d0fd7ae1b7a24f686b3",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/吃大闸蟹.webm",
+      "sourceGitBlobSha": "f8e0774d6b4b38f27adfecdfc591dd40812f5e38",
+      "localId": "chi-dazhaxie",
+      "localSourceGitBlobSha": "f8e0774d6b4b38f27adfecdfc591dd40812f5e38",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/吃年糕.webm",
+      "sourceGitBlobSha": "7b4473435dfa219428f5bb2e1dbf34fe83b59190",
+      "localId": "chi-niangao",
+      "localSourceGitBlobSha": "7b4473435dfa219428f5bb2e1dbf34fe83b59190",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/吃早餐.webm",
+      "sourceGitBlobSha": "6691dc43900e3f906b6576cc6eb7e0f23b0e2702",
+      "localId": "chi-zaocan",
+      "localSourceGitBlobSha": "6691dc43900e3f906b6576cc6eb7e0f23b0e2702",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/吃晚餐.webm",
+      "sourceGitBlobSha": "14f9eee2a361a592fd55c95979f5810b7b8dcd03",
+      "localId": "chi-wancan",
+      "localSourceGitBlobSha": "14f9eee2a361a592fd55c95979f5810b7b8dcd03",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/吃汤圆.webm",
+      "sourceGitBlobSha": "eac65950006cf0814e6e4f1ebe1c73b9e36a8791",
+      "localId": "chitangyuan",
+      "localSourceGitBlobSha": "eac65950006cf0814e6e4f1ebe1c73b9e36a8791",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/吃白饭.webm",
+      "sourceGitBlobSha": "0f400023c2f036e6edc28033083d49f68686d347",
+      "localId": "chi-baifan",
+      "localSourceGitBlobSha": "0f400023c2f036e6edc28033083d49f68686d347",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/吃粽子.webm",
+      "sourceGitBlobSha": "6ad057c473cbaf209de8d4ec91781d9bc759cda9",
+      "localId": "chi-zongzi",
+      "localSourceGitBlobSha": "6ad057c473cbaf209de8d4ec91781d9bc759cda9",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/吃糖葫芦.webm",
+      "sourceGitBlobSha": "def3fa70022f6b728f0d0b3ebbfcff601c406c57",
+      "localId": "chi-tanghulu",
+      "localSourceGitBlobSha": "def3fa70022f6b728f0d0b3ebbfcff601c406c57",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/吃腊八粥.webm",
+      "sourceGitBlobSha": "c20156c0de0863832d7bc10fb65153559de388be",
+      "localId": "chi-labazhou",
+      "localSourceGitBlobSha": "c20156c0de0863832d7bc10fb65153559de388be",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/吃西瓜.webm",
+      "sourceGitBlobSha": "ffa2c36e86e9056a7e965c73364a50c1fd8bb192",
+      "localId": "watermelon",
+      "localSourceGitBlobSha": "ffa2c36e86e9056a7e965c73364a50c1fd8bb192",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/吃重阳糕.webm",
+      "sourceGitBlobSha": "cc54c1f82bb5c4b8e366fba6433b6534bedcf4fc",
+      "localId": "chi-chongyanggao",
+      "localSourceGitBlobSha": "cc54c1f82bb5c4b8e366fba6433b6534bedcf4fc",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/吃长寿面.webm",
+      "sourceGitBlobSha": "ac71008a07686f858627e7f7f69e77448941bb97",
+      "localId": "chi-changshoumian",
+      "localSourceGitBlobSha": "ac71008a07686f858627e7f7f69e77448941bb97",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/吃青团.webm",
+      "sourceGitBlobSha": "00031236d476501f71b3f03f978a4b79952e5097",
+      "localId": "chi-qingtuan",
+      "localSourceGitBlobSha": "00031236d476501f71b3f03f978a4b79952e5097",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/吃饺子.webm",
+      "sourceGitBlobSha": "2dee24954bae172a20ef1e0d44b34d7105872851",
+      "localId": "chijiaozi",
+      "localSourceGitBlobSha": "2dee24954bae172a20ef1e0d44b34d7105872851",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/吹气球.webm",
+      "sourceGitBlobSha": "3a632cd91c409ed1b889f0313ae1394113c0d7c0",
+      "localId": "balloon",
+      "localSourceGitBlobSha": "3a632cd91c409ed1b889f0313ae1394113c0d7c0",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/吹笛子.webm",
+      "sourceGitBlobSha": "fd57f820116b72c35e7b50ee3cdb5c20e775062b",
+      "localId": "flute",
+      "localSourceGitBlobSha": "fd57f820116b72c35e7b50ee3cdb5c20e775062b",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/哈欠连天.webm",
+      "sourceGitBlobSha": "63da356fa373ecf6256bc8f4deb9709577e2f18e",
+      "localId": "yawning",
+      "localSourceGitBlobSha": "63da356fa373ecf6256bc8f4deb9709577e2f18e",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/堆雪人.webm",
+      "sourceGitBlobSha": "ce8e8be3b7e5c0dfbdebf15f5a8fd70e2836ee0f",
+      "localId": "duixueren",
+      "localSourceGitBlobSha": "ce8e8be3b7e5c0dfbdebf15f5a8fd70e2836ee0f",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/大口吃零食.webm",
+      "sourceGitBlobSha": "ab57e48e28d0e0fb832549e1b546bed28f2eb3df",
+      "localId": "snack",
+      "localSourceGitBlobSha": "ab57e48e28d0e0fb832549e1b546bed28f2eb3df",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/女仆屈膝礼仪.webm",
+      "sourceGitBlobSha": "0bcac6ada85e78527fcce020db73bf0b6eff41d3",
+      "localId": "nvpu-quxi-liyi",
+      "localSourceGitBlobSha": "0bcac6ada85e78527fcce020db73bf0b6eff41d3",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/小幅度原地360度旋转展示.webm",
+      "sourceGitBlobSha": "915feb453f11f0267693109b3e847a850cdb1ec7",
+      "localId": "xiaofudu-yuandi-360du-xuanzhuan-zhanshi",
+      "localSourceGitBlobSha": "915feb453f11f0267693109b3e847a850cdb1ec7",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/小提琴演奏.webm",
+      "sourceGitBlobSha": "2de1533cd0f2d7a72e0099f9ac6f816353f3912f",
+      "localId": "violin",
+      "localSourceGitBlobSha": "2de1533cd0f2d7a72e0099f9ac6f816353f3912f",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/工作状态-原地踱步张望.webm",
+      "sourceGitBlobSha": "7b9459a1efdf4155f5ddd3beb07936fcc5c8a7ed",
+      "localId": "waiting",
+      "localSourceGitBlobSha": "7b9459a1efdf4155f5ddd3beb07936fcc5c8a7ed",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/工作状态-垂头叹气冒汗.webm",
+      "sourceGitBlobSha": "653ef82b71d52faa1d26a014afb7764f778926f7",
+      "localId": "error",
+      "localSourceGitBlobSha": "653ef82b71d52faa1d26a014afb7764f778926f7",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/工作状态-忙碌点按.webm",
+      "sourceGitBlobSha": "32bc6dbf65a7f1afa403520c3dd37980ca353e5f",
+      "localId": "busy",
+      "localSourceGitBlobSha": "32bc6dbf65a7f1afa403520c3dd37980ca353e5f",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/工作状态-思考冒泡.webm",
+      "sourceGitBlobSha": "51bc3bb2fb894e6f1499974d62a3d93592f91859",
+      "localId": "thinking",
+      "localSourceGitBlobSha": "51bc3bb2fb894e6f1499974d62a3d93592f91859",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/工作状态-清点归档.webm",
+      "sourceGitBlobSha": "af694fb0013cbc0aa5313ab0221f417b4efdb14a",
+      "localId": "organizing",
+      "localSourceGitBlobSha": "af694fb0013cbc0aa5313ab0221f417b4efdb14a",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/工作状态-雀跃庆祝.webm",
+      "sourceGitBlobSha": "edd6645a8ee9b222c720fb20cfff3b715e92db9b",
+      "localId": "done",
+      "localSourceGitBlobSha": "edd6645a8ee9b222c720fb20cfff3b715e92db9b",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/悠闲哼歌.webm",
+      "sourceGitBlobSha": "01bd5c202583ef634de424904e76f2906f7289d3",
+      "localId": "humming",
+      "localSourceGitBlobSha": "01bd5c202583ef634de424904e76f2906f7289d3",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/扑克魔术.webm",
+      "sourceGitBlobSha": "2e33efead726dff587fa0ca46adef5ecb5d0b7c9",
+      "localId": "card-magic",
+      "localSourceGitBlobSha": "2e33efead726dff587fa0ca46adef5ecb5d0b7c9",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/打瞌睡被惊醒.webm",
+      "sourceGitBlobSha": "e5c5759895274e1f7c4017dce9c9c51beec44e51",
+      "localId": "da-keshui-bei-jingxing",
+      "localSourceGitBlobSha": "e5c5759895274e1f7c4017dce9c9c51beec44e51",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/抽陀螺.webm",
+      "sourceGitBlobSha": "1a0cd6a9447c3a36b068fb9db46fd56447520a73",
+      "localId": "chou-tuoluo",
+      "localSourceGitBlobSha": "1a0cd6a9447c3a36b068fb9db46fd56447520a73",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/拆礼物.webm",
+      "sourceGitBlobSha": "01445f708db3e19b707e6d1609902dd4da9c0ade",
+      "localId": "gift",
+      "localSourceGitBlobSha": "01445f708db3e19b707e6d1609902dd4da9c0ade",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/插茱萸赏菊.webm",
+      "sourceGitBlobSha": "7e2976e00317dfd681279890ab48f3a68ceb03f9",
+      "localId": "cha-zhuyu-shangju",
+      "localSourceGitBlobSha": "7e2976e00317dfd681279890ab48f3a68ceb03f9",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/摇扇纳凉.webm",
+      "sourceGitBlobSha": "bbb9b8344e6c30579c967a27831ad85f19db1002",
+      "localId": "fan",
+      "localSourceGitBlobSha": "bbb9b8344e6c30579c967a27831ad85f19db1002",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/撸猫.webm",
+      "sourceGitBlobSha": "466044675ea20b863db850373aab8a6c2b7c11a8",
+      "localId": "cat",
+      "localSourceGitBlobSha": "466044675ea20b863db850373aab8a6c2b7c11a8",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/收红包.webm",
+      "sourceGitBlobSha": "ca07f8792572e3b182b2077b768fbcf9ece4ee91",
+      "localId": "shou-hongbao",
+      "localSourceGitBlobSha": "ca07f8792572e3b182b2077b768fbcf9ece4ee91",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/放孔明灯.webm",
+      "sourceGitBlobSha": "ca554c0df5fb9cd2f35ad9eb54957b9e1dfcd2cf",
+      "localId": "fang-kongmingdeng",
+      "localSourceGitBlobSha": "ca554c0df5fb9cd2f35ad9eb54957b9e1dfcd2cf",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/放河灯.webm",
+      "sourceGitBlobSha": "2827fd308393a036201bc85dca0a9b2cc9f3ee13",
+      "localId": "fanghedeng",
+      "localSourceGitBlobSha": "2827fd308393a036201bc85dca0a9b2cc9f3ee13",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/放烟花.webm",
+      "sourceGitBlobSha": "3a1bcd38b00b170b619e42b76ab8c9ea9225903a",
+      "localId": "fang-yanhua",
+      "localSourceGitBlobSha": "3a1bcd38b00b170b619e42b76ab8c9ea9225903a",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/放风筝.webm",
+      "sourceGitBlobSha": "000eba2f49a11beb21aa63ddc64c4d1522afa27e",
+      "localId": "fang-fengzheng",
+      "localSourceGitBlobSha": "000eba2f49a11beb21aa63ddc64c4d1522afa27e",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/整体换装试色.webm",
+      "sourceGitBlobSha": "abd198a8d1e4e67f09d86e4a5bdc99859e61098e",
+      "localId": "zhengti-huanzhuang-shise",
+      "localSourceGitBlobSha": "abd198a8d1e4e67f09d86e4a5bdc99859e61098e",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/是啊，吃什么.webm",
+      "sourceGitBlobSha": "e347b7574b4dca0d65bdd34bf9af0a176fbb15a1",
+      "localId": "shia-chishenme",
+      "localSourceGitBlobSha": "e347b7574b4dca0d65bdd34bf9af0a176fbb15a1",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/晨间刷牙.webm",
+      "sourceGitBlobSha": "66581dbd88c72bcba960d551b9cdcb0239da7d2f",
+      "localId": "chenjian-shuaya",
+      "localSourceGitBlobSha": "66581dbd88c72bcba960d551b9cdcb0239da7d2f",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/涮火锅.webm",
+      "sourceGitBlobSha": "d3e99cf6d8694b5e83a3957793f8fc7a0fc2cc2a",
+      "localId": "hotpot",
+      "localSourceGitBlobSha": "d3e99cf6d8694b5e83a3957793f8fc7a0fc2cc2a",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/深度思考碎碎念.webm",
+      "sourceGitBlobSha": "a4082cf30b60e02b4928c501c5416cbe14519724",
+      "localId": "shendu-sikao-suisuinian",
+      "localSourceGitBlobSha": "5a40d5bfdfa818a1df37cef6405f10cd8b71961c",
+      "identical": false,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/照镜子.webm",
+      "sourceGitBlobSha": "f9ead4a5e1ab6cb702bd349794264f398f470867",
+      "localId": "mirror",
+      "localSourceGitBlobSha": "f9ead4a5e1ab6cb702bd349794264f398f470867",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/玩水枪.webm",
+      "sourceGitBlobSha": "70cabac39a03ab1738540fdb9a9581ae523de463",
+      "localId": "wan-shuiqiang",
+      "localSourceGitBlobSha": "70cabac39a03ab1738540fdb9a9581ae523de463",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/玩游戏气急败坏.webm",
+      "sourceGitBlobSha": "a3375c2980634529e84ba2ee61a57776ea8205e9",
+      "localId": "game",
+      "localSourceGitBlobSha": "a3375c2980634529e84ba2ee61a57776ea8205e9",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/用鲸鱼尾巴拍打地面.webm",
+      "sourceGitBlobSha": "822a7c41f795906ca46e2f1757c63e6633d39214",
+      "localId": "yong-jingyu-weiba-paidadi",
+      "localSourceGitBlobSha": "822a7c41f795906ca46e2f1757c63e6633d39214",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/碎碎念-发呆碎碎念.webm",
+      "sourceGitBlobSha": "4afcaf7459e3b27b30252648b388e9cd3296807f",
+      "localId": "suisuinian-fadai-suisuinian",
+      "localSourceGitBlobSha": "4afcaf7459e3b27b30252648b388e9cd3296807f",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/碎碎念-对屏碎碎念.webm",
+      "sourceGitBlobSha": "8b7b357f01a9e5cf733dce28f32e8f94be4a030d",
+      "localId": "suisuinian-duiping-suisuinian",
+      "localSourceGitBlobSha": "8b7b357f01a9e5cf733dce28f32e8f94be4a030d",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/碎碎念-擦桌碎碎念.webm",
+      "sourceGitBlobSha": "343513cf0d5583b5f476080d5082f3f5e01588b8",
+      "localId": "suisuinian-cazhuo-suisuinian",
+      "localSourceGitBlobSha": "343513cf0d5583b5f476080d5082f3f5e01588b8",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/穿针乞巧.webm",
+      "sourceGitBlobSha": "f78881f4e996d5160ce4910ed06646b5b9d5bd60",
+      "localId": "chuanzhenqiqiao",
+      "localSourceGitBlobSha": "f78881f4e996d5160ce4910ed06646b5b9d5bd60",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/舞狮头.webm",
+      "sourceGitBlobSha": "b16d549ec2572f5d693bdc7691e3247544ccb88e",
+      "localId": "wu-shitou",
+      "localSourceGitBlobSha": "b16d549ec2572f5d693bdc7691e3247544ccb88e",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/荡秋千.webm",
+      "sourceGitBlobSha": "41c61429405139344b13875135468edb25b6f28e",
+      "localId": "dangqiuqian",
+      "localSourceGitBlobSha": "41c61429405139344b13875135468edb25b6f28e",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/萌化小幽灵.webm",
+      "sourceGitBlobSha": "cae5ebbca8634591a49daf5f7a4bc56fa369a7bf",
+      "localId": "menghua-xiaoyouling",
+      "localSourceGitBlobSha": "cae5ebbca8634591a49daf5f7a4bc56fa369a7bf",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/蓝鲸现世.webm",
+      "sourceGitBlobSha": "eb62a155d056d35a16b1d4e961d5ff10c109f684",
+      "localId": "lanjing-xianshi",
+      "localSourceGitBlobSha": "eb62a155d056d35a16b1d4e961d5ff10c109f684",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/蝴蝶蜜蜂环绕头顶开花.webm",
+      "sourceGitBlobSha": "6f39bb90fd8349d5f23d0912a4bc01c2c06470f2",
+      "localId": "hudie-mifeng-huanrao-touding-kaihua",
+      "localSourceGitBlobSha": "6f39bb90fd8349d5f23d0912a4bc01c2c06470f2",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/被吓一跳.webm",
+      "sourceGitBlobSha": "a7afe71ed72990bbace7026abb1ef69ae7e3706c",
+      "localId": "beixiayitiao-zhamao",
+      "localSourceGitBlobSha": "a7afe71ed72990bbace7026abb1ef69ae7e3706c",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/被落叶淹没.webm",
+      "sourceGitBlobSha": "1e35fff171fb8856bd89de91329ef357c7d33e65",
+      "localId": "beiluoye-yanmo",
+      "localSourceGitBlobSha": "1e35fff171fb8856bd89de91329ef357c7d33e65",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/装点圣诞树.webm",
+      "sourceGitBlobSha": "1217c9625c3a682732bc4398108ce7c4ae2a07f6",
+      "localId": "zhuangdian-shengdanshu",
+      "localSourceGitBlobSha": "1217c9625c3a682732bc4398108ce7c4ae2a07f6",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/讨糖南瓜灯.webm",
+      "sourceGitBlobSha": "3a17ac14fba449e8d7bb0e0d38085825b068a9e1",
+      "localId": "taotang-nanguadeng",
+      "localSourceGitBlobSha": "3a17ac14fba449e8d7bb0e0d38085825b068a9e1",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/超大伸懒腰.webm",
+      "sourceGitBlobSha": "689e04f120f9f678a9424dac6cadf4b6a0bd6e6b",
+      "localId": "stretch",
+      "localSourceGitBlobSha": "689e04f120f9f678a9424dac6cadf4b6a0bd6e6b",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/踢毽子.webm",
+      "sourceGitBlobSha": "1a0586564e58e6a60e4f151d2bf161e975673e30",
+      "localId": "ti-jianzi",
+      "localSourceGitBlobSha": "1a0586564e58e6a60e4f151d2bf161e975673e30",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/轻快摇摆舞.webm",
+      "sourceGitBlobSha": "596558b14cacee0d96f5e9d3942fd5731be49718",
+      "localId": "qingkuai-yaobaiwu",
+      "localSourceGitBlobSha": "596558b14cacee0d96f5e9d3942fd5731be49718",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/轻快记录.webm",
+      "sourceGitBlobSha": "d0c1bc670b74450e53019b36366edbe54056a363",
+      "localId": "qingkuai-jilu",
+      "localSourceGitBlobSha": "d0c1bc670b74450e53019b36366edbe54056a363",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/骑木马.webm",
+      "sourceGitBlobSha": "b578f4c951a11c3fe97bdbd609315d3e72fe6827",
+      "localId": "qi-muma",
+      "localSourceGitBlobSha": "b578f4c951a11c3fe97bdbd609315d3e72fe6827",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/random/鲸鱼吐泡泡特效.webm",
+      "sourceGitBlobSha": "4848e28f2c4fde323025a03a7980b75f1c56f98e",
+      "localId": "jingyu-tu-paopao-texiao",
+      "localSourceGitBlobSha": "4848e28f2c4fde323025a03a7980b75f1c56f98e",
+      "identical": true,
+      "renamed": false
+    },
+    {
+      "sourcePath": "assets/characters/shenshen/videos/turn/东张西望.webm",
+      "sourceGitBlobSha": "3ba4edb2cc647c51edd41b5a6c71eeee8c418ed0",
+      "localId": "look-around",
+      "localSourceGitBlobSha": "3ba4edb2cc647c51edd41b5a6c71eeee8c418ed0",
+      "identical": true,
+      "renamed": false
+    }
+  ],
+  "missingAnimations": [],
+  "additionalImages": 24,
+  "additionalSounds": 6,
+  "excluded": [
+    "聊天壁纸与程序图标",
+    "OCR 模型与 PresentMon 可执行文件",
+    "同一动作的无损分包，不重复导入"
+  ]
+}

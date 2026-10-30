@@ -1,6 +1,15 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 // Inserted into Clawd main.js by the version-checked adapter.
-let lastPetClickSoundAt = 0;
+const petExtraMedia = require('./clawd-extra-media')({
+  now: () => Date.now(), dataDir: app.getPath('userData'),
+  theme: () => getActiveTheme(),
+  enabled: () => !isQuitting && getActiveTheme().petInteractions?.enabled === true && !doNotDisturb
+    && !_mini.getMiniMode() && !_mini.getMiniTransitioning()
+    && !!win && !win.isDestroyed() && win.isVisible(),
+  muted: () => soundMuted, volume: () => soundVolume,
+  send: payload => sendRawToRenderer('play-sound', payload),
+  showImage: ({title, url}) => infoBubble.showImage(title, url),
+});
 const petPhysics = require('./clawd-physics-runtime')({
   enabled: () => !isQuitting && getActiveTheme().petInteractions?.enabled === true && !doNotDisturb
     && !_mini.getMiniMode() && !_mini.getMiniTransitioning()
@@ -43,14 +52,8 @@ const petPhysics = require('./clawd-physics-runtime')({
   },
   feedback: (payload) => {
     sendRawToRenderer('clawd-pet-feedback', payload);
-    if (payload.sound && !soundMuted && !doNotDisturb && getActiveTheme().petInteractions?.clickSound !== false
-        && Date.now() - lastPetClickSoundAt >= 100) {
-      lastPetClickSoundAt = Date.now();
-      sendRawToRenderer('play-sound', {
-        url: require('url').pathToFileURL(path.join(__dirname, 'dsh-click-duck.wav')).href,
-        volume: soundVolume * .5,
-      });
-    }
+    if (payload.sound) petExtraMedia.click();
+    if (payload.kind === 'impact') petExtraMedia.impact();
   },
 });
 ipcMain.on('clawd-pet-gesture', (event, kind, data) => {

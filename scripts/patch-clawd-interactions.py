@@ -14,7 +14,9 @@ def patch_interactions(main, hit, read):
   if (petPhysics.isActive() && options.manualPlayback === true) petPhysics.cancel(false);''')
     main = replace(main, '    options, manualPlayer: manualAnimationPlayer,', '    options, manualPlayer: manualAnimationPlayer, physicsActive: petPhysics.isActive(),')
     main = replace(main, 'isRoamAnimating: () => _roam.isRoamAnimating(),', 'isRoamAnimating: () => _roam.isRoamAnimating() || petPhysics.isActive(),')
-    main = replace(main, 'pollQuotaAnimation: () => { pollQuotaAnimation(); infoBubble.poll(); },', 'pollQuotaAnimation: () => { petPhysics.poll(); pollQuotaAnimation(); infoBubble.poll(); },')
+    main = replace(main, 'pollQuotaAnimation: () => { pollQuotaAnimation(); infoBubble.poll(); },', 'pollQuotaAnimation: () => { petPhysics.poll(); petExtraMedia.poll(() => _state.buildSessionSnapshot()); pollQuotaAnimation(); infoBubble.poll(); },')
+    main = replace(main, 'stop: () => manualAnimationPlayer.stop(),', 'stop: () => manualAnimationPlayer.stop(),\n    extraMenu: petExtraMedia.menu(),')
+    main = replace(main, 'function playSound(name) {', 'function playSound(name) {\n  if (name === "complete" && petExtraMedia.ownsTaskSounds()) return;')
     main = replace(main, 'get manualAnimationActive() { return manualAnimationPlayer.isActive(); },', 'get manualAnimationActive() { return manualAnimationPlayer.isActive() || petPhysics.isActive(); },')
     main = replace(main, 'isMovementPaused: () => manualAnimationPlayer.isActive() || menuOpen || !!(_tick && _tick.idleAnimationActive),', 'isMovementPaused: () => petPhysics.isActive() || manualAnimationPlayer.isActive() || menuOpen || !!(_tick && _tick.idleAnimationActive),')
     main = replace(main, '|| petWindowRuntime.isDragLocked() || manualAnimationPlayer.isActive(),', '|| petWindowRuntime.isDragLocked() || manualAnimationPlayer.isActive() || petPhysics.isActive(),')
@@ -32,6 +34,8 @@ def patch_interactions(main, hit, read):
     theme_context = replace(read('src/theme-context.js').decode(), '      reactions: theme.reactions || {},', '      reactions: theme.reactions || {},\n      petInteractions: theme.petInteractions || null,')
     result = {'src/main.js': main.encode(), 'src/hit-renderer.js': hit.encode(), 'src/preload-hit.js': preload_hit.encode(),
               'src/preload.js': preload.encode(), 'src/index.html': html.encode(), 'src/theme-context.js': theme_context.encode()}
-    for name in ['clawd-physics.js', 'clawd-physics-runtime.js', 'clawd-feedback-renderer.js', 'dsh-click-duck.wav']:
+    for name in ['clawd-physics.js', 'clawd-physics-runtime.js', 'clawd-feedback-renderer.js', 'clawd-extra-media.js', 'dsh-click-duck.wav']:
         result['src/' + name] = (ROOT / 'integrations' / name).read_bytes()
+    for asset in (ROOT / 'integrations/merzlin-media').iterdir():
+        if asset.is_file(): result['src/merzlin-media/' + asset.name] = asset.read_bytes()
     return result
