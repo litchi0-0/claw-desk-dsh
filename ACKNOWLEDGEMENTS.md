@@ -16,6 +16,7 @@
 感谢 [PC2005-cloud/dsh-pet](https://github.com/PC2005-cloud/dsh-pet) 及其维护者、贡献者，提供 106 段透明动画、分类与桌宠交互设计参考。
 
 - 动画固定来源提交：`71ed01b2010f1a55a4442763d70bcb79d5fadd68`。
+- 1.5.3 起的点击音效来自同项目 `34cf7ec4dd1ca99a9a9ac5bcb4571d887862e226` 的 `dsh-pet/assets/sound/click-duck.wav`，按原字节复制；没有为其他动画生成或冒充上游配音。来源、Git blob 与 SHA-256 见 [音效记录](integrations/dsh-click-duck.source.json)，许可与素材限制继续保留上游声明。
 - 原文件名、Git blob SHA、源文件 SHA-256、输出 WebP SHA-256、编码参数均保留在主题 `catalog.json` 与 `sources.json`。
 - 本项目将动画转换为透明 WebP，保留源片 24 FPS 时间轴、原片时长，调整角色布局并接入 Clawd 状态及菜单。
 - dsh-pet 的**程序代码**为 MIT，原条款与署名保留于 [licenses/dsh-pet-MIT.txt](licenses/dsh-pet-MIT.txt)。这一许可不覆盖角色形象的商业使用。

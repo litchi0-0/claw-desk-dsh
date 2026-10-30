@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/PC2005-cloud/dsh-pet",
+  "revision": "34cf7ec4dd1ca99a9a9ac5bcb4571d887862e226",
+  "path": "dsh-pet/assets/sound/click-duck.wav",
+  "gitBlobSha": "1f63b736f8589bdc8c2341ff1d4c5557bc663a61",
+  "sha256": "f1dafe05dfaa696b190e127800c48513e192d3efb521c246d1eaf86a4589b617",
+  "bytes": 30514,
+  "durationMs": 345.46485260770976,
+  "sampleRate": 44100,
+  "channels": 1,
+  "modification": "Copied byte-for-byte; not re-encoded.",
+  "attribution": "PC2005-cloud/dsh-pet; see ACKNOWLEDGEMENTS.md and upstream asset terms."
+}

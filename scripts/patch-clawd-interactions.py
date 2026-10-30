@@ -32,6 +32,6 @@ def patch_interactions(main, hit, read):
     theme_context = replace(read('src/theme-context.js').decode(), '      reactions: theme.reactions || {},', '      reactions: theme.reactions || {},\n      petInteractions: theme.petInteractions || null,')
     result = {'src/main.js': main.encode(), 'src/hit-renderer.js': hit.encode(), 'src/preload-hit.js': preload_hit.encode(),
               'src/preload.js': preload.encode(), 'src/index.html': html.encode(), 'src/theme-context.js': theme_context.encode()}
-    for name in ['clawd-physics.js', 'clawd-physics-runtime.js', 'clawd-feedback-renderer.js', 'clawd-click.wav']:
+    for name in ['clawd-physics.js', 'clawd-physics-runtime.js', 'clawd-feedback-renderer.js', 'dsh-click-duck.wav']:
         result['src/' + name] = (ROOT / 'integrations' / name).read_bytes()
     return result

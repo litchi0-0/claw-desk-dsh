@@ -44,11 +44,11 @@ const petPhysics = require('./clawd-physics-runtime')({
   feedback: (payload) => {
     sendRawToRenderer('clawd-pet-feedback', payload);
     if (payload.sound && !soundMuted && !doNotDisturb && getActiveTheme().petInteractions?.clickSound !== false
-        && Date.now() - lastPetClickSoundAt >= 65) {
+        && Date.now() - lastPetClickSoundAt >= 100) {
       lastPetClickSoundAt = Date.now();
       sendRawToRenderer('play-sound', {
-        url: require('url').pathToFileURL(path.join(__dirname, 'clawd-click.wav')).href,
-        volume: soundVolume * .35,
+        url: require('url').pathToFileURL(path.join(__dirname, 'dsh-click-duck.wav')).href,
+        volume: soundVolume * .5,
       });
     }
   },
