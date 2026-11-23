@@ -107,6 +107,7 @@ python3 -m venv .venv
 - [自动动作与头顶气泡](docs/clawd-auto-actions-and-bubbles.md)
 - [5 小时额度阈值](docs/clawd-quota-animation.md)
 - [点击回应](docs/clawd-click-reactions.md)
+- [点击反馈文件位置与修改说明](docs/clawd-click-feedback-files.md)
 - [上游音效核查与接入](docs/clawd-audio.md)
 - [MerZlin 桌面版功能学习与差异素材接入](docs/clawd-merzlin-adaptation.md)
 - [按工作计时的待机](docs/clawd-work-idle.md)
